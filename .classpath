@@ -134,5 +134,6 @@
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/configuration/plugin/install/32256/1.0.1/katalon-studio-chrome-devtools-protocol-plugin.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/configuration/plugin/install/26676/2.0.0/BrowserStack_Connect_V2_devstored.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
+	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

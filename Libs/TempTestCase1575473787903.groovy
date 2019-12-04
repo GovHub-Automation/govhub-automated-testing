@@ -16,9 +16,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.windows.keyword.contribution.WindowsDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/pp/rw_8q31s32v88_f01ndn6_b00000gn/T/Katalon/Test Cases/Create News/20191204_101228/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/pp/rw_8q31s32v88_f01ndn6_b00000gn/T/Katalon/Test Cases/Create Topic Page/20191204_103627/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Create News', new TestCaseBinding('Test Cases/Create News',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Create Topic Page', new TestCaseBinding('Test Cases/Create Topic Page',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
