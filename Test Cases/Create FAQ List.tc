@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create FAQ List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>974fc7a5-8ee1-465a-bbbc-2791207a76a8</testCaseGuid>
+   <variable>
+      <defaultValue>'qafaqautomation'</defaultValue>
+      <description></description>
+      <id>b1331704-ecd4-4dac-ac7f-c1579590f160</id>
+      <masked>false</masked>
+      <name>shortTitle</name>
+   </variable>
+</TestCaseEntity>
