@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Subtitle_field_hdi_stepsforminline_en_2ab56d</name>
+   <name>input_URL_field_hdi_links0uri</name>
    <tag></tag>
-   <elementGuidId>c863c106-d3c3-4dea-8e82-f0cf9bd0c0a4</elementGuidId>
+   <elementGuidId>bb31bdcf-d1ea-420d-a99e-4cb14a1ed65e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-field-hdi-steps-form-inline-entity-form-title-0-value--JFg5HdQPWUA']</value>
+         <value>//input[@id='edit-field-hdi-links-0-uri']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'text' and contains(@id, 'edit-field-hdi-steps-form-inline-entity-form-title-0-value') and @name = 'field_hdi_steps[form][inline_entity_form][title][0][value]']</value>
+         <value>//*[@data-drupal-selector = 'edit-field-hdi-links-0-uri' and @type = 'text' and @id = 'edit-field-hdi-links-0-uri' and @name = 'field_hdi_links[0][uri]']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,18 +24,32 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>js-text-full text-full form-text required</value>
+      <value>edit-field-hdi-links-0-uri</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-drupal-selector</name>
+      <name>aria-describedby</name>
       <type>Main</type>
-      <value>edit-field-hdi-steps-form-inline-entity-form-title-0-value</value>
+      <value>edit-field-hdi-links-0-uri--description</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-linkit-autocomplete form-text ui-autocomplete-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-autocomplete-path</name>
+      <type>Main</type>
+      <value>/linkit/autocomplete/content_and_media</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,17 +60,17 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-field-hdi-steps-form-inline-entity-form-title-0-value</value>
+      <value>edit-field-hdi-links-0-uri</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>field_hdi_steps[form][inline_entity_form][title][0][value]</value>
+      <value>field_hdi_links[0][uri]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,48 +84,41 @@
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>255</value>
+      <value>2048</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>required</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>required</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
-      <type>Main</type>
-      <value>true</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-field-hdi-steps-form-inline-entity-form-title-0-value--JFg5HdQPWUA&quot;)</value>
+      <value>id(&quot;edit-field-hdi-links-0-uri&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='edit-field-hdi-steps-form-inline-entity-form-title-0-value--JFg5HdQPWUA']</value>
+      <value>//input[@id='edit-field-hdi-links-0-uri']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-field-hdi-steps-form-inline-entity-form-title-wrapper--pHcV7cKS17A']/div/input</value>
+      <value>//table[@id='field-hdi-links-values']/tbody/tr/td[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//fieldset/div/div/div/div/input</value>
+      <value>//td[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

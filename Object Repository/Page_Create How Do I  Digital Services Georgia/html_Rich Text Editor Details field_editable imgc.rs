@@ -54,13 +54,6 @@ img,input,textarea{cursor:default}.cke_editable{cursor:text}.cke_editable img,.c
       <type>Main</type>
       <value>/html[1]</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Create How Do I  Digital Services Georgia/iframe_Press ALT 0 for help_cke_wysiwyg_fra_043255_1</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>body_details</name>
+   <name>body_Steps</name>
    <tag></tag>
-   <elementGuidId>dacd3fbb-2171-48af-aaa5-98364ca24028</elementGuidId>
+   <elementGuidId>d4a027f9-13fc-4a1d-afc8-a7b82fad040e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,6 +22,13 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>cke_editable cke_editable_themed cke_contents_ltr cke_show_borders</value>
@@ -34,18 +41,11 @@
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>contenteditable</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>details</value>
+      <value>Steps</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,6 +53,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Create How Do I  Digital Services Georgia/iframe_Press ALT 0 for help_cke_wysiwyg_fra_043255</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

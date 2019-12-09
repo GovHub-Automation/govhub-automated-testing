@@ -1,79 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Press ALT 0 for help_cke_wysiwyg_fra_043255_1 (1)</name>
+   <name>input_Link text_field_hdi_links0title</name>
    <tag></tag>
-   <elementGuidId>795ff3b5-6490-4548-b79b-00f6302a6d23</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <elementGuidId>6494b3b9-be5b-4502-8fb6-236b7b692148</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='edit-field-hdi-links-0-title']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-drupal-selector = 'edit-field-hdi-links-0-title' and @type = 'text' and @id = 'edit-field-hdi-links-0-title' and @name = 'field_hdi_links[0][title]']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cke_wysiwyg_frame cke_reset</value>
+      <value>linkit-widget-title form-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>title</name>
+      <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>Rich Text Editor, Details field</value>
+      <value>edit-field-hdi-links-0-title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>edit-field-hdi-links-0-title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>field_hdi_links[0][title]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
+      <name>size</name>
       <type>Main</type>
-      <value>cke_112</value>
+      <value>60</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>allowtransparency</name>
-      <type>Main</type>
-      <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
-      <type>Main</type>
-      <value>0</value>
+      <value>255</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cke_71_contents&quot;)/iframe[@class=&quot;cke_wysiwyg_frame cke_reset&quot;]</value>
+      <value>id(&quot;edit-field-hdi-links-0-title&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='edit-field-hdi-links-0-title']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='cke_71_contents']/iframe</value>
+      <value>//table[@id='field-hdi-links-values']/tbody/tr/td[2]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]/div/div/div/div/iframe</value>
+      <value>//td[2]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

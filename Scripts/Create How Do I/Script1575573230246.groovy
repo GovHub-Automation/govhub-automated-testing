@@ -38,6 +38,8 @@ WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Serv
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Short Title_field_short_title0value (1) (1)'), 
     'From Automation')
 
+WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'))
+
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/html_Rich Text Editor Explanation'), 
     'Explain')
 
@@ -46,6 +48,36 @@ WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Serv
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Subtitle_field_hdi_stepsforminline_en_2ab56d'), 
     'Step 1')
 
+WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/iframe for Details wysiwyg'))
+
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/html_Rich Text Editor Details'), 
     'Steps')
+
+WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/body_Steps'), 'Steps')
+
+WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Contact_field_hdi_steps_form_inline_e_fb2df8'))
+
+WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Select this item_entity_browser_selectnode17731'))
+
+WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Next page_op'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_URL_field_hdi_links0uri'), 
+    'https://example.com')
+
+WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Link text_field_hdi_links0title'), 
+    'example')
+
+WebUI.navigateToUrl('https://test.prod.dsga.codes/how-do-i-automation-0')
+
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h1_How Do I From Automation'), 'How Do I From Automation?')
+
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/p_Explain'), 'Explain')
+
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/p_Steps'), 'Steps')
+
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h2_Step 1'), 'Step 1')
+
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/a_example'), 'example', FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/a_example'), 'https://example.com')
 

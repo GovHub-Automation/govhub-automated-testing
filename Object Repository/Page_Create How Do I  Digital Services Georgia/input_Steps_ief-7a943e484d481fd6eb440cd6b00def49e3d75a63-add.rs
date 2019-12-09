@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='edit-field-hdi-steps-actions-ief-add--yN_ht5eHnow']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and contains(@id, 'edit-field-hdi-steps-actions-ief-add') and @name = 'ief-7a943e484d481fd6eb440cd6b00def49e3d75a63-add']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,10 +46,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-field-hdi-steps-actions-ief-add--yN_ht5eHnow</value>
+      <value>edit-field-hdi-steps-actions-ief-add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
