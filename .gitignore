@@ -1,7 +1,8 @@
 D8\ Regression\ Project.prj
-Libs
-bin/lib
-settings/external
-settings/internal
+settings/internal/com.kms.katalon.core.webservice.properties
+settings/internal/com.kms.katalon.composer.testcase.properties
+settings/internal/com.kms.katalon.execution.properties
+settings/internal/com.kms.katalon.execution.webui.properties
+settings/internal/com.kms.katalon.integration.analytics.properties
 .classpath
 .project
