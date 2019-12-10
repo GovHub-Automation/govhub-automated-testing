@@ -6,15 +6,15 @@
    <elementGuidId>da07b370-f029-44c2-984f-6edac9ba5ae1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='toolbar-item-administration-tray']/nav/div/ul/li[2]/a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@href = '/admin/content' and (text() = 'Content' or . = 'Content')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='toolbar-item-administration-tray']/nav/div/ul/li[2]/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
