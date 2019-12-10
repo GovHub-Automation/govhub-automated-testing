@@ -6,11 +6,15 @@
    <elementGuidId>73595229-6dbb-4043-a8b5-4f5e87d50f2b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://example.com' and (text() = 'example' or . = 'example')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div/div/div/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

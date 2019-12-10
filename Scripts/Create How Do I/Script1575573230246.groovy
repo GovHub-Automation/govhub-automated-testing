@@ -67,6 +67,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Se
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Link text_field_hdi_links0title'), 
     'example')
 
+WebUI.click(findTestObject('Page_Create How Do I  Digital Services Georgia/input_Save as_op'))
+
 WebUI.navigateToUrl('https://test.prod.dsga.codes/how-do-i-automation-0')
 
 WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h1_How Do I From Automation'), 'How Do I From Automation?')
@@ -77,7 +79,9 @@ WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services G
 
 WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h2_Step 1'), 'Step 1')
 
-WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/a_example'), 'example', FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyElementAttributeValue(findTestObject('Page_From Automation  Digital Services Georgia/a_example'), 'text', 'example', 
+    0)
 
-WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/a_example'), 'https://example.com')
+WebUI.verifyElementAttributeValue(findTestObject('Page_From Automation  Digital Services Georgia/a_example'), 'href', 'https://example.com', 
+    0)
 
