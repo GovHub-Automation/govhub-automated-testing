@@ -3,18 +3,18 @@
    <description></description>
    <name>a_example</name>
    <tag></tag>
-   <elementGuidId>73595229-6dbb-4043-a8b5-4f5e87d50f2b</elementGuidId>
+   <elementGuidId>6e07462e-d7fc-4375-809d-8ca45fdb04b6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'https://example.com' and (text() = 'example' or . = 'example')]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div/div/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'https://example.com' and (text() = 'example' or . = 'example')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='How Do I From Automation?'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='How Do I Automation?'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/div/div/h1</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[@class = 'page-title__how-do-i' and (text() = 'How Do I Automation?' or . = 'How Do I Automation?')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>How Do I From Automation?</value>
+      <value>How Do I Automation?</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

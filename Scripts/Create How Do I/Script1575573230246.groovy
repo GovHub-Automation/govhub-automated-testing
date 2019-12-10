@@ -31,12 +31,12 @@ WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services
 WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/how_do_i')
 
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_How Do I_title0value (1) (1)'), 
-    'From Automation')
+    'Automation')
 
 WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/div_Task (required)        How Do I (1) (1)'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Short Title_field_short_title0value (1) (1)'), 
-    'From Automation')
+    'Automation')
 
 WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'))
 
@@ -69,9 +69,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Se
 
 WebUI.click(findTestObject('Page_Create How Do I  Digital Services Georgia/input_Save as_op'))
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/how-do-i-automation-0')
+WebUI.navigateToUrl('https://test.prod.dsga.codes/how-do-i-automation')
 
-WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h1_How Do I From Automation'), 'How Do I From Automation?')
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h1_How Do I From Automation'), 'How Do I Automation?')
 
 WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/p_Explain'), 'Explain')
 
@@ -80,8 +80,5 @@ WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services G
 WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h2_Step 1'), 'Step 1')
 
 WebUI.verifyElementAttributeValue(findTestObject('Page_From Automation  Digital Services Georgia/a_example'), 'text', 'example', 
-    0)
-
-WebUI.verifyElementAttributeValue(findTestObject('Page_From Automation  Digital Services Georgia/a_example'), 'href', 'https://example.com', 
     0)
 
