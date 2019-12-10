@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Webform</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e62ce00b-8270-41af-a588-a7c519177f3d</testCaseGuid>
+   <variable>
+      <defaultValue>'qawebformautomation'</defaultValue>
+      <description></description>
+      <id>0d9db614-9bef-486a-bfb2-efd5be9577ef</id>
+      <masked>false</masked>
+      <name>shortTitle</name>
+   </variable>
+</TestCaseEntity>
