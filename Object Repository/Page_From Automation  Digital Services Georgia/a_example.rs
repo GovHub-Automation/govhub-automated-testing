@@ -7,24 +7,24 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div/div/div/a</value>
+         <value>//a[contains(text(),'example')])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'https://example.com' and (text() = 'example' or . = 'example')]</value>
+         <value>//a[(text() = 'example' or . = 'example')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div[2]/ul/li/div/h2</value>
+         <value>//*/text()[normalize-space(.)='Step 1']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
