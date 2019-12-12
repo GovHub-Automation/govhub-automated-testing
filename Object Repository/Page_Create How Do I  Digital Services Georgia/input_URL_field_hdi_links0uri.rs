@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-drupal-selector = 'edit-field-hdi-links-0-uri' and @type = 'text' and @id = 'edit-field-hdi-links-0-uri' and @name = 'field_hdi_links[0][uri]']</value>
+         <value>//*[@data-drupal-selector = 'edit-field-hdi-links-0-uri' and @id = 'edit-field-hdi-links-0-uri']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <value>/linkit/autocomplete/content_and_media</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -66,7 +66,7 @@
       <value>edit-field-hdi-links-0-uri</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

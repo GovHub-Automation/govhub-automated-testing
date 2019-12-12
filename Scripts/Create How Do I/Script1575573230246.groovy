@@ -61,8 +61,11 @@ WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Serv
 
 WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Next page_op'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_URL_field_hdi_links0uri'), 
-    'https://example.com')
+WebUI.click(findTestObject('Page_Create How Do I  Digital Services Georgia/input_URL_field_hdi_links0uri'))
+
+WebUI.setText(findTestObject('Page_Create How Do I  Digital Services Georgia/input_URL_field_hdi_links0uri'), 'https://example.com')
+
+WebUI.click(findTestObject('Page_Create How Do I  Digital Services Georgia/input_Link text_field_hdi_links0title'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Link text_field_hdi_links0title'), 
     'example')

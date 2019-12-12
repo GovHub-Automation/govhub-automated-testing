@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div/p</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::p[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Explain' or . = 'Explain')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
