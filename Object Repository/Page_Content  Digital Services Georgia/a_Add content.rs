@@ -101,7 +101,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/node/add')])[42]</value>
+      <value>(//a[contains(@href, '/node/add')])[43]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,19 +109,5 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/ul/li/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>(//a[contains(text(),'Add content')])[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '/node/add')])[31]</value>
    </webElementXpaths>
 </WebElementEntity>
