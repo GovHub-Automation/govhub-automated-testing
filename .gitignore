@@ -4,3 +4,4 @@ Libs
 .project
 .settings/
 Reports
+bin/lib/CustomKeywords.class
