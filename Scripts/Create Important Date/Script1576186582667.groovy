@@ -30,3 +30,33 @@ WebUI.click(findTestObject('Page_Create_Important_Date/a_Important DateInform vi
 
 WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/important_date')
 
+WebUI.click(findTestObject('Page_Create_Important_Date/input_Title_title0value'))
+
+WebUI.setText(findTestObject('Page_Create_Important_Date/input_Title_title0value'), 'Important Date Automation')
+
+WebUI.click(findTestObject('Page_Create_Important_Date/input_Subtitle_field_subtitle0value'))
+
+WebUI.setText(findTestObject('Page_Create_Important_Date/input_Subtitle_field_subtitle0value'), 'Automation')
+
+WebUI.click(findTestObject('Page_Create_Important_Date/input_URL_field_call_to_action0uri'))
+
+WebUI.setText(findTestObject('Page_Create_Important_Date/input_URL_field_call_to_action0uri'), 'https://example.com')
+
+WebUI.click(findTestObject('Page_Create_Important_Date/input_Link text_field_call_to_action0title'))
+
+WebUI.setText(findTestObject('Page_Create_Important_Date/input_Link text_field_call_to_action0title'), 'Click Me!')
+
+WebUI.click(findTestObject('Page_Create_Important_Date/input_Date_field_id_date0valuedate'))
+
+WebUI.setText(findTestObject('Page_Create_Important_Date/input_Date_field_id_date0valuedate'), '12-14-2019')
+
+WebUI.click(findTestObject('Page_Create_Important_Date/input_Time_field_id_date0valuetime'))
+
+WebUI.setText(findTestObject('Page_Create_Important_Date/input_Time_field_id_date0valuetime'), '01:00:00')
+
+WebUI.click(findTestObject('Page_Create_Important_Date/input_Save as_op'))
+
+WebUI.verifyElementText(findTestObject('Page_Create_Important_Date/h1_Important Date Automation'), 'Important Date Automation')
+
+WebUI.verifyElementAttributeValue(findTestObject('Page_Create_Important_Date/a_Click Me'), 'text', 'Click Me!', 0)
+
