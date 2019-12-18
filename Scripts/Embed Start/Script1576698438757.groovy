@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Authenticate Prod'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -28,21 +27,5 @@ WebUI.setText(findTestObject('Page_Embed/input_Title_title0value'), 'Embed Autom
 
 WebUI.click(findTestObject('Page_Embed/html_Rich Text Editor Summary'))
 
-WebUI.click(findTestObject('Page_Embed/a_Embed micro-content'))
-
 WebUI.setText(findTestObject('Page_Embed/body_Summary'), 'Summary')
-
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/span_Embed micro-content_dropdown_arrow'))
-
-WebUI.click(findTestObject('Page_Embed/span_Accordion'))
-
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/a_Accordion Library'))
-
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/input_Select_HDI_Apply'))
-
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Select_button'))
-
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Embed_button'))
-
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Save_node_button'))
 
