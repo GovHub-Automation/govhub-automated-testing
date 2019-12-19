@@ -18,19 +18,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Embed Start'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/span_Embed micro-content_dropdown_arrow'))
+WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/span_Embed micro-content_cke_button_arrow'))
 
-WebUI.click(findTestObject('Object Repository/Page_Embed/Page_Create Topic Page  Digital Services Georgia/span_Accordion'))
+WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/span_Link Collection'))
 
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/a_Accordion Library'))
+WebUI.click(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/a_Link Collection Library'))
 
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/input_Select_HDI_Apply'))
+WebUI.click(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/input_Select_vehicle_light_permits'))
 
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Select_button'))
+WebUI.click(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/Select_button'))
 
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Embed_button'))
+WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/div_By Phone'), 'By Phone')
+WebUI.verifyElementText(findTestObject('Page_Embed/Embed LinkCollection/Page_Embed Automation  Digital Services Georgia/h2_Vehicle Light Permits'), 
+    'Vehicle Light Permits')
 
