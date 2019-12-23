@@ -44,8 +44,6 @@ WebUI.click(findTestObject('Page_Create Opinion  Digital Services Georgia/opinio
 
 WebUI.setText(findTestObject('Page_Create Opinion  Digital Services Georgia/opinionnode_body_html'), 'Body Test')
 
-WebUI.setText(findTestObject('Page_Create Opinion  Digital Services Georgia/opinionnode_releasedate'), '12-12-2019')
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Opinion  Digital Services Georgia/select_DraftPublishedArchived'), 
     'published', true)
 
