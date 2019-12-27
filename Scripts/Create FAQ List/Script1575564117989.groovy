@@ -63,9 +63,14 @@ WebUI.delay(10)
 
 String url = WebUI.getUrl()
 
-String urlCheck = WebUI.concatenate((([GlobalVariable.Environment, shortTitle]) as String[]), FailureHandling.STOP_ON_FAILURE)
+String urlCheck = WebUI.concatenate((([GlobalVariable.envURL, shortTitle]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(url, urlCheck, true)
+String fullURLCheck = WebUI.concatenate(((["https://", urlCheck]) as String[]), FailureHandling.STOP_ON_FAILURE)
+
+//System.out.println(url)
+//System.out.println(urlCheck)
+
+WebUI.verifyMatch(url, fullURLCheck, true)
 
 WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ Page title'), 'FAQ created with automation')
 

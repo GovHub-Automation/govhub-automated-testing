@@ -53,7 +53,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Webform automa
 
 String url = WebUI.getUrl()
 
-String urlCheck = WebUI.concatenate((([GlobalVariable.Environment, shortTitle]) as String[]), FailureHandling.STOP_ON_FAILURE)
+String urlCheck = WebUI.concatenate((([GlobalVariable.envURL, shortTitle]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(url, urlCheck, true)
 

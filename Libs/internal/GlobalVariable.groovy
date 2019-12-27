@@ -12,7 +12,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object Environment
+    public static Object envURL
      
 
     static {
@@ -21,7 +21,7 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
-            Environment = selectedVariables['Environment']
+            envURL = selectedVariables['envURL']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
