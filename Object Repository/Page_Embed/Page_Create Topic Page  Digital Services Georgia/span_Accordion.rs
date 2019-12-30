@@ -6,21 +6,25 @@
    <elementGuidId>8d990166-b200-49e6-b2a2-7e996bed7e20</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'cke_menubutton_label' and (text() = 'Accordion' or . = 'Accordion') and @ref_element = 'Object Repository/Page_Embed/Page_Create Topic Page  Digital Services Georgia/iframe_Check again_cke_151_frame']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='cke_1480']/span/span[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

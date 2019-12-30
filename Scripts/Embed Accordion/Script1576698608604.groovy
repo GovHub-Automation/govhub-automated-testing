@@ -16,15 +16,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Embed Start'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Create Accordion'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Embed Start No Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.callTestCase(findTestCase('Embed Start'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/span_Embed micro-content_dropdown_arrow'))
 
-WebUI.click(findTestObject('Object Repository/Page_Embed/Page_Create Topic Page  Digital Services Georgia/span_Accordion'))
+WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Page_Create Topic Page  Digital Services Georgia/span_Accordion_cke_button_icon cke_button__accordion_icon'))
 
 WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/a_Accordion Library'))
 
-WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/input_Select_HDI_Apply'))
+WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/input_Select accordion item'))
 
 WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Select_button'))
 
@@ -32,5 +36,6 @@ WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services 
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/div_By Phone'), 'By Phone')
+WebUI.verifyElementText(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Page_Embed Automation  Digital Services Georgia/div_Item 1'), 
+    'Item 1')
 

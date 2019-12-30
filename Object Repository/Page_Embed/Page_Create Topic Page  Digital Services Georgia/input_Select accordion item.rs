@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Select_HDI_Apply</name>
+   <name>input_Select accordion item</name>
    <tag></tag>
-   <elementGuidId>7ccfd147-0834-4aa8-bcaf-c1a1328eb5b8</elementGuidId>
+   <elementGuidId>d1dede10-4a7c-4249-8320-d119268a87b8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-node16771']</value>
+         <value>//form[@id='entity-browser-accordion-browser-entity-embed-form']/div/div[2]/table/tbody/tr/td/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,14 +24,14 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>entity_browser_select[node:16771]</value>
+      <value>entity_browser_select[node:18671]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-node16771</value>
+      <value>edit-entity-browser-select-node18671</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,14 +45,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-node16771</value>
+      <value>edit-entity-browser-select-node18671</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>node:16771</value>
+      <value>node:18671</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-entity-browser-select-node16771&quot;)</value>
+      <value>id(&quot;edit-entity-browser-select-node18671&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -80,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='edit-entity-browser-select-node16771']</value>
+      <value>//input[@id='edit-entity-browser-select-node18671']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
