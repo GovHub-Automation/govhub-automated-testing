@@ -1,89 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Accordion</name>
+   <name>a_Accordion</name>
    <tag></tag>
-   <elementGuidId>8d990166-b200-49e6-b2a2-7e996bed7e20</elementGuidId>
+   <elementGuidId>f0867e5e-9773-4909-9c9a-a8c0ba3f2f79</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//span[@class = 'cke_menubutton_label' and (text() = 'Accordion' or . = 'Accordion') and @ref_element = 'Object Repository/Page_Embed/Page_Create Topic Page  Digital Services Georgia/iframe_Check again_cke_151_frame']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//a[@id='cke_1480']/span/span[2]</value>
+         <value>//div[@id='block-ga-seven-content']/ul/li/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>href</name>
       <type>Main</type>
-      <value>cke_menubutton_label</value>
+      <value>/node/add/accordion</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Accordion</value>
+      <value>AccordionThis is a micro-content type, to be used as part of other content pages.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cke_1480&quot;)/span[@class=&quot;cke_menubutton_inner&quot;]/span[@class=&quot;cke_menubutton_label&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Embed/Page_Create Topic Page  Digital Services Georgia/iframe_Check again_cke_151_frame</value>
+      <value>id(&quot;block-ga-seven-content&quot;)/ul[@class=&quot;admin-list&quot;]/li[@class=&quot;clearfix&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='cke_1480']/span/span[2]</value>
+      <value>//div[@id='block-ga-seven-content']/ul/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Call To Action'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add micro-content'])[3]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Link Collection'])[1]/preceding::span[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='available updates'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Accordion']/parent::*</value>
+      <value>(//a[contains(@href, '/node/add/accordion')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/span[2]</value>
+      <value>//div[2]/ul/li/a</value>
    </webElementXpaths>
 </WebElementEntity>

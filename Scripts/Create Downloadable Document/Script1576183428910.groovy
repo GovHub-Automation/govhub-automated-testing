@@ -22,8 +22,6 @@ WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_O
 
 WebUI.click(findTestObject('Page_Create_downloadable_document/a_Content'))
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/admin/content')
-
 WebUI.click(findTestObject('Page_Create_downloadable_document/a_Media'))
 
 WebUI.click(findTestObject('Page_Create_downloadable_document/a_Add media'))
@@ -39,7 +37,9 @@ WebUI.click(findTestObject('Page_Create_downloadable_document/textarea_Descripti
 WebUI.setText(findTestObject('Page_Create_downloadable_document/textarea_Description_field_document_description0value'), 
     'The document description.')
 
-WebUI.uploadFile(findTestObject('Page_Create_downloadable_document/input_File_filesfield_media_file_0'), '/Users/mediacurrent/Sites/gta/govhub-automated-testing/Data Files/dummy.pdf')
+String userDir = System.getProperty('user.dir')
+String filePath = userDir + '/Data Files/dummy.pdf'
+WebUI.uploadFile(findTestObject('Page_Create_downloadable_document/input_File_filesfield_media_file_0'), filePath)
 
 WebUI.click(findTestObject('Page_Create_downloadable_document/select_Day'))
 

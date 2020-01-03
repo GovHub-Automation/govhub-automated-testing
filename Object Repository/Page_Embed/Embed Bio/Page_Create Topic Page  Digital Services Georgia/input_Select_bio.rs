@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Select_HDI_Apply</name>
+   <name>input_Select_bio</name>
    <tag></tag>
-   <elementGuidId>7ccfd147-0834-4aa8-bcaf-c1a1328eb5b8</elementGuidId>
+   <elementGuidId>2a81a788-5404-4404-9ce3-75a52dc983e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-node16771']</value>
+         <value>//input[@id='edit-entity-browser-select-node17951']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and contains(@id, 'edit-entity-browser-select-node') and @ref_element = 'Object Repository/Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/iframe_Add Bio_entity_browser_iframe_bio_browser_entity_embed']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,18 +24,18 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>entity_browser_select[node:16771]</value>
+      <value>entity_browser_select[node:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-node16771</value>
+      <value>edit-entity-browser-select-node</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,17 +46,17 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-node16771</value>
+      <value>edit-entity-browser-select-node</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>node:16771</value>
+      <value>node:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,31 +67,31 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-entity-browser-select-node16771&quot;)</value>
+      <value>id(&quot;edit-entity-browser-select-node&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Embed/Page_Create Topic Page  Digital Services Georgia/iframe_Accordion_library</value>
+      <value>Object Repository/Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/iframe_Add Bio_entity_browser_iframe_bio_browser_entity_embed</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='edit-entity-browser-select-node16771']</value>
+      <value>//input[@id='edit-entity-browser-select-node17951']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='entity-browser-accordion-browser-entity-embed-form']/div/div[2]/table/tbody/tr/td/div/input</value>
+      <value>//form[@id='entity-browser-bio-browser-entity-embed-form']/div/div[2]/table/tbody/tr/td/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

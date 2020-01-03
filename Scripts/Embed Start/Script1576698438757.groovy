@@ -19,9 +19,7 @@ WebUI.callTestCase(findTestCase('Authenticate Prod'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/user/11206')
-
-WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/topic_page')
+WebUI.navigateToUrl(GlobalVariable.Environment + 'node/add/topic_page')
 
 WebUI.setText(findTestObject('Page_Embed/input_Title_title0value'), 'Embed Automation')
 

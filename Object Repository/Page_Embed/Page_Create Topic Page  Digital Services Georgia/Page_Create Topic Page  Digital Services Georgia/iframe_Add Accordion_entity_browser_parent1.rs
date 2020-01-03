@@ -1,103 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Steps_ief-7a943e484d481fd6eb440cd6b00def49e3d75a63-add</name>
+   <name>iframe_Add Accordion_entity_browser_parent1</name>
    <tag></tag>
-   <elementGuidId>324f8867-d023-47cd-b9c3-68acd50d8133</elementGuidId>
+   <elementGuidId>259944af-4bfe-4ec7-8d07-66f0bf365cd1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-field-hdi-steps-actions-ief-add--yN_ht5eHnow']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and contains(@id, 'edit-field-hdi-steps-actions-ief-add') and @name = 'ief-7a943e484d481fd6eb440cd6b00def49e3d75a63-add']</value>
+         <value>//iframe[@id='entity_browser_iframe_accordion_browser_entity_embed']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-drupal-selector</name>
-      <type>Main</type>
-      <value>edit-field-hdi-steps-actions-ief-add</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>formnovalidate</name>
-      <type>Main</type>
-      <value>formnovalidate</value>
+      <value>iframe</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>src</name>
       <type>Main</type>
-      <value>submit</value>
+      <value>/entity-browser/iframe/accordion_browser_entity_embed?uuid=ceff1b15778e608f055f587d72d84cea466b34af&amp;original_path=/entity-embed/dialog/expanded/accordion</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>id</name>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-uuid</name>
       <type>Main</type>
-      <value>edit-field-hdi-steps-actions-ief-add</value>
+      <value>ceff1b15778e608f055f587d72d84cea466b34af</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-original-path</name>
+      <type>Main</type>
+      <value>/entity-embed/dialog/expanded/accordion</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>ief-7a943e484d481fd6eb440cd6b00def49e3d75a63-add</value>
+      <value>entity_browser_iframe_accordion_browser_entity_embed</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Add new Step</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>button js-form-submit form-submit</value>
+      <value>entity_browser_iframe_accordion_browser_entity_embed</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-field-hdi-steps-actions-ief-add--yN_ht5eHnow&quot;)</value>
+      <value>id(&quot;entity_browser_iframe_accordion_browser_entity_embed&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='edit-field-hdi-steps-actions-ief-add--yN_ht5eHnow']</value>
+      <value>//iframe[@id='entity_browser_iframe_accordion_browser_entity_embed']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-field-hdi-steps-actions--Of-skDmDpUc']/input</value>
+      <value>//div[@id='edit-entity-browser-entity-browser--ue_tjq6pNJY']/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//details/div/div/input</value>
+      <value>//form/div/iframe</value>
    </webElementXpaths>
 </WebElementEntity>

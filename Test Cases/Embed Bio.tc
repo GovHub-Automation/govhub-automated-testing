@@ -4,5 +4,12 @@
    <name>Embed Bio</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b7421b30-4657-4d5b-b1ed-e9f504b42114</testCaseGuid>
+   <testCaseGuid>6fc10996-b64f-437a-8530-da0e1649fc8e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4ab79763-402f-4c8f-8563-f5ef945ec9d7</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
 </TestCaseEntity>

@@ -20,15 +20,11 @@ WebUI.callTestCase(findTestCase('Authenticate Prod'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/user/11206')
-
 WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
 
 WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/span_How Do I (1)'))
-
-WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/how_do_i')
 
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_How Do I_title0value (1) (1)'), 
     'Automation')
@@ -43,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Serv
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/html_Rich Text Editor Explanation'), 
     'Explain')
 
-WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Steps_ief-7a943e484d481fd6eb440cd6b00def49e3d75a63-add'))
+WebUI.click(findTestObject('Page_Create How Do I  Digital Services Georgia/input_Steps_ief-add'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Subtitle_field_hdi_stepsforminline_en_2ab56d'), 
     'Step 1')
@@ -71,8 +67,6 @@ WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Se
     'example')
 
 WebUI.click(findTestObject('Page_Create How Do I  Digital Services Georgia/input_Save as_op'))
-
-WebUI.navigateToUrl('https://test.prod.dsga.codes/how-do-i-automation')
 
 WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h1_How Do I From Automation'), 'How Do I Automation?')
 

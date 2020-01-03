@@ -15,20 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Embed Start'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl(GlobalVariable.Environment + 'node/add/topic_page')
 
-WebUI.click(findTestObject('Page_Embed/Embed Contact/Page_Create Topic Page  Digital Services Georgia/span_Embed content_cke_button_arrow'))
+WebUI.setText(findTestObject('Page_Embed/input_Title_title0value'), 'Embed Automation')
 
-WebUI.click(findTestObject('Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/span_Bio'))
+WebUI.click(findTestObject('Page_Embed/html_Rich Text Editor Summary'))
 
-WebUI.click(findTestObject('Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/input_Select_keena_hamillton'))
-
-WebUI.click(findTestObject('Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/Select_button'))
-
-WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
-
-WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementText(findTestObject('Page_Embed/Embed Bio/Page_Embed Automation  Digital Services Georgia/a_Keena Hamillton'), 
-    'Keena Hamillton')
+WebUI.setText(findTestObject('Page_Embed/body_Summary'), 'Summary')
 

@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_O
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/quote')
+WebUI.navigateToUrl(GlobalVariable.Environment + 'node/add/quote')
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Quote  Digital Services Georgia/input_Title_title0value'), 'QA test quote with automation title')
 
