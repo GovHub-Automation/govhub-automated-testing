@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_O
 
 WebUI.click(findTestObject('Page_Editor  Digital Services Georgia/a_Content'))
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/accordion')
+WebUI.navigateToUrl(GlobalVariable.Environment + 'node/add/accordion')
 
 WebUI.click(findTestObject('Create Accordion/Page_Create Accordion  Digital Services Georgia/input_Title_accordion_title'))
 
