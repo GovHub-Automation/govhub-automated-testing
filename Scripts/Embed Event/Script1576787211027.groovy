@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Page_Embed/Embed Contact/Page_Create Topic Page  Dig
 
 WebUI.click(findTestObject('Page_Embed/Embed Event/Page_Create Topic Page  Digital Services Georgia/span_Event'))
 
-WebUI.click(findTestObject('Page_Embed/Embed Event/Page_Create Topic Page  Digital Services Georgia/input_Select_donnas_training_class'))
+WebUI.click(findTestObject('Page_Embed/Embed Event/Page_Create Topic Page  Digital Services Georgia/input_Select_event'))
 
 WebUI.click(findTestObject('Page_Embed/Embed Event/Page_Create Topic Page  Digital Services Georgia/Select_button'))
 
@@ -29,6 +29,6 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Pa
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Embed/Embed Event/Page_Embed Automation  Digital Services Georgia/h3_Donnas Training Class'), 
-    'Donna\'s Training Class')
+WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Event/Page_Embed Automation  Digital Services Georgia/h3_Event'), 
+    0)
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Select_document</name>
+   <name>input_Select_event</name>
    <tag></tag>
-   <elementGuidId>e6f5933c-ce4b-4f42-b0c8-cb1903b1ce68</elementGuidId>
+   <elementGuidId>80727145-ff61-4717-acfe-db50af1db96f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-media4966']</value>
+         <value>//input[@id='edit-entity-browser-select-node16291']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-media') and @type = 'checkbox' and @ref_element = 'Object Repository/Page_Embed/Embed Doc/Page_Create Topic Page  Digital Services Georgia/iframe_Add Document_entity_browser_iframe_document_browser_entity_embed']</value>
+         <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-node') and @type = 'checkbox' and @ref_element = 'Object Repository/Page_Embed/Embed Event/Page_Create Topic Page  Digital Services Georgia/iframe_Add Event_entity_browser_iframe_event_browser_entity_embed']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,14 +28,14 @@
       <matchCondition>contains</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>entity_browser_select[media:</value>
+      <value>entity_browser_select[node:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>contains</matchCondition>
       <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-media</value>
+      <value>edit-entity-browser-select-node</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,14 +49,14 @@
       <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-media</value>
+      <value>edit-entity-browser-select-node</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>media:</value>
+      <value>node:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,34 +70,34 @@
       <matchCondition>contains</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-entity-browser-select-media&quot;)</value>
+      <value>id(&quot;edit-entity-browser-select-node&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Embed/Embed Doc/Page_Create Topic Page  Digital Services Georgia/iframe_Add Document_entity_browser_iframe_document_browser_entity_embed</value>
+      <value>Object Repository/Page_Embed/Embed Event/Page_Create Topic Page  Digital Services Georgia/iframe_Add Event_entity_browser_iframe_event_browser_entity_embed</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='edit-entity-browser-select-media4966']</value>
+      <value>//input[@id='edit-entity-browser-select-node16291']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='entity-browser-document-browser-entity-embed-form']/div/div[2]/table/tbody/tr[3]/td/div/input</value>
+      <value>//form[@id='entity-browser-event-browser-entity-embed-form']/div/div[2]/table/tbody/tr[2]/td/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[3]/td/div/input</value>
+      <value>//tr[2]/td/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

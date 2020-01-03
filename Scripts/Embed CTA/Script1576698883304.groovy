@@ -22,16 +22,32 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create T
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/span_Call To Action'))
 
-WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/a_CTA Library'))
+WebUI.click(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'))
 
-WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/input_Select_checkbox_Request_Exception'))
+WebUI.setText(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'), 
+    'From Automation')
 
-WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/Select_button'))
+WebUI.click(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/input_URL_inline_entity_formfield_cta_url0uri'))
+
+WebUI.setText(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/input_URL_inline_entity_formfield_cta_url0uri'), 
+    '/node/add')
+
+WebUI.click(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/input_Link text_inline_entity_formfield_cta_url0title'))
+
+WebUI.setText(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/input_Link text_inline_entity_formfield_cta_url0title'), 
+    'Click Me')
+
+WebUI.click(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/CTA_entity_save_button'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/Embed_button'))
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/h2_Request an Exemption'), 
-    'Request an Exemption')
+WebUI.verifyElementText(findTestObject('Page_Embed/Embed CTA/Page_Embed Automation  Digital Services Georgia/h2_From Automation'), 
+    'From Automation')
+
+WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed CTA/Page_Embed Automation  Digital Services Georgia/a_Click Me'), 
+    0)
 

@@ -33,12 +33,12 @@ WebUI.setText(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page 
 
 WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/Code_block_save_button'))
 
-WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Embed/Embed CodeBlock/Page_Embed Automation  Digital Services Georgia/div_From Automation'), 
     'From Automation')
+
+WebUI.delay(3)
 
