@@ -6,11 +6,15 @@
    <elementGuidId>d1dede10-4a7c-4249-8320-d119268a87b8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'checkbox' and contains(@id, 'edit-entity-browser-select-node') and @ref_element = 'Object Repository/Page_Embed/Page_Create Topic Page  Digital Services Georgia/iframe_Accordion_library']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//form[@id='entity-browser-accordion-browser-entity-embed-form']/div/div[2]/table/tbody/tr/td/div/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +24,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -42,10 +46,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-node18671</value>
+      <value>edit-entity-browser-select-node</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

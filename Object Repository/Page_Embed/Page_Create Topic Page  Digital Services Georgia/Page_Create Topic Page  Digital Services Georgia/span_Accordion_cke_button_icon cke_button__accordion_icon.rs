@@ -6,11 +6,15 @@
    <elementGuidId>ce674145-8270-4137-b4b5-ac33361c38a8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;cke_1480&quot;)/span[@class=&quot;cke_menubutton_inner&quot;]/span[@class=&quot;cke_menubutton_icon&quot;]/span[@class=&quot;cke_button_icon cke_button__accordion_icon&quot;][count(. | //*[@class = 'cke_button_icon cke_button__accordion_icon' and @ref_element = 'Object Repository/Page_Embed/Page_Create Topic Page  Digital Services Georgia/Page_Create Topic Page  Digital Services Georgia/iframe_Check again_cke_151_frame']) = count(//*[@class = 'cke_button_icon cke_button__accordion_icon' and @ref_element = 'Object Repository/Page_Embed/Page_Create Topic Page  Digital Services Georgia/Page_Create Topic Page  Digital Services Georgia/iframe_Check again_cke_151_frame'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='cke_1480']/span/span/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

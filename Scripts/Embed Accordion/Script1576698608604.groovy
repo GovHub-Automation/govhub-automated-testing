@@ -20,8 +20,6 @@ WebUI.callTestCase(findTestCase('Create Accordion'), [:], FailureHandling.STOP_O
 
 WebUI.callTestCase(findTestCase('Embed Start No Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Embed Start'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/span_Embed micro-content_dropdown_arrow'))
 
 WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Page_Create Topic Page  Digital Services Georgia/span_Accordion_cke_button_icon cke_button__accordion_icon'))
