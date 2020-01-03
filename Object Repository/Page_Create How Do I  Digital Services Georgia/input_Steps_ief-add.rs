@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Steps_ief-7a943e484d481fd6eb440cd6b00def49e3d75a63-add</name>
+   <name>input_Steps_ief-add</name>
    <tag></tag>
    <elementGuidId>324f8867-d023-47cd-b9c3-68acd50d8133</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'submit' and contains(@id, 'edit-field-hdi-steps-actions-ief-add') and @name = 'ief-7a943e484d481fd6eb440cd6b00def49e3d75a63-add']</value>
+         <value>//*[@type = 'submit' and contains(@id, 'edit-field-hdi-steps-actions-ief-add')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -52,7 +52,7 @@
       <value>edit-field-hdi-steps-actions-ief-add</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
