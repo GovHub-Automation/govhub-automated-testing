@@ -47,7 +47,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Embed/Embed Contact/Page_Create Contact  Digital Services Georgia/Contact_Save_button'))
 
-WebUI.delay(6)
+WebUI.delay(4)
 
 WebUI.callTestCase(findTestCase('Embed Start No Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
