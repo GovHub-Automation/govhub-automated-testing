@@ -21,16 +21,24 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create T
 
 WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/span_Code Block'))
 
-WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/a_Code Block Library'))
+WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'))
 
-WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/input_Select_form_field'))
+WebUI.setText(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'), 
+    'From Automation')
 
-WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/Select_button'))
+WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/textarea_Body_inline_entity_formbody0value'))
+
+WebUI.setText(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/textarea_Body_inline_entity_formbody0value'), 
+    'From Automation')
+
+WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/Code_block_save_button'))
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Embed/Embed CodeBlock/Page_Embed Automation  Digital Services Georgia/legend_Email Updates'), 
-    'EMAIL UPDATES')
+WebUI.verifyElementText(findTestObject('Page_Embed/Embed CodeBlock/Page_Embed Automation  Digital Services Georgia/div_From Automation'), 
+    'From Automation')
 
