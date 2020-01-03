@@ -22,8 +22,6 @@ WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_O
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/admin/content')
-
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
 
 WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/a_NewsNews posts site news and less officia_6c8139'))
