@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/topic_page')
+WebUI.navigateToUrl(GlobalVariable.Environment + 'node/add/topic_page')
 
 WebUI.setText(findTestObject('Page_Embed/input_Title_title0value'), 'Embed Automation')
 

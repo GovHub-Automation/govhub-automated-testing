@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Keena Hamillton</name>
+   <name>a_Bio_Name</name>
    <tag></tag>
    <elementGuidId>64a537c9-c232-4eb5-a4a0-e5a8e6eb0284</elementGuidId>
    <selectorCollection>
