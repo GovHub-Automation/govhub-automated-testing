@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h2_Contact       DHS Constituent Services</name>
+   <name>h2_Contact</name>
    <tag></tag>
    <elementGuidId>4f14e212-6b32-47b9-935c-f6a83bfefa87</elementGuidId>
    <selectorCollection>
