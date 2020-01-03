@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Select_donnas_training_class</name>
+   <name>input_Select_event</name>
    <tag></tag>
    <elementGuidId>80727145-ff61-4717-acfe-db50af1db96f</elementGuidId>
    <selectorCollection>
@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='edit-entity-browser-select-node16291']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-node') and @type = 'checkbox' and @ref_element = 'Object Repository/Page_Embed/Embed Event/Page_Create Topic Page  Digital Services Georgia/iframe_Add Event_entity_browser_iframe_event_browser_entity_embed']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,18 +24,18 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>entity_browser_select[node:16291]</value>
+      <value>entity_browser_select[node:</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-node16291</value>
+      <value>edit-entity-browser-select-node</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,18 +45,18 @@
       <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-node16291</value>
+      <value>edit-entity-browser-select-node</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>node:16291</value>
+      <value>node:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,10 +67,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-entity-browser-select-node16291&quot;)</value>
+      <value>id(&quot;edit-entity-browser-select-node&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
