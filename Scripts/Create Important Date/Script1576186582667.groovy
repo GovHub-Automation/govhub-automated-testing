@@ -20,15 +20,11 @@ WebUI.callTestCase(findTestCase('Authenticate Prod'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/admin/content')
+WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Page_Create_Important_Date/a_Add content'))
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add')
-
 WebUI.click(findTestObject('Page_Create_Important_Date/a_Important DateInform visitors about impor_b6ec0d'))
-
-WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/important_date')
 
 WebUI.click(findTestObject('Page_Create_Important_Date/input_Title_title0value'))
 
