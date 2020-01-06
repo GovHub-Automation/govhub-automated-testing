@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Add Listing Block_entity_browser_iframe_listing_block_browser_entity_embed</name>
+   <name>input_Title_inline_entity_formtitle0value</name>
    <tag></tag>
-   <elementGuidId>344702eb-8f77-4fb8-8bcf-47024042cce4</elementGuidId>
+   <elementGuidId>c811496e-81e8-4655-82d7-10027976e38e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='entity_browser_iframe_listing_block_browser_entity_embed']</value>
+         <value>//input[@id='edit-inline-entity-form-title-0-value']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,69 +17,97 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/entity-browser/iframe/listing_block_browser_entity_embed?uuid=fd420c77c9815ca7bd17becea1579a4657ed44de&amp;original_path=/entity-embed/dialog/expanded/listing_block</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-uuid</name>
+      <name>class</name>
       <type>Main</type>
-      <value>fd420c77c9815ca7bd17becea1579a4657ed44de</value>
+      <value>js-text-full text-full form-text required</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-original-path</name>
+      <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>/entity-embed/dialog/expanded/listing_block</value>
+      <value>edit-inline-entity-form-title-0-value</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>entity_browser_iframe_listing_block_browser_entity_embed</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>entity_browser_iframe_listing_block_browser_entity_embed</value>
+      <value>edit-inline-entity-form-title-0-value</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>inline_entity_form[title][0][value]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>size</name>
+      <type>Main</type>
+      <value>60</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>255</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;entity_browser_iframe_listing_block_browser_entity_embed&quot;)</value>
+      <value>id(&quot;edit-inline-entity-form-title-0-value&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='entity_browser_iframe_listing_block_browser_entity_embed']</value>
+      <value>//input[@id='edit-inline-entity-form-title-0-value']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-entity-browser-entity-browser--g9G4oe4Bops']/iframe</value>
+      <value>//div[@id='edit-inline-entity-form-title-wrapper']/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/iframe</value>
+      <value>//div/input</value>
    </webElementXpaths>
 </WebElementEntity>
