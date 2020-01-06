@@ -16,7 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Embed Start'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Create Listing Block'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Embed Start No Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/span_Embed micro-content_cke_button_arrow'))
 
@@ -26,16 +28,6 @@ WebUI.switchToFrame(findTestObject('Object Repository/Page_Embed/Embed ListingBl
     5)
 
 WebUI.delay(2)
-
-WebUI.setText(findTestObject('Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'), 
-    'From Automation')
-
-WebUI.click(findTestObject('Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/select_- None -BioContact DirectoryContact _c962e2'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/select_- None -BioContact DirectoryContact _c962e2'), 
-    'Bio', false)
-
-WebUI.click(findTestObject('Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/New_listing_block_save_button'))
 
 WebUI.delay(2)
 
