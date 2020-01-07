@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Add Image_entity_browser_iframe_image_browser_entity_embed</name>
+   <name>iframe_Check again_cke_151_frame (1)</name>
    <tag></tag>
-   <elementGuidId>1196121b-e16e-41bd-91db-fe74f5b01ec8</elementGuidId>
+   <elementGuidId>7cadefc2-5334-4ea4-99f4-d9c5f8fecd47</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='entity_browser_iframe_image_browser_entity_embed']</value>
+         <value>//iframe[@id='cke_151_frame']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,71 +22,57 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/entity-browser/iframe/image_browser_entity_embed?uuid=89d6d49246291bba05908cdf4800068a1b1dd297&amp;original_path=/entity-embed/dialog/expanded/image_media</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-uuid</name>
-      <type>Main</type>
-      <value>89d6d49246291bba05908cdf4800068a1b1dd297</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-original-path</name>
-      <type>Main</type>
-      <value>/entity-embed/dialog/expanded/image_media</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>entity_browser_iframe_image_browser_entity_embed</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>entity_browser_iframe_image_browser_entity_embed</value>
+      <value>cke_151_frame</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>cd_frame_id_</name>
+      <name>class</name>
       <type>Main</type>
-      <value>18c64356852edfcb301ca9265cbe1717</value>
+      <value>cke_panel_frame</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>frameborder</name>
+      <type>Main</type>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;entity_browser_iframe_image_browser_entity_embed&quot;)</value>
+      <value>id(&quot;cke_151_frame&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='entity_browser_iframe_image_browser_entity_embed']</value>
+      <value>//iframe[@id='cke_151_frame']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-entity-browser-entity-browser--OrOQoPkUWdg']/iframe</value>
+      <value>//div[@id='cke_151']/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/iframe</value>
+      <value>//div[10]/iframe</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Add Image_entity_browser_iframe_image_browser_entity_embed</name>
+   <name>save_button</name>
    <tag></tag>
-   <elementGuidId>1196121b-e16e-41bd-91db-fe74f5b01ec8</elementGuidId>
+   <elementGuidId>a2d26456-841f-49e3-a612-052bde49f7f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='entity_browser_iframe_image_browser_entity_embed']</value>
+         <value>//input[@id='edit-submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,76 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/entity-browser/iframe/image_browser_entity_embed?uuid=89d6d49246291bba05908cdf4800068a1b1dd297&amp;original_path=/entity-embed/dialog/expanded/image_media</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-uuid</name>
+      <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>89d6d49246291bba05908cdf4800068a1b1dd297</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-original-path</name>
-      <type>Main</type>
-      <value>/entity-embed/dialog/expanded/image_media</value>
+      <value>edit-submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>entity_browser_iframe_image_browser_entity_embed</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>entity_browser_iframe_image_browser_entity_embed</value>
+      <value>edit-submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>op</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>cd_frame_id_</name>
+      <name>value</name>
       <type>Main</type>
-      <value>18c64356852edfcb301ca9265cbe1717</value>
+      <value>Save</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button button--primary js-form-submit form-submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;entity_browser_iframe_image_browser_entity_embed&quot;)</value>
+      <value>id(&quot;edit-submit&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='entity_browser_iframe_image_browser_entity_embed']</value>
+      <value>//input[@id='edit-submit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-entity-browser-entity-browser--OrOQoPkUWdg']/iframe</value>
+      <value>//div[@id='edit-actions']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/iframe</value>
+      <value>//div[2]/div[3]/input</value>
    </webElementXpaths>
 </WebElementEntity>

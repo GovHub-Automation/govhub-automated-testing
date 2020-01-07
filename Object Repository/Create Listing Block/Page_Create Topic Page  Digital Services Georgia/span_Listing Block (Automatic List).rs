@@ -3,18 +3,14 @@
    <description></description>
    <name>span_Listing Block (Automatic List)</name>
    <tag></tag>
-   <elementGuidId>31fd3bd9-f89f-4aa1-9308-d9f0cc5c8db4</elementGuidId>
+   <elementGuidId>03635477-8c10-403e-9520-7f6b3e532372</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;cke_1493&quot;)/span[@class=&quot;cke_menubutton_inner&quot;]/span[@class=&quot;cke_menubutton_label&quot;][count(. | //*[@class = 'cke_menubutton_label' and (text() = 'Listing Block (Automatic List)' or . = 'Listing Block (Automatic List)') and @ref_element = 'Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/iframe_micro_content_dropdown']) = count(//*[@class = 'cke_menubutton_label' and (text() = 'Listing Block (Automatic List)' or . = 'Listing Block (Automatic List)') and @ref_element = 'Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/iframe_micro_content_dropdown'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//a[@id='cke_1493']/span/span[2]</value>
+         <value>//a[@id='cke_1483']/span/span[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +20,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,25 +34,25 @@
       <value>Listing Block (Automatic List)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cke_1493&quot;)/span[@class=&quot;cke_menubutton_inner&quot;]/span[@class=&quot;cke_menubutton_label&quot;]</value>
+      <value>id(&quot;cke_1483&quot;)/span[@class=&quot;cke_menubutton_inner&quot;]/span[@class=&quot;cke_menubutton_label&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/iframe_Check again_cke_151_frame</value>
+      <value>Object Repository/Create Listing Block/Page_Create Topic Page  Digital Services Georgia/iframe_Check again_cke_151_frame</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='cke_1493']/span/span[2]</value>
+      <value>//a[@id='cke_1483']/span/span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

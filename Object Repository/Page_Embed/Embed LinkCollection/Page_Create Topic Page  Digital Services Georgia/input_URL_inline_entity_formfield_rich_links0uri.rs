@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Add Image_entity_browser_iframe_image_browser_entity_embed</name>
+   <name>input_URL_inline_entity_formfield_rich_links0uri</name>
    <tag></tag>
-   <elementGuidId>1196121b-e16e-41bd-91db-fe74f5b01ec8</elementGuidId>
+   <elementGuidId>fa7d1294-35f9-4d64-ae35-f9ab80b99c4e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='entity_browser_iframe_image_browser_entity_embed']</value>
+         <value>//input[@id='edit-inline-entity-form-field-rich-links-0-uri']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,76 +17,104 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/entity-browser/iframe/image_browser_entity_embed?uuid=89d6d49246291bba05908cdf4800068a1b1dd297&amp;original_path=/entity-embed/dialog/expanded/image_media</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-uuid</name>
+      <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>89d6d49246291bba05908cdf4800068a1b1dd297</value>
+      <value>edit-inline-entity-form-field-rich-links-0-uri</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-original-path</name>
+      <name>aria-describedby</name>
       <type>Main</type>
-      <value>/entity-embed/dialog/expanded/image_media</value>
+      <value>edit-inline-entity-form-field-rich-links-0-uri--description</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-linkit-autocomplete form-text ui-autocomplete-input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-autocomplete-path</name>
+      <type>Main</type>
+      <value>/linkit/autocomplete/content_and_media</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>entity_browser_iframe_image_browser_entity_embed</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>entity_browser_iframe_image_browser_entity_embed</value>
+      <value>edit-inline-entity-form-field-rich-links-0-uri</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>inline_entity_form[field_rich_links][0][uri]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>cd_frame_id_</name>
+      <name>size</name>
       <type>Main</type>
-      <value>18c64356852edfcb301ca9265cbe1717</value>
+      <value>60</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>2048</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;entity_browser_iframe_image_browser_entity_embed&quot;)</value>
+      <value>id(&quot;edit-inline-entity-form-field-rich-links-0-uri&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='entity_browser_iframe_image_browser_entity_embed']</value>
+      <value>//input[@id='edit-inline-entity-form-field-rich-links-0-uri']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-entity-browser-entity-browser--OrOQoPkUWdg']/iframe</value>
+      <value>//table[@id='field-rich-links-values']/tbody/tr/td[2]/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/iframe</value>
+      <value>//td[2]/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -22,16 +22,40 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create T
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/span_Link Collection'))
 
-WebUI.click(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/a_Link Collection Library'))
+WebUI.switchToFrame(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/iframe_Add Link Collection_entity_browser_iframe_link_colection_browser_entity_embed'), 
+    5)
 
-WebUI.click(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/input_Select_vehicle_light_permits'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/Select_button'))
+WebUI.setText(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'), 
+    'From Automation')
+
+WebUI.click(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/input_URL_inline_entity_formfield_rich_links0uri'))
+
+WebUI.setText(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/input_URL_inline_entity_formfield_rich_links0uri'), 
+    'https://example.com')
+
+WebUI.click(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/input_Link text_inline_entity_formfield_rich_links0title'))
+
+WebUI.setText(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/input_Link text_inline_entity_formfield_rich_links0title'), 
+    'Link 1')
+
+WebUI.click(findTestObject('Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/New_link_collection_save_button'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Embed/Embed LinkCollection/Page_Embed Automation  Digital Services Georgia/h2_Vehicle Light Permits'), 
-    'Vehicle Light Permits')
+WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed LinkCollection/Page_Embed Automation  Digital Services Georgia/div_From Automation'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Page_Embed/Embed LinkCollection/Page_Embed Automation  Digital Services Georgia/h2_From Automation'), 
+    'From Automation')
+
+WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed LinkCollection/Page_Embed Automation  Digital Services Georgia/a_Link 1'), 
+    0)
 

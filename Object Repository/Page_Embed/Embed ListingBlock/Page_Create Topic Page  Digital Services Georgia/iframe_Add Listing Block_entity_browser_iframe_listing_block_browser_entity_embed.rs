@@ -24,14 +24,14 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/entity-browser/iframe/listing_block_browser_entity_embed?uuid=71043fb41ffec2991a22b956f6a2fc2a32e176ee&amp;original_path=/entity-embed/dialog/expanded/listing_block</value>
+      <value>/entity-browser/iframe/listing_block_browser_entity_embed?uuid=fd420c77c9815ca7bd17becea1579a4657ed44de&amp;original_path=/entity-embed/dialog/expanded/listing_block</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-uuid</name>
       <type>Main</type>
-      <value>71043fb41ffec2991a22b956f6a2fc2a32e176ee</value>
+      <value>fd420c77c9815ca7bd17becea1579a4657ed44de</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-entity-browser-entity-browser--vvOP5mQIVa8']/iframe</value>
+      <value>//div[@id='edit-entity-browser-entity-browser--g9G4oe4Bops']/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

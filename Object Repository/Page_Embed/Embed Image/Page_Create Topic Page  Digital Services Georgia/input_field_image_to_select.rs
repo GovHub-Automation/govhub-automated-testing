@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Open_govtalkgallerycoverpng</name>
+   <name>input_field_image_to_select</name>
    <tag></tag>
-   <elementGuidId>34028f4d-f8a6-4183-afd9-7075ac0b9bfb</elementGuidId>
+   <elementGuidId>527373e9-25eb-42a9-8dba-9299cceb1871</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'views-col col-1' and @ref_element = 'Object Repository/Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/iframe_Add Image_entity_browser_iframe_image_browser_entity_embed']</value>
+         <value>id(&quot;entity-browser-image-browser-entity-embed-form&quot;)/div[@class=&quot;ga-entity-browser-view view view-media-browser view-id-media_browser view-display-id-image js-view-dom-id-f5837726f8f1b6c4165eba420dadd477ec99bb39ecf5508196b14de46c5901f5&quot;]/div[@class=&quot;view-content&quot;]/div[@class=&quot;views-view-grid horizontal cols-4 clearfix&quot;]/div[@class=&quot;views-row clearfix row-1&quot;]/div[@class=&quot;views-col col-1&quot;][count(. | //*[contains(@data-drupal-selector, 'edit-entity-browser-select-media') and contains(@id, 'edit-entity-browser-select-media') and @ref_element = 'Object Repository/Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/iframe_Add Image_entity_browser_iframe_image_browser_entity_embed']) = count(//*[contains(@data-drupal-selector, 'edit-entity-browser-select-media') and contains(@id, 'edit-entity-browser-select-media') and @ref_element = 'Object Repository/Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/iframe_Add Image_entity_browser_iframe_image_browser_entity_embed'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,18 +17,11 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>views-col col-1</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +55,21 @@
 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>data-drupal-selector</name>
+      <type>Main</type>
+      <value>edit-entity-browser-select-media</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>edit-entity-browser-select-media</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -101,6 +108,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div</value>
+      <value>//div/div[2]/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

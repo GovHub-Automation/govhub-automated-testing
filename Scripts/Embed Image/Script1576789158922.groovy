@@ -21,7 +21,7 @@ WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digit
 
 WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/span_Image media'))
 
-WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/div_Open_govtalkgallerycoverpng'))
+WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/div_Open_Select this item'))
 
 WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/Select_button'))
 
@@ -29,6 +29,6 @@ WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digit
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementAttributeValue(findTestObject('Page_Embed/Embed Image/Page_Embed Automation  Digital Services Georgia/img'), 
-    'alt', 'GOV Talks Gallery Cover', 0)
+WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Image/Page_Embed Automation  Digital Services Georgia/article_embedded_image'), 
+    0)
 
