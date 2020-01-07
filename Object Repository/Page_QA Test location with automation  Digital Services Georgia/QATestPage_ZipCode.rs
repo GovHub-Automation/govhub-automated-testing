@@ -1,84 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Location_Page_Breadcrumb</name>
+   <name>QATestPage_ZipCode</name>
    <tag></tag>
-   <elementGuidId>69030f28-b01f-4de6-8f08-ae1f0a73f832</elementGuidId>
+   <elementGuidId>d8299eb1-87fe-4a00-b48a-b5b0437ea87c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[2]/nav/ul/li[3]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'breadcrumb__item']</value>
+         <value>//div[@id='main-content']/div/div[3]/div/div[2]/div/div[2]/div/div/address/p/span[4]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>breadcrumb__item</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>postal-code</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                  QA Test location with automation
-              </value>
+      <value>32607</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content-page__top&quot;]/nav[@class=&quot;breadcrumb&quot;]/ul[@class=&quot;breadcrumb__items&quot;]/li[@class=&quot;breadcrumb__item&quot;]</value>
+      <value>id(&quot;main-content&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content-page__mid&quot;]/div[@class=&quot;content-page__mid-main&quot;]/div[@class=&quot;content-page__main-primary&quot;]/div[@class=&quot;content-page__main-top&quot;]/div[@class=&quot;location-summary&quot;]/div[@class=&quot;location-summary__inner&quot;]/div[@class=&quot;location-primary&quot;]/address[1]/p[@class=&quot;address&quot;]/span[@class=&quot;postal-code&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content']/div[2]/div[2]/nav/ul/li[3]</value>
+      <value>//div[@id='main-content']/div/div[3]/div/div[2]/div/div[2]/div/div/address/p/span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Find a Location'])[1]/following::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FL'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gainesville'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Primary tabs'])[1]/preceding::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='United States'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='32607']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/nav/ul/li[3]</value>
+      <value>//span[4]</value>
    </webElementXpaths>
 </WebElementEntity>

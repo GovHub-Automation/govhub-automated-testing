@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Location_Page_Breadcrumb</name>
+   <name>QATestPage_Breadcrumb</name>
    <tag></tag>
-   <elementGuidId>69030f28-b01f-4de6-8f08-ae1f0a73f832</elementGuidId>
+   <elementGuidId>f02fcff0-4d65-4997-9f44-07cf8fda605c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[2]/nav/ul/li[3]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'breadcrumb__item']</value>
+         <value>//div[@id='main-content']/div/div[2]/nav/ul/li[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,19 +20,19 @@
       <value>li</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>breadcrumb__item</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
-                  QA Test location with automation
+                  QA Test location with Automation
               </value>
    </webElementProperties>
    <webElementProperties>
@@ -51,7 +47,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content']/div[2]/div[2]/nav/ul/li[3]</value>
+      <value>//div[@id='main-content']/div/div[2]/nav/ul/li[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
