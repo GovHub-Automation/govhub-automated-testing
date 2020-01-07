@@ -18,16 +18,22 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Create Listing Block'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 WebUI.callTestCase(findTestCase('Embed Start No Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/span_Embed micro-content_cke_button_arrow'))
+WebUI.click(findTestObject('Object Repository/Create Listing Block/Page_Create Topic Page  Digital Services Georgia/a_Embed micro-content'))
 
-WebUI.click(findTestObject('Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/span_Listing Block (Automatic List)'))
+WebUI.click(findTestObject('Create Listing Block/Page_Create Topic Page  Digital Services Georgia/span_Link Collection_cke_button_icon cke_button__listing_block_icon'))
 
 WebUI.switchToFrame(findTestObject('Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/iframe_Add Listing Block_entity_browser_iframe_listing_block_browser_entity_embed'), 
     5)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Create Listing Block/Page_Create Topic Page  Digital Services Georgia/a_Listing Block Library'))
+
+WebUI.click(findTestObject('Create Listing Block/Page_Create Topic Page  Digital Services Georgia/input_Select this item_entity_browser_selectnode19056'))
+
+WebUI.click(findTestObject('Create Listing Block/Page_Create Topic Page  Digital Services Georgia/entity_select_button'))
 
 WebUI.delay(2)
 
@@ -42,4 +48,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Embed/Embed Li
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Embed/Embed ListingBlock/Page_Embed Automation  Digital Services Georgia/h2_From Automation'), 
     'From Automation')
+
+WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed ListingBlock/Page_Embed Automation  Digital Services Georgia/a_Link 1'), 
+    0)
 

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Listing Block (Automatic List)</name>
+   <name>span_Listing Block (Automatic List) (1)</name>
    <tag></tag>
-   <elementGuidId>31fd3bd9-f89f-4aa1-9308-d9f0cc5c8db4</elementGuidId>
+   <elementGuidId>5aa52068-ef1b-4e8a-b5fb-a61d91369c93</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;cke_1493&quot;)/span[@class=&quot;cke_menubutton_inner&quot;]/span[@class=&quot;cke_menubutton_label&quot;][count(. | //*[@class = 'cke_menubutton_label' and (text() = 'Listing Block (Automatic List)' or . = 'Listing Block (Automatic List)') and @ref_element = 'Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/iframe_micro_content_dropdown']) = count(//*[@class = 'cke_menubutton_label' and (text() = 'Listing Block (Automatic List)' or . = 'Listing Block (Automatic List)') and @ref_element = 'Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/iframe_micro_content_dropdown'])]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='cke_1493']/span/span[2]</value>
@@ -50,6 +46,13 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/iframe_Check again_cke_151_frame</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Create Listing Block/Page_Create Topic Page  Digital Services Georgia/iframe_Check again_cke_151_frame (1)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

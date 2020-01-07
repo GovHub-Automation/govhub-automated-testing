@@ -45,7 +45,6 @@
   
                  
  
- 
 
         
   
@@ -65,7 +64,7 @@
           
           
         
-                  Accessibility Case Study
+                  Nikhil Deshpande
   
   Open  configuration optionsEdit
       
@@ -79,7 +78,7 @@
           
           
         
-                  Accessibility Tools
+                  Charronda King
   
   Open  configuration optionsEdit
       
@@ -93,7 +92,59 @@
           
           
         
-                  Accessible Platform
+            
+  Open  configuration optionsEdit
+      
+  
+          
+  
+  
+
+        
+                        
+          
+          
+        
+            
+  Open  configuration optionsEdit
+      
+  
+          
+  
+  
+
+        
+                        
+          
+          
+        
+            
+  Open  configuration optionsEdit
+      
+  
+          
+  
+  
+
+        
+                        
+          
+          
+        
+            
+  Open  configuration optionsEdit
+      
+  
+          
+  
+  
+
+        
+                        
+          
+          
+        
+                  Pooja Berrong
   
   Open  configuration optionsEdit
       
@@ -107,7 +158,7 @@
           
           
         
-                  Accordion test
+                  Paula Buchanan
   
   Open  configuration optionsEdit
       
@@ -121,7 +172,7 @@
           
           
         
-                  Advanced Editor's Training
+                  Amanda de Zayas
   
   Open  configuration optionsEdit
       
@@ -135,7 +186,7 @@
           
           
         
-                  Analytics Training
+                  Dominic Distretti
   
   Open  configuration optionsEdit
       
@@ -149,7 +200,7 @@
           
           
         
-                  Awards
+                  Jasmyne Dove
   
   Open  configuration optionsEdit
       
@@ -163,7 +214,7 @@
           
           
         
-                  Branding Tools for Georgia State Agencies
+                  Jasmyne Epps
   
   Open  configuration optionsEdit
       
@@ -177,7 +228,7 @@
           
           
         
-                  Careers
+                  Jasmyne Epps
   
   Open  configuration optionsEdit
       
@@ -191,7 +242,7 @@
           
           
         
-                  Case Studies
+                  Jasmyne Epps
   
   Open  configuration optionsEdit
       
@@ -205,7 +256,7 @@
           
           
         
-                  Citizen Journey Mapping
+                  Jasmyne Epps
   
   Open  configuration optionsEdit
       
@@ -219,7 +270,7 @@
           
           
         
-                  Columns Training
+                  Jasmyne Epps
   
   Open  configuration optionsEdit
       
@@ -233,7 +284,7 @@
           
           
         
-                  Content Blocks
+                  Jasmyne Epps
   
   Open  configuration optionsEdit
       
@@ -247,7 +298,7 @@
           
           
         
-                  Content Makeover
+                  Mike Galifianakis
   
   Open  configuration optionsEdit
       
@@ -261,7 +312,7 @@
           
           
         
-                  Content Playbook, Fallon Tweet
+                  Rachel Hart
   
   Open  configuration optionsEdit
       
@@ -275,7 +326,7 @@
           
           
         
-                  Content Strategy
+                  Jenine Ingram
   
   Open  configuration optionsEdit
       
@@ -289,7 +340,7 @@
           
           
         
-                  Content Tools
+                  Kyle Johnson
   
   Open  configuration optionsEdit
       
@@ -303,7 +354,7 @@
           
           
         
-                  Digital Center of Excellence: Working Groups to Architect the Next GeorgiaGov Web Platform
+                  Martin Kester
   
   Open  configuration optionsEdit
       
@@ -317,7 +368,7 @@
           
           
         
-                  Digital Content Strategist
+                  1 Display Name Overriding First Last (optional)
   
   Open  configuration optionsEdit
       
@@ -331,7 +382,7 @@
           
           
         
-                  Document Testing Page
+                  2 Display Name Overriding First Last (optional)
   
   Open  configuration optionsEdit
       
@@ -345,63 +396,7 @@
           
           
         
-                  Drupal CMS Migration Case Study
-  
-  Open  configuration optionsEdit
-      
-  
-          
-  
-  
-
-        
-                        
-          
-          
-        
-                  DSGa Procurement - Questions Regarding RFQCs
-  
-  Open  configuration optionsEdit
-      
-  
-          
-  
-  
-
-        
-                        
-          
-          
-        
-                  Editor's Training
-  
-  Open  configuration optionsEdit
-      
-  
-          
-  
-  
-
-        
-                        
-          
-          
-        
-                  Embedded Videos: Georgia.gov and Alabama.gov on 11/10/2015 on a Motorola G, 3G fast network
-  
-  Open  configuration optionsEdit
-      
-  
-          
-  
-  
-
-        
-                        
-          
-          
-        
-                  Georgia.gov
+                  3 Display Name Overriding First Last (optional)
   
   Open  configuration optionsEdit
       
@@ -427,6 +422,13 @@
 
 
   
+      
+  
+          
+              Link 1
+          
+  
+
       
 
   
