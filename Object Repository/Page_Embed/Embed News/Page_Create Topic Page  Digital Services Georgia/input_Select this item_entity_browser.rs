@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Select this item_entity_browser_selectnode18201</name>
+   <name>input_Select this item_entity_browser</name>
    <tag></tag>
-   <elementGuidId>ee6f6038-0b97-498e-85d7-bbaa694a7b23</elementGuidId>
+   <elementGuidId>df5ad1f5-1acc-46ac-8a1c-46bc73051ac6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-node18201']</value>
+         <value>//input[@id='edit-entity-browser-select-node19156']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-node') and @type = 'checkbox' and contains(@id, 'edit-entity-browser-select-node')]</value>
+         <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-node') and @type = 'checkbox' and @ref_element = 'Object Repository/Page_Embed/Embed News/Page_Create Topic Page  Digital Services Georgia/iframe_Add News_entity_browser_iframe_news_browser_entity_embed']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,6 +22,13 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>entity_browser_select[node:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,11 +45,18 @@
       <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>edit-entity-browser-select-node</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>node:19156</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,20 +84,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='edit-entity-browser-select-node18201']</value>
+      <value>//input[@id='edit-entity-browser-select-node19156']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='entity-browser-news-browser-entity-embed-form']/div/div[2]/table/tbody/tr[3]/td/div/input</value>
+      <value>//form[@id='entity-browser-news-browser-entity-embed-form']/div/div[2]/table/tbody/tr/td/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[3]/td/div/input</value>
+      <value>//td/div/input</value>
    </webElementXpaths>
 </WebElementEntity>

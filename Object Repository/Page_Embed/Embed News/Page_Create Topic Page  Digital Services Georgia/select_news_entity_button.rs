@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Select this item_entity_browser_selectnode18201</name>
+   <name>select_news_entity_button</name>
    <tag></tag>
-   <elementGuidId>ee6f6038-0b97-498e-85d7-bbaa694a7b23</elementGuidId>
+   <elementGuidId>5acf4b27-5099-49b8-87c8-6127f7d61b0d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-node18201']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-node') and @type = 'checkbox' and contains(@id, 'edit-entity-browser-select-node')]</value>
+         <value>//input[@id='edit-submit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,66 +20,73 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>is-entity-browser-submit button button--primary js-form-submit form-submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-node</value>
+      <value>edit-submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>checkbox</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-node</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-checkbox</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>contains</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;edit-entity-browser-select-node&quot;)</value>
+      <value>edit-submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
+      <name>name</name>
       <type>Main</type>
-      <value>Object Repository/Page_Embed/Embed News/Page_Create Topic Page  Digital Services Georgia/iframe_Add News_entity_browser_iframe_news_browser_entity_embed</value>
+      <value>op</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;edit-submit&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='edit-entity-browser-select-node18201']</value>
+      <value>//input[@id='edit-submit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='entity-browser-news-browser-entity-embed-form']/div/div[2]/table/tbody/tr[3]/td/div/input</value>
+      <value>(//div[@id='edit-actions']/input)[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[3]/td/div/input</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

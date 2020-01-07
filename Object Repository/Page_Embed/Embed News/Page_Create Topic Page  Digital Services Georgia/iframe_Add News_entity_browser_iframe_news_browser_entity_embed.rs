@@ -24,14 +24,14 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/entity-browser/iframe/news_browser_entity_embed?uuid=de86f483146fdd9ab7e352402ad73ed65b2ee7d6&amp;original_path=/entity-embed/dialog/expanded/news</value>
+      <value>/entity-browser/iframe/news_browser_entity_embed?uuid=9f4fc8f715a70dd585d927cd87cf800fb798be70&amp;original_path=/entity-embed/dialog/expanded/news</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-uuid</name>
       <type>Main</type>
-      <value>de86f483146fdd9ab7e352402ad73ed65b2ee7d6</value>
+      <value>9f4fc8f715a70dd585d927cd87cf800fb798be70</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +57,13 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>cd_frame_id_</name>
+      <type>Main</type>
+      <value>b62fba05bbd946bc213ad71c927ea1df</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;entity_browser_iframe_news_browser_entity_embed&quot;)</value>
@@ -73,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-entity-browser-entity-browser--2k-yXLemcO4']/iframe</value>
+      <value>//div[@id='edit-entity-browser-entity-browser--A_0bZteg6XA']/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
