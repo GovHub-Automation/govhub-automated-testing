@@ -176,12 +176,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Location  Digital Se
 
 WebUI.click(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/span_2 Determine your main menu structure'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/input_URL_field_related_links0uri'), 
-    '/node/98')
+WebUI.click(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/Location_Page_Additional_Information_WYSIWYG'))
 
-WebUI.click(findTestObject('Page_Create Location  Digital Services Georgia/Location_Page_Additional_Information_WYSIWYG'))
-
-WebUI.setText(findTestObject('Page_Create Location  Digital Services Georgia/Location_Page_Additional_Information_Body'), 
+WebUI.setText(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/Location_Page_Additional_Information_Body'), 
     'QA test additional information field content here')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_DraftPublishedArchived'), 
@@ -189,27 +186,45 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location
 
 WebUI.click(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/Location_Save_Button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/Location_Page_Breadcrumb'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Breadcrumb'), 
     'QA Test location with Automation')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/Location_Page_Title'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_PageTitle'), 
     'QA Test location with Automation')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/Location_Page_Street_Address'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_StreetAddress'), 
     '1234 Test Ave')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/Location_Page_City'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_City'), 
     'Gainesville')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/Location_Page_Country'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Country'), 
     'United States')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/Location_Page_State'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_State'), 
     'FL')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/Location_Page_ZipCode'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_ZipCode'), 
     '32607')
 
-WebUI.verifyElementText(findTestObject('Page_QA Test location with automation  Digital Services Georgia/Location_Page_Additional_Information_Front_End'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_AdditionalInformation'), 
     'QA test additional information field content here')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours1Days'), 
+    'Sunday - Monday:  ')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours1Times'), 
+    '05:00 am - 05:00 pm')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours2Days'), 
+    'Tuesday:  ')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours2Times'), 
+    '05:00 pm - 05:00 pm')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours3Days'), 
+    'Wednesday - Saturday:  ')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours3Times'), 
+    '05:00 am - 05:00 pm')
 
