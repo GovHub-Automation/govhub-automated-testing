@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe_Add Video_entity_browser_iframe_video_browser_entity_embed</name>
+   <name>Remote_video_save_button</name>
    <tag></tag>
-   <elementGuidId>f774a00a-39c0-4afa-9596-1569d7a06eef</elementGuidId>
+   <elementGuidId>3b65e9b8-a0ed-42c2-b95f-b5b02649a2ee</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//iframe[@id='entity_browser_iframe_video_browser_entity_embed']</value>
+         <value>//input[@id='edit-submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,69 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/entity-browser/iframe/video_browser_entity_embed?uuid=d81e19ed443bd410bb0da0b7658a956261db5c03&amp;original_path=/entity-embed/dialog/expanded/video_media</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-uuid</name>
+      <name>class</name>
       <type>Main</type>
-      <value>d81e19ed443bd410bb0da0b7658a956261db5c03</value>
+      <value>is-entity-browser-submit button button--primary js-form-submit form-submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-original-path</name>
+      <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>/entity-embed/dialog/expanded/video_media</value>
+      <value>edit-submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>type</name>
       <type>Main</type>
-      <value>entity_browser_iframe_video_browser_entity_embed</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>entity_browser_iframe_video_browser_entity_embed</value>
+      <value>edit-submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>op</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Save</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;entity_browser_iframe_video_browser_entity_embed&quot;)</value>
+      <value>id(&quot;edit-submit&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//iframe[@id='entity_browser_iframe_video_browser_entity_embed']</value>
+      <value>//input[@id='edit-submit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-entity-browser-entity-browser--BL_qvRw9cYc']/iframe</value>
+      <value>//div[@id='edit-actions']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div/iframe</value>
+      <value>//div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
