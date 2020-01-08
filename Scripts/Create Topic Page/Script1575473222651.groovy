@@ -30,10 +30,10 @@ WebUI.scrollToElement(findTestObject('Page_Add content  Digital Services Georgia
 WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/a_Topic PageExplain a specific topic or provide additional details about another topic or service'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Topic Page  Digital Services Georgia/input_Title_title0value'), 
-    'New Topic Page Title')
+    'From Automation')
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Topic Page  Digital Services Georgia/input_Short Title_field_short_title0value'), 
-    'Topic Page Title')
+    'From Automation')
 
 WebUI.click(findTestObject('Page_Create Topic Page  Digital Services Georgia/Summary iframe'))
 
@@ -46,7 +46,13 @@ WebUI.setText(findTestObject('Page_Create Topic Page  Digital Services Georgia/B
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Topic Page  Digital Services Georgia/select_DraftPublishedArchived'), 
     'published', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Create Topic Page  Digital Services Georgia/div_Associate this content with        Prog_1ebaa7'))
+WebUI.click(findTestObject('Page_Create Topic Page  Digital Services Georgia/Page_Create Topic Page  Digital Services Georgia/Save_button'))
 
-WebUI.closeBrowser()
+WebUI.delay(2)
+
+WebUI.verifyElementPresent(findTestObject('Page_Create Topic Page  Digital Services Georgia/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Create Topic Page  Digital Services Georgia/Page_From Automation  Digital Services Georgia/p_Heres the body content of the Topic Page'), 
+    0)
 

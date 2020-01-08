@@ -26,9 +26,9 @@ WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content
 
 WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/a_NewsNews posts site news and less officia_6c8139'))
 
-WebUI.setText(findTestObject('Page_Create News  Digital Services Georgia/input_Title_title0value'), 'New News Title')
+WebUI.setText(findTestObject('Page_Create News  Digital Services Georgia/input_Title_title0value'), 'From Automation')
 
-WebUI.setText(findTestObject('Page_Create News  Digital Services Georgia/input_Short Title_field_short_title0value'), 'News Title')
+WebUI.setText(findTestObject('Page_Create News  Digital Services Georgia/input_Short Title_field_short_title0value'), 'From Automation')
 
 WebUI.click(findTestObject('Page_Create News  Digital Services Georgia/span_- Select -'))
 
@@ -65,7 +65,19 @@ WebUI.click(findTestObject('Object Repository/Page_Create News  Digital Services
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/select_DraftPublishedArchived'), 
     'published', true)
 
-WebUI.click(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/div_Associate this content with        Prog_d994ad'))
+WebUI.click(findTestObject('Page_Create News  Digital Services Georgia/Page_Create News  Digital Services Georgia/Save_button'))
 
-WebUI.closeBrowser()
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/p_Heres the body content of this news content'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/p_Heres some intro text'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/a_Jasmyne Epps'), 
+    0)
 
