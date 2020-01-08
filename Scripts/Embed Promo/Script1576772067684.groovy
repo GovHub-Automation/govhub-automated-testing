@@ -21,16 +21,38 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create T
 
 WebUI.click(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/span_Promo'))
 
-WebUI.click(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/a_Promo Library'))
+WebUI.switchToFrame(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/iframe_Add Promo_entity_browser_iframe_promo_browser_entity_embed'), 
+    0)
 
-WebUI.click(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/input_Select_second_placement_card'))
+WebUI.setText(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'), 
+    'From Automation')
 
-WebUI.click(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/Select_button'))
+WebUI.click(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/input_URL_inline_entity_formfield_cta_url0uri'))
+
+WebUI.setText(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/input_URL_inline_entity_formfield_cta_url0uri'), 
+    'https://example.com')
+
+WebUI.click(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/input_Link text_inline_entity_formfield_cta_url0title'))
+
+WebUI.setText(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/input_Link text_inline_entity_formfield_cta_url0title'), 
+    'Example')
+
+WebUI.click(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/Promo_save_button'))
+
+WebUI.delay(2)
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Embed/Embed Promo/Page_Embed Automation  Digital Services Georgia/h3_second placement card'), 
-    'second placement, card')
+WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Promo/Page_Embed Automation  Digital Services Georgia/div_From Automation'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('Page_Embed/Embed Promo/Page_Embed Automation  Digital Services Georgia/h3_From Automation'), 
+    'From Automation')
+
+WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Promo/Page_Embed Automation  Digital Services Georgia/a_Example'), 
+    0)
 

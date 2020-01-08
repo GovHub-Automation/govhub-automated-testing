@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Select_second_placement_card</name>
+   <name>input_Select this item_entity_browser</name>
    <tag></tag>
-   <elementGuidId>9ef4cb18-e760-4b3c-85c3-b6325cdcbbe7</elementGuidId>
+   <elementGuidId>df5ad1f5-1acc-46ac-8a1c-46bc73051ac6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-node18151']</value>
+         <value>//input[@id='edit-entity-browser-select-node19156']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-node') and @type = 'checkbox' and @ref_element = 'Object Repository/Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/iframe_Add Promo_entity_browser_iframe_promo_browser_entity_embed']</value>
+         <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-node') and @type = 'checkbox' and @ref_element = 'Object Repository/Page_Embed/Embed News/Page_Create Topic Page  Digital Services Georgia/iframe_Add News_entity_browser_iframe_news_browser_entity_embed']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -53,10 +53,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>node:</value>
+      <value>node:19156</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,21 +77,21 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/iframe_Add Promo_entity_browser_iframe_promo_browser_entity_embed</value>
+      <value>Object Repository/Page_Embed/Embed News/Page_Create Topic Page  Digital Services Georgia/iframe_Add News_entity_browser_iframe_news_browser_entity_embed</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='edit-entity-browser-select-node18151']</value>
+      <value>//input[@id='edit-entity-browser-select-node19156']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='entity-browser-promo-browser-entity-embed-form']/div/div[2]/table/tbody/tr/td/div/input</value>
+      <value>//form[@id='entity-browser-news-browser-entity-embed-form']/div/div[2]/table/tbody/tr/td/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

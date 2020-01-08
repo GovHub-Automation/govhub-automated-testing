@@ -21,9 +21,22 @@ WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digit
 
 WebUI.click(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/span_Video media'))
 
-WebUI.click(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/div_Open_Accessibility_vid'))
+WebUI.switchToFrame(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/iframe_Add Video_entity_browser_iframe_video_browser_entity_embed'), 
+    5)
 
-WebUI.click(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/Select_button'))
+WebUI.click(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/a_Create Remote Video'))
+
+WebUI.setText(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/input_Name_inline_entity_formname0value'), 
+    'From Automation')
+
+WebUI.setText(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/input_Video URL_inline_entity_formfield_media_oembed_video0value'), 
+    'https://youtu.be/SR4R7GHxU1w')
+
+WebUI.click(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/Remote_video_save_button'))
+
+WebUI.delay(2)
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
