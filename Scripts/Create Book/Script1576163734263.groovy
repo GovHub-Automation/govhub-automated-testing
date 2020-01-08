@@ -14,14 +14,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Authenticate Prod'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
+WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
-WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
+WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
 
 WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_Book pageBooks have a built-in hierarchic_9c9d28'))
 
@@ -53,21 +54,29 @@ WebUI.click(findTestObject('Object Repository/Page_Create Book page  Digital Ser
 WebUI.setText(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/body_Heres some body text for this new book_bb4eb0'), 
     'Here\'s some body text for this new book page')
 
-WebUI.scrollToElement(findTestObject('Page_Create Book page  Digital Services Georgia/Search'), 0)
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/Search'), 0)
 
-WebUI.click(findTestObject('Page_Create Book page  Digital Services Georgia/Book Outline'))
+WebUI.click(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/Book Outline'))
 
-WebUI.selectOptionByValue(findTestObject('Page_Create Book page  Digital Services Georgia/Select Book Outline'), 'new', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/Select Book Outline'), 
+    'new', true)
 
 WebUI.delay(2)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/select_DraftPublishedArchived'), 
     'published', true)
 
-WebUI.click(findTestObject('Bio Objects/Page_Create Bio  Digital Services Georgia/Save Bio'))
+WebUI.click(findTestObject('Object Repository/Bio Objects/Page_Create Bio  Digital Services Georgia/Save Bio'))
 
 WebUI.delay(3)
 
-WebUI.closeBrowser()
+WebUI.verifyElementText(findTestObject('Object Repository/Page_New Book  Digital Services Georgia/NewBook_Breadcrumb'), 
+    'New Book - Automation')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_New Book  Digital Services Georgia/NewBookPage_Title'), 'New Book - Automation')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_New Book  Digital Services Georgia/BookPage_Body'), 'Here\'s some body text for this new book page')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_New Book  Digital Services Georgia/NewBook_ShortTitle'), 
+    'Short Title\nNew Book')
 
