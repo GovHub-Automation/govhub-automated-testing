@@ -40,13 +40,23 @@ WebUI.setText(findTestObject('Page_Create PSG/Page_Create PSG  Digital Services 
 
 WebUI.setText(findTestObject('Page_Create PSG/Page_Create PSG  Digital Services Georgia/html_Rich Text Editor Body'), 'Body text.')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_Create PSG/Page_Create PSG  Digital Services Georgia/Add_Releated_File_button'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_Create PSG/Page_Create PSG  Digital Services Georgia/input_Select_Document_2018_vssr_how_to'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_Create PSG/Page_Create PSG  Digital Services Georgia/Select_button'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_Create PSG/Page_Create PSG  Digital Services Georgia/Save_node_button'))
+
+WebUI.delay(1)
 
 WebUI.verifyElementText(findTestObject('Page_Create PSG/Page_PSG From Automation (PSG From Automation)  Digital Services Georgia/h1_PSG From Automation (PSG From Automation)'), 
     'PSG From Automation (PSG From Automation)')
