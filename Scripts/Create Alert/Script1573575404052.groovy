@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Authenticate Prod'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -22,15 +24,20 @@ WebUI.click(findTestObject('Page_Editor  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/span_Alert'))
 
-WebUI.setText(findTestObject('Alert Objects/Page_Create Alert  Digital Services Georgia/input_Alert Title_title0value'), 'Alert Title - Type Notice')
+WebUI.setText(findTestObject('Alert Objects/Page_Create Alert  Digital Services Georgia/input_Alert Title_title0value'), 
+    'Alert Title - Type Notice')
 
-WebUI.setText(findTestObject('Alert Objects/Page_Create Alert  Digital Services Georgia/input_URL_field_destination0uri'), 'a')
+WebUI.setText(findTestObject('Alert Objects/Page_Create Alert  Digital Services Georgia/input_URL_field_destination0uri'), 
+    'a')
 
 WebUI.click(findTestObject('Alert Objects/Page_Create Alert  Digital Services Georgia/span_2 Determine your main menu structure'))
 
-WebUI.setText(findTestObject('Alert Objects/Page_Create Alert  Digital Services Georgia/input_URL_field_destination0uri'), '/node/98')
+WebUI.setText(findTestObject('Alert Objects/Page_Create Alert  Digital Services Georgia/input_URL_field_destination0uri'), 
+    '/node/98')
 
 WebUI.click(findTestObject('Alert Objects/Page_Create Alert  Digital Services Georgia/input_Link text_field_alert_sitewidevalue'))
 
