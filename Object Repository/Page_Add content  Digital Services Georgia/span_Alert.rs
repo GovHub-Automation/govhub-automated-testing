@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-content']/ul/li/a/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Alert' or . = 'Alert')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
