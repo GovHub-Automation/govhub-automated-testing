@@ -6,21 +6,25 @@
    <elementGuidId>02f61bdd-1538-4154-b0ec-805bf237d7d0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'NewsNews posts, site news, and less official updates.' or . = 'NewsNews posts, site news, and less official updates.')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-content']/ul/li[14]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
