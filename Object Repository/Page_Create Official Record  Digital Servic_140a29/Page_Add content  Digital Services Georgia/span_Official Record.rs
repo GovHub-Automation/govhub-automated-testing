@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Official Record</name>
+   <name>span_Official Record</name>
    <tag></tag>
-   <elementGuidId>bb658f86-a465-44b9-92f1-58039179976e</elementGuidId>
+   <elementGuidId>76459498-8560-4612-a9cf-fee416d4f032</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/node/add/official_record' and (text() = 'Official Record' or . = 'Official Record')]</value>
+         <value>//span[(text() = 'Official Record' or . = 'Official Record')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='block-ga-seven-content']/ul/li[15]/a</value>
+         <value>//div[@id='block-ga-seven-content']/ul/li[15]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,14 +21,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/node/add/official_record</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,48 +42,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;block-ga-seven-content&quot;)/ul[@class=&quot;admin-list&quot;]/li[@class=&quot;clearfix&quot;]/a[1]</value>
+      <value>id(&quot;block-ga-seven-content&quot;)/ul[@class=&quot;admin-list&quot;]/li[@class=&quot;clearfix&quot;]/a[1]/span[@class=&quot;label&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='block-ga-seven-content']/ul/li[15]/a</value>
+      <value>//div[@id='block-ga-seven-content']/ul/li[15]/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='News posts, site news, and less official updates.'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='News posts, site news, and less official updates.'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='News'])[3]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='News'])[3]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Opinion'])[3]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Opinion'])[3]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/node/add/official_record')])[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('State documents of type ', '&quot;', 'Opinion', '&quot;', '.')])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/ul/li[15]/a</value>
+      <value>//li[15]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -24,7 +24,9 @@ WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services
 
 WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
 
-WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_Official Record'))
+WebUI.click(findTestObject('Page_Create Official Record  Digital Servic_140a29/Page_Add content  Digital Services Georgia/span_Official Record'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Official Record  Digital Servic_140a29/input_Title_title0value'), 
     'QA test official record with automation')
@@ -59,6 +61,8 @@ WebUI.click(findTestObject('Object Repository/Page_Create Official Record  Digit
 WebUI.click(findTestObject('Object Repository/Page_Create Official Record  Digital Servic_140a29/input_Select this item_entity_browser_selectnode17951'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create Official Record  Digital Servic_140a29/input_Next page_op'))
+
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Official Record  Digital Servic_140a29/input_URL_field_external_links0uri'), 
     'http://www.google.com')
@@ -100,7 +104,4 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordS
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_Summary'), 
     'QA test summary field content here')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_Header'), 
-    'PAP Press Release Header')
 
