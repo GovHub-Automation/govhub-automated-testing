@@ -33,8 +33,11 @@ WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/webform')
 WebUI.setText(findTestObject('Object Repository/Page_Create Webform  Digital Services Georgia/input_Title_title0value'), 
     'QA test webform with automation')
 
+String timestamp = System.nanoTime()
+String titleTimesamp = shortTitle + ' ' + timestamp
+
 WebUI.setText(findTestObject('Object Repository/Page_Create Webform  Digital Services Georgia/input_Short Title_field_short_title0value'), 
-    shortTitle)
+    titleTimesamp)
 
 WebUI.click(findTestObject('Object Repository/Page_Create Webform  Digital Services Georgia/p'))
 
@@ -53,7 +56,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Webform automa
 
 String url = WebUI.getUrl()
 
-String urlCheck = WebUI.concatenate((([GlobalVariable.Environment, shortTitle]) as String[]), FailureHandling.STOP_ON_FAILURE)
+pathAlias = shortTitle + '-' + timestamp
+String urlCheck = WebUI.concatenate((([GlobalVariable.Environment, pathAlias]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(url, urlCheck, true)
 
