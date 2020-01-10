@@ -48,10 +48,6 @@ WebUI.click(findTestObject('Page_Create FAQ  Digital Services Georgia/Add anothe
 WebUI.setText(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/input_Question_field_faq1ga_rich_string_sec_a5431b'), 
     'Qa test FAQ question 2')
 
-WebUI.click(findTestObject('Page_Create FAQ  Digital Services Georgia/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'))
-
-WebUI.setText(findTestObject('Page_Create FAQ  Digital Services Georgia/Rich text editor for FAQ 2 answer'), 'QA test FAQ answer 2')
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/select_DraftPublishedArchived'), 
     'published', true)
 
@@ -64,8 +60,6 @@ WebUI.delay(10)
 String url = WebUI.getUrl()
 
 String urlCheck = WebUI.concatenate((([GlobalVariable.Environment, shortTitle]) as String[]), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyMatch(url, urlCheck, true)
 
 WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ Page title'), 'FAQ created with automation')
 

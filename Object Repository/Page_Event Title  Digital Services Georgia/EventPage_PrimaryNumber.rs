@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div[3]/div/div[2]/div[2]/div/div/div/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = '(404) 321-4567' or . = '(404) 321-4567')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
