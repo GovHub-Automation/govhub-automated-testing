@@ -6,14 +6,18 @@
    <elementGuidId>5ede337b-8c22-40df-ae3d-287ebcc89b96</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'edit-field-subtitle-0-value']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='edit-field-subtitle-0-value']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -48,7 +52,7 @@
       <value>edit-field-subtitle-0-value</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
