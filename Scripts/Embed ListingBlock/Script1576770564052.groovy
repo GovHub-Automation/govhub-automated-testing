@@ -52,3 +52,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Embed/Embed Listi
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed ListingBlock/Page_Embed Automation  Digital Services Georgia/a_Link 1'), 
     0)
 
+WebUI.closeBrowser()
+
