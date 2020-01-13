@@ -22,6 +22,9 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create T
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/span_Call To Action'))
 
+WebUI.switchToFrame(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/iframe_Add CTA_entity_browser'), 
+    5)
+
 WebUI.click(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'))
 
 WebUI.setText(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'), 
@@ -41,6 +44,8 @@ WebUI.click(findTestObject('Page_Embed/Embed CTA/Page_Create Topic Page  Digital
 
 WebUI.delay(3)
 
+WebUI.switchToDefaultContent()
+
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/Embed_button'))
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -50,4 +55,6 @@ WebUI.verifyElementText(findTestObject('Page_Embed/Embed CTA/Page_Embed Automati
 
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed CTA/Page_Embed Automation  Digital Services Georgia/a_Click Me'), 
     0)
+
+WebUI.closeBrowser()
 
