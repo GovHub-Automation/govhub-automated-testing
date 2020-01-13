@@ -21,6 +21,9 @@ WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digit
 
 WebUI.click(findTestObject('Page_Embed/Embed Remote/Page_Create Topic Page  Digital Services Georgia/span_Remote media'))
 
+WebUI.switchToFrame(findTestObject('Page_Embed/Embed Remote/Page_Create Topic Page  Digital Services Georgia/iframe_Add Remote Media_entity_browser_iframe_remote_media_browser_iframe'), 
+    5)
+
 WebUI.click(findTestObject('Page_Embed/Embed Remote/Page_Create Topic Page  Digital Services Georgia/input_Name_inline_entity_formname0value'))
 
 WebUI.setText(findTestObject('Page_Embed/Embed Remote/Page_Create Topic Page  Digital Services Georgia/input_Name_inline_entity_formname0value'), 
@@ -33,10 +36,16 @@ WebUI.setText(findTestObject('Page_Embed/Embed Remote/Page_Create Topic Page  Di
 
 WebUI.click(findTestObject('Page_Embed/Embed Remote/Page_Create Topic Page  Digital Services Georgia/Select_button'))
 
+WebUI.delay(1)
+
+WebUI.switchToDefaultContent()
+
 WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Remote/Page_Embed Automation  Digital Services Georgia/div_Embed Automation_card-wrapper__content'), 
     0)
+
+WebUI.closeBrowser()
 
