@@ -42,3 +42,5 @@ WebUI.verifyElementText(findTestObject('Page_Embed/Embed CodeBlock/Page_Embed Au
 
 WebUI.delay(3)
 
+WebUI.closeBrowser()
+

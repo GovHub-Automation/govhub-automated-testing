@@ -59,3 +59,5 @@ WebUI.verifyElementText(findTestObject('Page_Embed/Embed LinkCollection/Page_Emb
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed LinkCollection/Page_Embed Automation  Digital Services Georgia/a_Link 1'), 
     0)
 
+WebUI.closeBrowser()
+

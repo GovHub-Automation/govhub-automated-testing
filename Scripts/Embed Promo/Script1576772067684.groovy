@@ -22,7 +22,7 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create T
 WebUI.click(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/span_Promo'))
 
 WebUI.switchToFrame(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/iframe_Add Promo_entity_browser_iframe_promo_browser_entity_embed'), 
-    0)
+    5)
 
 WebUI.setText(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'), 
     'From Automation')
@@ -55,4 +55,6 @@ WebUI.verifyElementText(findTestObject('Page_Embed/Embed Promo/Page_Embed Automa
 
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Promo/Page_Embed Automation  Digital Services Georgia/a_Example'), 
     0)
+
+WebUI.closeBrowser()
 

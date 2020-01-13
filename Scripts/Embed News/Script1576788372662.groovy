@@ -80,3 +80,5 @@ WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed News/Page_Embed Auto
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed News/Page_Embed Automation  Digital Services Georgia/p_Heres a required summary'), 
     0)
 
+WebUI.closeBrowser()
+
