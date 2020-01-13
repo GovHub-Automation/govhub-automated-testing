@@ -21,9 +21,16 @@ WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digit
 
 WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/span_Image media'))
 
+WebUI.switchToFrame(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/iframe_Add Image_entity_browser_iframe_image_browser_entity_embed'), 
+    5)
+
 WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/div_Open_Select this item'))
 
 WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/Select_button'))
+
+WebUI.delay(1)
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
@@ -31,4 +38,6 @@ WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Image/Page_Embed Automation  Digital Services Georgia/article_embedded_image'), 
     0)
+
+WebUI.closeBrowser()
 
