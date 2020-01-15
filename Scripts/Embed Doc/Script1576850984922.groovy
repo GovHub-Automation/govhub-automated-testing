@@ -22,9 +22,16 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed Doc/Page_Create T
 
 WebUI.click(findTestObject('Page_Embed/Embed Doc/Page_Create Topic Page  Digital Services Georgia/span_Embed Document_cke_button_icon cke_button__document_icon'))
 
+WebUI.switchToFrame(findTestObject('Page_Embed/Embed Doc/Page_Create Topic Page  Digital Services Georgia/iframe_Add Document_entity_browser_iframe_document_browser_entity_embed'), 
+    5)
+
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed Doc/Page_Create Topic Page  Digital Services Georgia/input_Select_document'))
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed Doc/Page_Create Topic Page  Digital Services Georgia/Select_button'))
+
+WebUI.delay(1)
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
@@ -32,4 +39,6 @@ WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Doc/Page_Embed Automation  Digital Services Georgia/div_2018_vssr_how_to_guidepdf                (127 MB)'), 
     0)
+
+WebUI.closeBrowser()
 

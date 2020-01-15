@@ -45,3 +45,5 @@ WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILU
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Video/Page_Embed Automation  Digital Services Georgia/div_Embed Automation_card-wrapper__content'), 
     0)
 
+WebUI.closeBrowser()
+

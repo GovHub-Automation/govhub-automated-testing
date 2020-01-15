@@ -64,13 +64,6 @@
       <type>Main</type>
       <value>id(&quot;entity-browser-image-browser-entity-embed-form&quot;)/div[@class=&quot;ga-entity-browser-view view view-media-browser view-id-media_browser view-display-id-image js-view-dom-id-237697a2ff704fca27e33fa9225c9ad6f7c676aa29e87f38e66e1eef842b2a0a&quot;]/div[@class=&quot;view-content&quot;]/div[@class=&quot;views-view-grid horizontal cols-4 clearfix&quot;]/div[@class=&quot;views-row clearfix row-1&quot;]/div[@class=&quot;views-col col-1&quot;]</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Embed/Embed Image/Page_Create Topic Page  Digital Services Georgia/iframe_Add Image_entity_browser_iframe_image_browser_entity_embed</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

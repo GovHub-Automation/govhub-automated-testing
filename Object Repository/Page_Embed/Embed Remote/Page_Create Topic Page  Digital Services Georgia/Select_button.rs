@@ -68,13 +68,6 @@
       <type>Main</type>
       <value>id(&quot;edit-submit&quot;)</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Embed/Embed Remote/Page_Create Topic Page  Digital Services Georgia/iframe_Add Remote Media_entity_browser_iframe_remote_media_browser_iframe</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

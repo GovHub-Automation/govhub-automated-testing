@@ -40,5 +40,5 @@ WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILU
 WebUI.verifyElementText(findTestObject('Page_Embed/Embed CodeBlock/Page_Embed Automation  Digital Services Georgia/div_From Automation'), 
     'From Automation')
 
-WebUI.delay(3)
+WebUI.closeBrowser()
 
