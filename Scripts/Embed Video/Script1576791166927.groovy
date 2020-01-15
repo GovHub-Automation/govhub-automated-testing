@@ -24,6 +24,8 @@ WebUI.click(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digit
 WebUI.switchToFrame(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/iframe_Add Video_entity_browser_iframe_video_browser_entity_embed'), 
     5)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/a_Create Remote Video'))
 
 WebUI.setText(findTestObject('Page_Embed/Embed Video/Page_Create Topic Page  Digital Services Georgia/input_Name_inline_entity_formname0value'), 
