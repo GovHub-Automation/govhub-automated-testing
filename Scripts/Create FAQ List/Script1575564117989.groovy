@@ -28,8 +28,12 @@ WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/a_FAQAnsw
 
 WebUI.setText(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/input_Title_title0value'), 'FAQ created with automation')
 
+String timestamp = System.nanoTime()
+
+String titleTimesamp = (shortTitle + ' ') + timestamp
+
 WebUI.setText(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/input_Short Title_field_short_title0value'), 
-    shortTitle)
+    titleTimesamp)
 
 WebUI.click(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/p (1)'))
 
@@ -59,7 +63,11 @@ WebUI.delay(10)
 
 String url = WebUI.getUrl()
 
-String urlCheck = WebUI.concatenate((([GlobalVariable.Environment, shortTitle]) as String[]), FailureHandling.STOP_ON_FAILURE)
+pathAlias = ((shortTitle + '-') + timestamp)
+
+String urlCheck = WebUI.concatenate((([GlobalVariable.Environment, pathAlias]) as String[]), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyMatch(url, urlCheck, true)
 
 WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ Page title'), 'FAQ created with automation')
 
