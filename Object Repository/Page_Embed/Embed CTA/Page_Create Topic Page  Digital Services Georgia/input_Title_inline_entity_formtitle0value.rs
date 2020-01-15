@@ -6,12 +6,12 @@
    <elementGuidId>d07357bf-23e8-4abd-b4ed-6d97b4d7ffd2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='edit-inline-entity-form-title-0-value']</value>
+         <key>BASIC</key>
+         <value>//input[@data-drupal-selector = 'edit-inline-entity-form-title-0-value' and @type = 'text']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@data-drupal-selector = 'edit-inline-entity-form-title-0-value' and @type = 'text' and @id = 'edit-inline-entity-form-title-0-value' and @ref_element = 'Object Repository/Page_Embed/Embed CTA/Page_Create Topic Page  Digital Services Georgia/iframe_Add CTA_entity_browser']</value>
+         <key>XPATH</key>
+         <value>//input[@id='edit-inline-entity-form-title-0-value']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

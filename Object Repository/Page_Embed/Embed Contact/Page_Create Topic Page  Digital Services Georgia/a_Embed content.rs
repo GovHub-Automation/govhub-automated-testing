@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Embed micro-content</name>
+   <name>a_Embed content</name>
    <tag></tag>
-   <elementGuidId>d0d63878-a7a2-414d-9b84-2c2b1fe42639</elementGuidId>
+   <elementGuidId>127fd1de-6ab6-4e6e-9ae3-16b3b775ed68</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@title = 'Embed micro-content']</value>
+         <value>//a[@title = 'Embed content']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='cke_58']</value>
+         <value>//a[@id='cke_62']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,28 +28,28 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>cke_58</value>
+      <value>cke_62</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>cke_button cke_button__ga_micro_content cke_button_expandable cke_button_off</value>
+      <value>cke_button cke_button__ga_content cke_button_off cke_button_expandable</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>javascript:void('Embed micro-content')</value>
+      <value>javascript:void('Embed content')</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Embed micro-content</value>
+      <value>Embed content</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,14 +77,14 @@
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>cke_58_label</value>
+      <value>cke_62_label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-describedby</name>
       <type>Main</type>
-      <value>cke_58_description</value>
+      <value>cke_62_description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -105,21 +105,21 @@
       <matchCondition>equals</matchCondition>
       <name>onkeydown</name>
       <type>Main</type>
-      <value>return CKEDITOR.tools.callFunction(74,event);</value>
+      <value>return CKEDITOR.tools.callFunction(77,event);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onfocus</name>
       <type>Main</type>
-      <value>return CKEDITOR.tools.callFunction(75,event);</value>
+      <value>return CKEDITOR.tools.callFunction(78,event);</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>CKEDITOR.tools.callFunction(76,this);return false;</value>
+      <value>CKEDITOR.tools.callFunction(79,this);return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -133,62 +133,62 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Embed micro-content</value>
+      <value> Embed content</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;cke_58&quot;)</value>
+      <value>id(&quot;cke_62&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='cke_58']</value>
+      <value>//a[@id='cke_62']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//span[@id='cke_55']/span[3]/a[3]</value>
+      <value>//span[@id='cke_58']/span[3]/a[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unlink'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Embed micro-content'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keyboard shortcut Command+K'])[2]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unlink'])[2]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Embed content'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Media'])[4]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, &quot;javascript:void('Embed micro-content')&quot;)]</value>
+      <value>//a[contains(@href, &quot;javascript:void('Embed content')&quot;)]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[3]/span[3]/a[3]</value>
+      <value>//span[3]/span[3]/a[4]</value>
    </webElementXpaths>
 </WebElementEntity>

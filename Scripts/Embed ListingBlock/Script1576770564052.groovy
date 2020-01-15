@@ -29,6 +29,8 @@ WebUI.click(findTestObject('Create Listing Block/Page_Create Topic Page  Digital
 WebUI.switchToFrame(findTestObject('Object Repository/Page_Embed/Embed ListingBlock/Page_Create Topic Page  Digital Services Georgia/iframe_Add Listing Block_entity_browser_iframe_listing_block_browser_entity_embed'), 
     5)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Create Listing Block/Page_Create Topic Page  Digital Services Georgia/a_Listing Block Library'))
 
 WebUI.click(findTestObject('Create Listing Block/Page_Create Topic Page  Digital Services Georgia/input_Select this item_entity_browser_selectnode19056'))

@@ -6,14 +6,18 @@
    <elementGuidId>d7d438e4-be9f-474b-b242-2eb25e4da7b7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Contact' or . = 'Contact') and @ref_element = 'Object Repository/Page_Embed/Embed Contact/Page_Create Topic Page  Digital Services Georgia/iframe_Check again_cke_151_frame']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@id='cke_1480']/span/span[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

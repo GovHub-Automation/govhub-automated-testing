@@ -24,6 +24,8 @@ WebUI.click(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digit
 WebUI.switchToFrame(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/iframe_Add Promo_entity_browser_iframe_promo_browser_entity_embed'), 
     5)
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Page_Embed/Embed Promo/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'), 
     'From Automation')
 
