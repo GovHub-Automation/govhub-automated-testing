@@ -56,13 +56,18 @@ WebUI.delay(6)
 
 WebUI.callTestCase(findTestCase('Embed Start No Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Embed/Embed Contact/Page_Create Topic Page  Digital Services Georgia/span_Embed content_cke_button_arrow'))
+WebUI.click(findTestObject('Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/a_Embed content'))
 
 WebUI.click(findTestObject('Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/span_Bio'))
+
+WebUI.switchToFrame(findTestObject('Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/iframe_Add Bio_entity_browser_iframe_bio_browser_entity_embed'), 
+    5)
 
 WebUI.click(findTestObject('Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/input_Select_bio'))
 
 WebUI.click(findTestObject('Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/Select_button'))
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
@@ -70,4 +75,6 @@ WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILU
 
 WebUI.verifyElementText(findTestObject('Page_Embed/Embed Bio/Page_Embed Automation  Digital Services Georgia/a_Bio_Name'), 
     'From Automation')
+
+WebUI.closeBrowser()
 

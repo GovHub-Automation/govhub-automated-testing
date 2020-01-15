@@ -6,12 +6,12 @@
    <elementGuidId>2a81a788-5404-4404-9ce3-75a52dc983e8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-node17951']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@type = 'checkbox' and contains(@id, 'edit-entity-browser-select-node') and @ref_element = 'Object Repository/Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/iframe_Add Bio_entity_browser_iframe_bio_browser_entity_embed']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='edit-entity-browser-select-node17951']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -71,13 +71,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;edit-entity-browser-select-node&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/iframe_Add Bio_entity_browser_iframe_bio_browser_entity_embed</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
