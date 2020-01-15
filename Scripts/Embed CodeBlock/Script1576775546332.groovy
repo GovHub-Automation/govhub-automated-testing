@@ -21,6 +21,9 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create T
 
 WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/span_Code Block'))
 
+WebUI.switchToFrame(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/iframe_Select_entity_browser'), 
+    5)
+
 WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'))
 
 WebUI.setText(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/input_Title_inline_entity_formtitle0value'), 
@@ -32,6 +35,8 @@ WebUI.setText(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page 
     'From Automation')
 
 WebUI.click(findTestObject('Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/Code_block_save_button'))
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 

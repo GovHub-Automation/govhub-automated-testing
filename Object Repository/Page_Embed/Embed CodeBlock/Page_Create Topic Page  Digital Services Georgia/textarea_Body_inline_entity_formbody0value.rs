@@ -89,13 +89,6 @@
       <type>Main</type>
       <value>id(&quot;edit-inline-entity-form-body-0-value&quot;)</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Embed/Embed CodeBlock/Page_Create Topic Page  Digital Services Georgia/iframe_Select_entity_browser</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

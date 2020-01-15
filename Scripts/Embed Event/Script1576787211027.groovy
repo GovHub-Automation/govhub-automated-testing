@@ -24,6 +24,8 @@ WebUI.click(findTestObject('Page_Embed/Embed Event/Page_Create Topic Page  Digit
 WebUI.switchToFrame(findTestObject('Page_Embed/Embed Event/Page_Create Topic Page  Digital Services Georgia/iframe_Add Event_entity_browser_iframe_event_browser_entity_embed'), 
     5)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_Embed/Embed Event/Page_Create Topic Page  Digital Services Georgia/input_Select_event'))
 
 WebUI.click(findTestObject('Page_Embed/Embed Event/Page_Create Topic Page  Digital Services Georgia/Select_button'))
