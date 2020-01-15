@@ -51,13 +51,18 @@ WebUI.delay(4)
 
 WebUI.callTestCase(findTestCase('Embed Start No Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_Embed/Embed Contact/Page_Create Topic Page  Digital Services Georgia/span_Embed content_cke_button_arrow'))
+WebUI.click(findTestObject('Page_Embed/Embed Contact/Page_Create Topic Page  Digital Services Georgia/a_Embed content'))
 
 WebUI.click(findTestObject('Page_Embed/Embed Contact/Page_Create Topic Page  Digital Services Georgia/span_Contact'))
+
+WebUI.switchToFrame(findTestObject('Page_Embed/Embed Contact/Page_Create Topic Page  Digital Services Georgia/iframe_Add Contact_entity_browser_iframe_contact_browser_entity_embed'), 
+    5)
 
 WebUI.click(findTestObject('Page_Embed/Embed Contact/Page_Create Topic Page  Digital Services Georgia/input_Select_contact'))
 
 WebUI.click(findTestObject('Page_Embed/Embed Contact/Page_Create Topic Page  Digital Services Georgia/Submit_button'))
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Page_Create Topic Page  Digital Services Georgia/button_Embed'))
 
