@@ -49,5 +49,8 @@ WebUI.click(findTestObject('Page_Create Emergency  Digital Services Georgia/inpu
 WebUI.verifyElementText(findTestObject('Page_Emergency - Automation  Digital Servic_c924a0/h1_Emergency - Automation'), 
     'Emergency - Automation')
 
+WebUI.verifyElementPresent(findTestObject('Page_Create Emergency  Digital Services Georgia/Page_Emergency - Automation  Digital Services Georgia/a_Learn More About This Emergency'), 
+    0)
+
 WebUI.closeBrowser()
 
