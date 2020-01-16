@@ -68,13 +68,6 @@
       <type>Main</type>
       <value>id(&quot;edit-submit&quot;)</value>
    </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Create Press Release  Digital Services Georgia/iframe_Close_entity_browser_iframe_contact_browser</value>
-   </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>

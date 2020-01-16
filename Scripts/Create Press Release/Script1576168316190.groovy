@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
 
-WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/a_Press Release'))
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Page_Add content  Digital Services Georgia/span_Press Release'))
 
 WebUI.setText(findTestObject('Page_Create Press Release Digital Services Georgia/input_Title_title0value'), 'Press Release - Automation')
 
@@ -39,22 +39,34 @@ WebUI.click(findTestObject('Page_Create Press Release Digital Services Georgia/S
 
 WebUI.setText(findTestObject('Page_Create Press Release Digital Services Georgia/Summary Text'), 'Here\'s a summary for the press release.')
 
-WebUI.click(findTestObject('Page_Create Press Release Digital Services Georgia/html_Rich Text Editor Body'))
+WebUI.click(findTestObject('Page_Create Press Release Digital Services Georgia/body_Here is the body content for the press_18a268'))
 
 WebUI.setText(findTestObject('Page_Create Press Release Digital Services Georgia/body_Here is the body content for the press_18a268'), 
     'Here is the body content for the press release.')
 
 WebUI.click(findTestObject('Page_Create Press Release Digital Services Georgia/input_Contact Information_field_contact_ent_e32c28'))
 
+WebUI.switchToFrame(findTestObject('Page_Create Press Release  Digital Services Georgia/Page_Create Press Release  Digital Services Georgia/iframe_Close_entity_browser_iframe_document_browser'), 
+    5)
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_Create Press Release Digital Services Georgia/input_Select this item_entity_browser_selectnode17721'))
 
 WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Select Contact'))
 
+WebUI.switchToDefaultContent()
+
 WebUI.click(findTestObject('Page_Create Press Release Digital Services Georgia/input_PDF Version_field_pdf_entity_browser__ac0069'))
 
-WebUI.click(findTestObject('Page_Create Press Release Digital Services Georgia/input_Select this item_entity_browser_selectmedia4966'))
+WebUI.switchToFrame(findTestObject('Page_Create Press Release  Digital Services Georgia/Page_Create Press Release  Digital Services Georgia/iframe_Close_entity_browser_iframe_document_browser'), 
+    5)
+
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Page_Create Press Release  Digital Services Georgia/input_Select document_entity_browser_selectmedia'))
 
 WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Select Document'))
+
+WebUI.switchToDefaultContent()
 
 WebUI.click(findTestObject('Page_Create Press Release Digital Services Georgia/input_Select the appropriate Press letterhe_440eaa'))
 
@@ -75,11 +87,26 @@ WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/
 WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('Page_Create Press Release Digital Services Georgia/select_DraftPublishedArchived'), 
-    'published', true)
+    'draft', true)
 
-WebUI.click(findTestObject('Page_Create Press Release Digital Services Georgia/div_Associate this content with        Prog_1ebaa7'))
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Page_Create Press Release  Digital Services Georgia/Save_button'))
 
 WebUI.delay(4)
+
+WebUI.verifyElementText(findTestObject('Page_Create Press Release  Digital Services Georgia/Page_Press Release  Digital Services Georgia/h1_Press Release - Automation'), 
+    'Press Release - Automation')
+
+WebUI.verifyElementPresent(findTestObject('Page_Create Press Release  Digital Services Georgia/Page_Press Release  Digital Services Georgia/img'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Create Press Release  Digital Services Georgia/Page_Press Release  Digital Services Georgia/div_Contact'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Create Press Release  Digital Services Georgia/Page_Press Release  Digital Services Georgia/div_Related Files'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('Page_Create Press Release  Digital Services Georgia/Page_Press Release  Digital Services Georgia/p_Here is the body content for the press release'), 
+    0)
 
 WebUI.closeBrowser()
 

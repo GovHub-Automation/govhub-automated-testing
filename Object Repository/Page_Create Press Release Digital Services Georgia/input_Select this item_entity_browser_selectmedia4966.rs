@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='edit-entity-browser-select-media4966']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-media') and @type = 'checkbox' and @ref_element = 'Object Repository/Page_Create Press Release Digital Services Georgia/iframe_Close_entity_browser_iframe_document_eb065b']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,18 +24,18 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>entity_browser_select[media:4966]</value>
+      <value>entity_browser_select[media:</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-media4966</value>
+      <value>edit-entity-browser-select-media</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,18 +45,18 @@
       <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>false</isSelected>
+      <matchCondition>contains</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-entity-browser-select-media4966</value>
+      <value>edit-entity-browser-select-media</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>media:4966</value>
+      <value>media:</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,10 +67,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-entity-browser-select-media4966&quot;)</value>
+      <value>id(&quot;edit-entity-browser-select-media&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
