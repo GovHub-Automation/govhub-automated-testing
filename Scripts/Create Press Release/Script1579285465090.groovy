@@ -58,6 +58,17 @@ WebUI.click(findTestObject('Create Press Release/Page_Edit Press Release From Au
 
 WebUI.switchToDefaultContent()
 
+WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/Add_Document_button'))
+
+WebUI.switchToFrame(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/iframe_Add_Document_frame'), 
+    5)
+
+WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/Document_select_checkbox'))
+
+WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/Document_select_button'))
+
+WebUI.switchToDefaultContent()
+
 WebUI.click(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/Add_Header_Image_button'))
 
 WebUI.switchToFrame(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/iframe_Add_Header_frame'), 
@@ -66,6 +77,19 @@ WebUI.switchToFrame(findTestObject('Create Press Release/Page_Edit Press Release
 WebUI.click(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/input_Add_Header_select_entity_browser_checkbox'))
 
 WebUI.click(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/Add_Header_Select_button'))
+
+WebUI.switchToDefaultContent()
+
+WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/Add_Related_File_button'))
+
+WebUI.switchToFrame(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/iframe_Add_Related_File_frame'), 
+    0)
+
+WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/a_Image Library'))
+
+WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/div_Image_to_select'))
+
+WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/Image_select_button'))
 
 WebUI.switchToDefaultContent()
 
@@ -87,4 +111,9 @@ WebUI.verifyElementPresent(findTestObject('Create Press Release/Page_From Automa
 
 WebUI.verifyElementPresent(findTestObject('Create Press Release/Page_From Automation  Digital Services Georgia/div_Contact'), 
     0)
+
+WebUI.verifyElementText(findTestObject('Create Press Release/Page_From Automation  Digital Services Georgia/h2_Related Files'), 
+    'Related Files')
+
+WebUI.closeBrowser()
 
