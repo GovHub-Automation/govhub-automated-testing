@@ -69,7 +69,7 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Pa
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Embed/Embed Contact/Page_Embed Automation  Digital Services Georgia/h2_Contact'), 
-    'Contact From Automation')
+    'Contact From Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

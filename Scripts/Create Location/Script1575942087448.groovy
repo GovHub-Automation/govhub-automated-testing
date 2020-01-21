@@ -187,44 +187,44 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location
 WebUI.click(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/Location_Save_Button'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Breadcrumb'), 
-    'QA Test location with Automation')
+    'QA Test location with Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_PageTitle'), 
-    'QA Test location with Automation')
+    'QA Test location with Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_StreetAddress'), 
-    '1234 Test Ave')
+    '1234 Test Ave', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_City'), 
-    'Gainesville')
+    'Gainesville', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Country'), 
-    'United States')
+    'United States', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_State'), 
-    'FL')
+    'FL', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_ZipCode'), 
-    '32607')
+    '32607', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_AdditionalInformation'), 
-    'QA test additional information field content here')
+    'QA test additional information field content here', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours1Days'), 
-    'Sunday - Monday:  ')
+    'Sunday - Monday:  ', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours1Times'), 
-    '05:00 am - 05:00 pm')
+    '05:00 am - 05:00 pm', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours2Days'), 
-    'Tuesday:  ')
+    'Tuesday:  ', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours2Times'), 
-    '05:00 pm - 05:00 pm')
+    '05:00 pm - 05:00 pm', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours3Days'), 
-    'Wednesday - Saturday:  ')
+    'Wednesday - Saturday:  ', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours3Times'), 
-    '05:00 am - 05:00 pm')
+    '05:00 am - 05:00 pm', FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -46,11 +46,11 @@ WebUI.selectOptionByLabel(findTestObject('Create Listing Block/Page_Create Listi
 WebUI.click(findTestObject('Create Listing Block/Page_Create Listing block  Digital Services Georgia/save_button'))
 
 WebUI.verifyElementText(findTestObject('Create Listing Block/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
-    'From Automation')
+    'From Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Listing Block/Page_From Automation  Digital Services Georgia/div_Link 1'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Listing Block/Page_From Automation  Digital Services Georgia/a_Link 1'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -71,12 +71,14 @@ WebUI.click(findTestObject('Object Repository/Bio Objects/Page_Create Bio  Digit
 WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_New Book  Digital Services Georgia/NewBook_Breadcrumb'), 
-    'New Book - Automation')
+    'New Book - Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_New Book  Digital Services Georgia/NewBookPage_Title'), 'New Book - Automation')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_New Book  Digital Services Georgia/NewBookPage_Title'), 'New Book - Automation', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_New Book  Digital Services Georgia/BookPage_Body'), 'Here\'s some body text for this new book page')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_New Book  Digital Services Georgia/BookPage_Body'), 'Here\'s some body text for this new book page', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_New Book  Digital Services Georgia/NewBook_ShortTitle'), 
-    'Short Title\nNew Book')
+    'Short Title\nNew Book', FailureHandling.CONTINUE_ON_FAILURE)
 

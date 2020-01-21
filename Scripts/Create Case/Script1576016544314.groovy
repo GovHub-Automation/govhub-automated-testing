@@ -83,50 +83,50 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Case  Di
 WebUI.click(findTestObject('Object Repository/Page_Create Case  Digital Services Georgia/input_Save as_op'))
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Breadcrumb'), 
-    'Unsolved Homicide: QA test case with automation')
+    'Unsolved Homicide: QA test case with automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_PageTitle'), 
-    'Unsolved Homicide: QA test case with automation')
+    'Unsolved Homicide: QA test case with automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Name'), 
-    'Test McTesterson')
+    'Test McTesterson', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_IncidentDate'), 
-    'Sat, 07/20/2019 - 12:00')
+    'Sat, 07/20/2019 - 12:00', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Race'), 
-    'QA Test Race')
+    'QA Test Race', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Location'), 
-    'QA Test location for case')
+    'QA Test location for case', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Weight'), 
-    '185')
+    '185', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Height'), 
-    '5\' 10"')
+    '5\' 10"', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_EyeColor'), 
-    'Brown')
+    'Brown', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_HairColor'), 
-    'Black')
+    'Black', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Sex'), 
-    'Male')
+    'Male', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Age'), 
-    '25')
+    '25', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_BirthRange'), 
-    '1970-1980')
+    '1970-1980', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_ContactInfo'), 
-    'QA test contact info')
+    'QA test contact info', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Narrative'), 
-    'QA test narrative text content here.')
+    'QA test narrative text content here.', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Crimes'), 
-    'QA test crimes')
+    'QA test crimes', FailureHandling.CONTINUE_ON_FAILURE)
 

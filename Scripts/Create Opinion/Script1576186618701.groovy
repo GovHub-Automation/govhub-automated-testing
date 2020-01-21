@@ -49,15 +49,16 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Opinion 
 
 WebUI.click(findTestObject('Page_Create Opinion  Digital Services Georgia/opionnode_savebutton'))
 
-WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode_breadcrumb'), '123456')
+WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode_breadcrumb'), '123456', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode_title'), 'Unofficial Opinion 123456')
+WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode_title'), 'Unofficial Opinion 123456', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode__published'), 'Published')
+WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode__published'), 'Published', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode_to'), 'MCQA To Field')
+WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode_to'), 'MCQA To Field', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode_re'), 'Test Re Field')
+WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode_re'), 'Test Re Field', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode_body'), 'Body Test')
+WebUI.verifyElementText(findTestObject('Page_123456  Digital Services Georgia/opinionnode_body'), 'Body Test', FailureHandling.CONTINUE_ON_FAILURE)
 

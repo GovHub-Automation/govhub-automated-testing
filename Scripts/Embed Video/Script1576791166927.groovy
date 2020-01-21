@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Page_Embed/Embed Image/Page_Create Topic Page  Digit
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Video/Page_Embed Automation  Digital Services Georgia/div_Embed Automation_card-wrapper__content'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

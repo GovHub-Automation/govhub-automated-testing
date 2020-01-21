@@ -104,40 +104,45 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/Save Bio'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Title'), 'Jasmyne Epps')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Title'), 'Jasmyne Epps', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_JobTitle'), 
-    'Testing Lead')
+    'Testing Lead', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_StaffOption'), 
-    'OUR TEAM')
+    'OUR TEAM', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Intro'), 'Here\'s some intro text')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Intro'), 'Here\'s some intro text', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/Bio_MoreInformation'), 
-    'Here\'s some more information about Jasmyne Epps.')
+    'Here\'s some more information about Jasmyne Epps.', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_ContactNotes'), 
-    'Here are some contact notes for Jasmyne')
+    'Here are some contact notes for Jasmyne', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_PrimaryNumber'), 
-    '(404) 321-4567')
+    '(404) 321-4567', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_FaxNumber'), 
-    '(770) 321-4567')
+    '(770) 321-4567', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Email'), 'https://google.com')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Email'), 'https://google.com', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Address'), 
-    '47 Trinity Ave SW')
+    '47 Trinity Ave SW', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_City'), 'Atlanta')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_City'), 'Atlanta', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_State'), 'GA')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_State'), 'GA', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_ZipCode'), 
-    '30334')
+    '30334', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Country'), 
-    'United States')
+    'United States', FailureHandling.CONTINUE_ON_FAILURE)
 

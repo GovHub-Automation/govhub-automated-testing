@@ -79,29 +79,29 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Official
 WebUI.click(findTestObject('Object Repository/Page_Create Official Record  Digital Services Georgia/OfficialRecord_Node_Save_Button'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_Title'), 
-    'QA test official record with automation')
+    'QA test official record with automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_Body'), 
-    'QA test body field content here')
+    'QA test body field content here', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_ShortTitle'), 
-    'Short Title\nQAOfficialRecordShortTitle')
+    'Short Title\nQAOfficialRecordShortTitle', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_Subtitle'), 
-    'Subtitle\nQATestSubTitle')
+    'Subtitle\nQATestSubTitle', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_RecordType'), 
-    'Record Type\nLegislation')
+    'Record Type\nLegislation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_Author'), 
-    'Keena Hamillton')
+    'Keena Hamillton', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_ReleaseDate'), 
-    'Fri, 12/20/2019 - 12:00')
+    'Fri, 12/20/2019 - 12:00', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_ExternalLink'), 
-    'Read More')
+    'Read More', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_Summary'), 
-    'QA test summary field content here')
+    'QA test summary field content here', FailureHandling.CONTINUE_ON_FAILURE)
 

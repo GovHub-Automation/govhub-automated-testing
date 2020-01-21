@@ -52,7 +52,8 @@ WebUI.setText(findTestObject('Page_Create_Important_Date/input_Time_field_id_dat
 
 WebUI.click(findTestObject('Page_Create_Important_Date/input_Save as_op'))
 
-WebUI.verifyElementText(findTestObject('Page_Create_Important_Date/h1_Important Date Automation'), 'Important Date Automation')
+WebUI.verifyElementText(findTestObject('Page_Create_Important_Date/h1_Important Date Automation'), 'Important Date Automation', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementAttributeValue(findTestObject('Page_Create_Important_Date/a_Click Me'), 'text', 'Click Me!', 0)
+WebUI.verifyElementAttributeValue(findTestObject('Page_Create_Important_Date/a_Click Me'), 'text', 'Click Me!', 0, FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -89,22 +89,22 @@ WebUI.click(findTestObject('Create Organization/Page_Create Organization  Digita
 WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Create Organization/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
-    'From Automation')
+    'From Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Organization/Page_From Automation  Digital Services Georgia/p_Overview text'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Organization/Page_From Automation  Digital Services Georgia/div_Office'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Organization/Page_From Automation  Digital Services Georgia/h2_Contact'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Organization/Page_From Automation  Digital Services Georgia/h2_Visit'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Organization/Page_From Automation  Digital Services Georgia/a_Location details'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -68,14 +68,15 @@ WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Se
 
 WebUI.click(findTestObject('Page_Create How Do I  Digital Services Georgia/input_Save as_op'))
 
-WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h1_How Do I From Automation'), 'How Do I Automation?')
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h1_How Do I From Automation'), 'How Do I Automation?', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/p_Explain'), 'Explain')
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/p_Explain'), 'Explain', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/p_Steps'), 'Steps')
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/p_Steps'), 'Steps', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h2_Step 1'), 'Step 1')
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/h2_Step 1'), 'Step 1', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementAttributeValue(findTestObject('Page_From Automation  Digital Services Georgia/a_example'), 'text', 'example', 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 

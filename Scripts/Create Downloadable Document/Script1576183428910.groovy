@@ -38,7 +38,9 @@ WebUI.setText(findTestObject('Page_Create_downloadable_document/textarea_Descrip
     'The document description.')
 
 String userDir = System.getProperty('user.dir')
+
 String filePath = userDir + '/Data Files/dummy.pdf'
+
 WebUI.uploadFile(findTestObject('Page_Create_downloadable_document/input_File_filesfield_media_file_0'), filePath)
 
 WebUI.click(findTestObject('Page_Create_downloadable_document/select_Day'))
@@ -57,10 +59,12 @@ WebUI.click(findTestObject('Page_Create_downloadable_document/Save button'))
 
 WebUI.click(findTestObject('Page_Create_downloadable_document/a_View Document From Automation'))
 
-WebUI.verifyElementText(findTestObject('Page_Create_downloadable_document/h1_Document From Automation'), 'Document From Automation')
+WebUI.verifyElementText(findTestObject('Page_Create_downloadable_document/h1_Document From Automation'), 'Document From Automation', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Create_downloadable_document/div_The document description'), 'The document description.')
+WebUI.verifyElementText(findTestObject('Page_Create_downloadable_document/div_The document description'), 'The document description.', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementAttributeValue(findTestObject('Page_Create_downloadable_document/a_Document From Automation'), 'text', 
-    'Document From Automation', 0)
+    'Document From Automation', 0, FailureHandling.CONTINUE_ON_FAILURE)
 
