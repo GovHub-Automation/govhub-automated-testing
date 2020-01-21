@@ -6,28 +6,32 @@
    <elementGuidId>11e982f6-11f4-4940-803a-5812f50e6414</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//li[@class = 'breadcrumb__item']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content']/div/div[2]/nav/ul/li[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>breadcrumb__item</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

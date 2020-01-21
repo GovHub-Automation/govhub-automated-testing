@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>b</name>
+   <name>Icon_field_dropdown_arrow</name>
    <tag></tag>
    <elementGuidId>6f05d75e-5542-4223-a20b-fe40e134341b</elementGuidId>
    <selectorCollection>
