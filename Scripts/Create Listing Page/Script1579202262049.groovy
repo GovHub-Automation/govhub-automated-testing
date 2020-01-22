@@ -53,16 +53,16 @@ WebUI.click(findTestObject('Create Listing Page/Page_Create Listing Page  Digita
 WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Create Listing Page/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
-    'From Automation')
+    'From Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Listing Page/Page_From Automation  Digital Services Georgia/p_Summary text'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Listing Page/Page_From Automation  Digital Services Georgia/main_Summary div'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Listing Page/Page_From Automation  Digital Services Georgia/div_Bio card'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -51,7 +51,7 @@ WebUI.selectOptionByValue(findTestObject('Alert Objects/Page_Create Alert  Digit
 WebUI.click(findTestObject('Alert Objects/Page_Create Alert  Digital Services Georgia/input_Save as_op'))
 
 WebUI.verifyElementPresent(findTestObject('Alert Objects/Page_Alert Title - Type Notice  Digital Services Georgia/h1_Alert Title - Type Notice'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.closeBrowser()
 

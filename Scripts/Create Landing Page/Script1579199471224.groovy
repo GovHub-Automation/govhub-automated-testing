@@ -45,7 +45,7 @@ WebUI.selectOptionByValue(findTestObject('Create Landing Page/Page_Create Landin
 WebUI.click(findTestObject('Create Landing Page/Page_Create Landing Page  Digital Services Georgia/Save_button'))
 
 WebUI.verifyElementPresent(findTestObject('Create Landing Page/Page_From Automation  Digital Services Georgia/li_From Automation'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

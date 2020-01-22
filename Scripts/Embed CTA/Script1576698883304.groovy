@@ -51,10 +51,10 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed CTA/Page_Create T
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Embed/Embed CTA/Page_Embed Automation  Digital Services Georgia/h2_From Automation'), 
-    'From Automation')
+    'From Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed CTA/Page_Embed Automation  Digital Services Georgia/a_Click Me'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

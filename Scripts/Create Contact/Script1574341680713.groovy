@@ -81,5 +81,5 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Page_Create Contact  Digital Services Georgia/input_Save Contact'))
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/h1_Contact       Jasmyne Epps'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 

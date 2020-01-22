@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services 
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Page_Embed Automation  Digital Services Georgia/div_Item 1'), 
-    'Item 1')
+    'Item 1', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

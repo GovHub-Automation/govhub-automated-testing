@@ -47,10 +47,10 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Emergency  Digital S
 WebUI.click(findTestObject('Page_Create Emergency  Digital Services Georgia/input_Published_op'))
 
 WebUI.verifyElementText(findTestObject('Page_Emergency - Automation  Digital Servic_c924a0/h1_Emergency - Automation'), 
-    'Emergency - Automation')
+    'Emergency - Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create Emergency  Digital Services Georgia/Page_Emergency - Automation  Digital Services Georgia/a_Learn More About This Emergency'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

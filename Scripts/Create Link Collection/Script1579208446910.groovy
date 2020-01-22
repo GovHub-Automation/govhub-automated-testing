@@ -45,19 +45,19 @@ WebUI.click(findTestObject('Create Link Collection/Page_Create Link Collection  
 WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Create Link Collection/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
-    'From Automation')
+    'From Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Link Collection/Page_From Automation  Digital Services Georgia/p_Summary text'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Link Collection/Page_From Automation  Digital Services Georgia/h2_From Automation'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Link Collection/Page_From Automation  Digital Services Georgia/p_Description text'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create Link Collection/Page_From Automation  Digital Services Georgia/a_Example link'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

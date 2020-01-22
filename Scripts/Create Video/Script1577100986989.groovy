@@ -43,10 +43,12 @@ WebUI.click(findTestObject('Object Repository/Page_Add Remote video  Digital Ser
 
 WebUI.click(findTestObject('Object Repository/Page_Media  Digital Services Georgia/a_MCQA Video Test'))
 
-WebUI.verifyElementText(findTestObject('Page_MCQA Video Test  Digital Services Georgia/remotevideo_breadcrumb'), 'MCQA Video Test')
+WebUI.verifyElementText(findTestObject('Page_MCQA Video Test  Digital Services Georgia/remotevideo_breadcrumb'), 'MCQA Video Test', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_MCQA Video  Digital Services Georgia/videonode_remotevideotitle'), 'Name' + '\n' + 'MCQA Video Test')
+WebUI.verifyElementText(findTestObject('Page_MCQA Video  Digital Services Georgia/videonode_remotevideotitle'), ('Name' + 
+    '\n') + 'MCQA Video Test', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_MCQA Video  Digital Services Georgia/videonode_remotevideocaption'), 
-    'MCQA Video')
+    'MCQA Video', FailureHandling.CONTINUE_ON_FAILURE)
 

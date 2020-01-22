@@ -51,18 +51,18 @@ WebUI.click(findTestObject('Create CTA/Page_Create Call To Action  Digital Servi
 WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
-    'From Automation')
+    'From Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/div_From Automation'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/h2_From Automation'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/p_Description text'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/a_Click Me'), 0)
+WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/a_Click Me'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

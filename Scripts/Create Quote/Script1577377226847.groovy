@@ -20,7 +20,7 @@ WebUI.callTestCase(findTestCase('Authenticate Prod'), [:], FailureHandling.STOP_
 
 WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
+WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.navigateToUrl(GlobalVariable.Environment + 'node/add/quote')
 
@@ -30,18 +30,22 @@ WebUI.click(findTestObject('Page_Create Quote  Digital Services Georgia/QuoteNod
 
 WebUI.setText(findTestObject('Page_Create Quote  Digital Services Georgia/QuoteNode_QuoteHTML'), 'QA test quote text body content here.')
 
-WebUI.click(findTestObject('Object Repository/Page_Create Quote  Digital Services Georgia/b'))
+WebUI.click(findTestObject('Page_Create Quote  Digital Services Georgia/Icon_field_dropdown_arrow'))
 
-WebUI.click(findTestObject('Page_Create Quote  Digital Services Georgia/li_Allowed HTML tags a href hreflang name id em strong p br'))
+WebUI.setText(findTestObject('Page_Create Quote  Digital Services Georgia/Page_Create Quote  Digital Services Georgia/input__select2-search__field'), 
+    'Animal: Dog')
 
-WebUI.click(findTestObject('Page_Create Quote  Digital Services Georgia/input_Published_op'))
+WebUI.sendKeys(findTestObject('Page_Create Quote  Digital Services Georgia/Page_Create Quote  Digital Services Georgia/input__select2-search__field'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.verifyElementText(findTestObject('Page_QA test quote with automation title  Digital Services Georgia/QuoteNode_Breadcrumb'), 
-    'QA test quote with automation title')
+WebUI.click(findTestObject('Page_Create Quote  Digital Services Georgia/Save_button'))
 
 WebUI.verifyElementText(findTestObject('Page_QA test quote with automation title  Digital Services Georgia/QuoteNode_PageTitle'), 
-    'QA test quote with automation title')
+    'QA test quote with automation title', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_QA test quote with automation title  Digital Services Georgia/QuoteNode_QuoteText'), 
-    'QA test quote text body content here.')
+    'QA test quote text body content here.', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Page_Create Quote  Digital Services Georgia/Page_QA test quote with automation title  Digital Services Georgia/a_Animal Dog'), 
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -41,7 +41,8 @@ WebUI.setText(findTestObject('Create Accordion/Page_Create Accordion  Digital Se
 WebUI.click(findTestObject('Create Accordion/Page_Create Accordion  Digital Services Georgia/Save_button'))
 
 WebUI.verifyElementText(findTestObject('Create Accordion/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
-    'From Automation')
+    'From Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Create Accordion/Page_From Automation  Digital Services Georgia/div_Item 1'), 'Item 1')
+WebUI.verifyElementText(findTestObject('Create Accordion/Page_From Automation  Digital Services Georgia/div_Item 1'), 'Item 1', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -51,8 +51,8 @@ WebUI.click(findTestObject('Page_Create Topic Page  Digital Services Georgia/Pag
 WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create Topic Page  Digital Services Georgia/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create Topic Page  Digital Services Georgia/Page_From Automation  Digital Services Georgia/p_Heres the body content of the Topic Page'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 

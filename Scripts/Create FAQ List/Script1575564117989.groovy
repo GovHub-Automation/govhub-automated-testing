@@ -69,11 +69,15 @@ String urlCheck = WebUI.concatenate((([GlobalVariable.Environment, pathAlias]) a
 
 WebUI.verifyMatch(url, urlCheck, true)
 
-WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ Page title'), 'FAQ created with automation')
+WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ Page title'), 'FAQ created with automation', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ overview paragraph'), 'QA test FAQ overview content.')
+WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ overview paragraph'), 'QA test FAQ overview content.', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ question 1'), 'QA test FAQ question 1')
+WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ question 1'), 'QA test FAQ question 1', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ question 2'), 'Qa test FAQ question 2')
+WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ question 2'), 'Qa test FAQ question 2', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 

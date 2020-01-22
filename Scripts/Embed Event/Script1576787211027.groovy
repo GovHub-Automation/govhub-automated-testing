@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed LinkCollection/Pa
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Event/Page_Embed Automation  Digital Services Georgia/h3_Event'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

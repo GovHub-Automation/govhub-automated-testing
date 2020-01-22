@@ -38,7 +38,7 @@ WebUI.click(findTestObject('Object Repository/Page_Embed/Embed Image/Page_Create
 WebUI.callTestCase(findTestCase('Embed End'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Embed/Embed Doc/Page_Embed Automation  Digital Services Georgia/div_2018_vssr_how_to_guidepdf                (127 MB)'), 
-    0)
+    0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 
