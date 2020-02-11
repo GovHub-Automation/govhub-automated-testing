@@ -64,4 +64,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create Landing Page</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>804e8245-425f-41b2-a84f-53e5bcca5414</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create News</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
