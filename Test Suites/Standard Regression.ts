@@ -70,4 +70,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create News</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6cd74536-bc92-49d2-8a51-d7758249c7e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Official Record</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
