@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'checkbox' and contains(@id, 'edit-entity-browser-select-node') and @ref_element = 'Object Repository/Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/iframe_Add Bio_entity_browser_iframe_bio_browser_entity_embed']</value>
+         <value>//*[@type = 'checkbox' and contains(@id, 'edit-entity-browser-select-node')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -71,6 +71,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;edit-entity-browser-select-node&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/iframe_Add Bio_entity_browser_iframe_bio_browser_entity_embed</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

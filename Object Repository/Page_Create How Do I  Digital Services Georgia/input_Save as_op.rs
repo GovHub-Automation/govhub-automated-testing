@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//input[@id='edit-protected-save']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;edit-protected-save&quot;)[count(. | //*[@type = 'submit' and @id = 'edit-protected-save']) = count(//*[@type = 'submit' and @id = 'edit-protected-save'])]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -55,7 +59,7 @@
       <value>edit-protected-save</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -69,7 +73,7 @@
       <value> Save </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

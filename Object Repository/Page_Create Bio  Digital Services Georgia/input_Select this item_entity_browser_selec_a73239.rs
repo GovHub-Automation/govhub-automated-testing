@@ -6,11 +6,15 @@
    <elementGuidId>e3e1de20-8b5f-4116-8518-0c694a2f06c7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'entity_browser_select[node:17646]' and @type = 'checkbox' and @ref_element = 'Object Repository/Page_Create Bio  Digital Services Georgia/iframe_Close_entity_browser_iframe_contact_browser_1']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='entity_browser_select[node:17646]']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -6,12 +6,12 @@
    <elementGuidId>6ea18d5d-ae4f-49d2-ad63-a93282369fea</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-node13851']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-node') and @type = 'checkbox' and @ref_element = 'Object Repository/Page_Create Contact  Digital Services Georgia/iframe_Close_entity_browser_iframe_location_browser']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='edit-entity-browser-select-node13851']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

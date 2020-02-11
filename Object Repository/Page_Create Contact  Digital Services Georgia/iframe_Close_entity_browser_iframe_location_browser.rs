@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/entity-browser/modal/location_browser?uuid=9e582c4ac126e774a31858253b542999fe8ab319&amp;original_path=/node/add/contact</value>
+      <value>/entity-browser/modal/location_browser?uuid=ec04e12795d477375000fada2d4d8e968e885862&amp;original_path=/node/add/contact</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='field-location-location-browser-dialog--n3_bUxM3wCI']/iframe</value>
+      <value>//div[@id='field-location-location-browser-dialog--H-lZvn-2PzI']/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,6 +88,13 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/iframe</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='field-location-location-browser-dialog--n3_bUxM3wCI']/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

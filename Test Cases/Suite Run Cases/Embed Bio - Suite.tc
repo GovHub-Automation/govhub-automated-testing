@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Embed Bio - Suite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>097861f7-8015-425e-bb7b-a8ad4a024114</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b35b5c51-7b69-42b7-a8ff-608cb66f5557</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
