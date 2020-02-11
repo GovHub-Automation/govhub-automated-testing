@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div/h1</value>
+         <value>//main/div/h1</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'FAQ - Automation' or . = 'FAQ - Automation')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,8 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>      FAQ created with automation
-  </value>
+      <value>FAQ - Automation</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

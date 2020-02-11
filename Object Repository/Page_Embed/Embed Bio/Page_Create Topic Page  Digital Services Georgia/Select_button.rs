@@ -6,8 +6,12 @@
    <elementGuidId>51a87f4b-1185-4f70-9bab-517cb2c5751c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @id = 'edit-submit' and @name = 'op' and @ref_element = 'Object Repository/Page_Embed/Embed Bio/Page_Create Topic Page  Digital Services Georgia/Select content to embed iframe']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-submit']</value>
+         <value>/html/body/div[1]/div/main/div/div/div/form/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

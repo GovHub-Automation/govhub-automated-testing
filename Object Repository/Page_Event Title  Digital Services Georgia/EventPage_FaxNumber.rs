@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[(text() = '(770) 321-4567' or . = '(770) 321-4567')]</value>
+         <value>//a[(text() = '(404) 234-5678' or . = '(404) 234-5678')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>(770) 321-4567</value>
+      <value>(404) 234-5678</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

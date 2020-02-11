@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='entity_browser_select[media:4966]']</value>
+         <value>//form[@id='entity-browser-related-files-browser-form']/div/div[2]/table/tbody/tr/td/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'entity_browser_select[media:4966]' and @type = 'checkbox' and @ref_element = 'Object Repository/Page_Create Event  Digital Services Georgia/Related File iframe']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

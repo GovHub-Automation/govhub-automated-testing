@@ -6,12 +6,12 @@
    <elementGuidId>77ba796f-7eb7-4401-aac2-f4c67b9046f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main-content']/div/div[3]/div/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div/a</value>
+         <key>BASIC</key>
+         <value>//a[(text() = '(334) 234-5678' or . = '(334) 234-5678')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = '(770) 321-4567' or . = '(770) 321-4567')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='main-content']/div/div[3]/div/div[2]/div[2]/div/div[2]/div[2]/div[2]/div/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>(770) 321-4567</value>
+      <value>(334) 234-5678</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
