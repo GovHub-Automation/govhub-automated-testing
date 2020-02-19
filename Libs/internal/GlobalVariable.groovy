@@ -12,11 +12,6 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object Environment
-     
-    /**
-     * <p></p>
-     */
     public static Object url
      
     /**
@@ -111,7 +106,6 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += RunConfiguration.getOverridingParameters()
     
-            Environment = selectedVariables['Environment']
             url = selectedVariables['url']
             firstName = selectedVariables['firstName']
             lastName = selectedVariables['lastName']
