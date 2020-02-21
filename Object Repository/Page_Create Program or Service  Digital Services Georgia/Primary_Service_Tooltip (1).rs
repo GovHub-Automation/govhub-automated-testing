@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Authored_On_DateTime_Tooltip</name>
+   <name>Primary_Service_Tooltip (1)</name>
    <tag></tag>
-   <elementGuidId>00a87645-cd29-4a42-a6f0-17ea9fd52986</elementGuidId>
+   <elementGuidId>57c927da-8060-48b6-8316-0528194ed690</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='edit-created-0-value--description']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'edit-created-0-value--description' and (contains(text(), '
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  ') or contains(., '
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  '))]</value>
+         <value>//div[@id='edit-field-service-is-primary-value--description']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-created-0-value--description</value>
+      <value>edit-field-service-is-primary-value--description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,74 +35,67 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  </value>
+      This service will be featured on the primary organization (About Us) page for your site, and is eligible to be shared to Georgia.gov.
+    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-created-0-value--description&quot;)</value>
+      <value>id(&quot;edit-field-service-is-primary-value--description&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='edit-created-0-value--description']</value>
+      <value>//div[@id='edit-field-service-is-primary-value--description']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-created-wrapper']/div[2]</value>
+      <value>//div[@id='edit-field-service-is-primary-wrapper']/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This is a Primary Service'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion options'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rich Text Editor, Overview field'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sticky at top of lists'])[1]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Format:']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='This service will be featured on the primary organization (About Us) page for your site, and is eligible to be shared to Georgia.gov.']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//details[6]/div/div[2]/div[2]</value>
+      <value>//div[4]/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

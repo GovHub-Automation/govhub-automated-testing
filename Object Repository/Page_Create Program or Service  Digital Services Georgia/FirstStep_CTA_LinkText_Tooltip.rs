@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Authored_On_DateTime_Tooltip</name>
+   <name>FirstStep_CTA_LinkText_Tooltip</name>
    <tag></tag>
-   <elementGuidId>00a87645-cd29-4a42-a6f0-17ea9fd52986</elementGuidId>
+   <elementGuidId>dd2032a4-0414-4149-93ae-b35ea066bbae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='edit-created-0-value--description']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'edit-created-0-value--description' and (contains(text(), '
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  ') or contains(., '
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  '))]</value>
+         <value>//div[@id='edit-field-first-step-0--description']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-created-0-value--description</value>
+      <value>edit-field-first-step-0--description</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,74 +35,65 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  </value>
+      <value>When referencing documents, we ignore &quot;Link text&quot; and use the document's name instead.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-created-0-value--description&quot;)</value>
+      <value>id(&quot;edit-field-first-step-0--description&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='edit-created-0-value--description']</value>
+      <value>//div[@id='edit-field-first-step-0--description']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-created-wrapper']/div[2]</value>
+      <value>//fieldset[@id='edit-field-first-step-0']/div/div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Link text'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start typing to find content or paste a URL and click on the suggestion below.'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion options'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Associate this content with...'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sticky at top of lists'])[1]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Format:']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Division / Section'])[2]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//details[6]/div/div[2]/div[2]</value>
+      <value>//fieldset/div/div[3]</value>
    </webElementXpaths>
 </WebElementEntity>

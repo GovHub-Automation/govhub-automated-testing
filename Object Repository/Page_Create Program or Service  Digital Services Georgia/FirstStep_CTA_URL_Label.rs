@@ -1,116 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Authored_On_DateTime_Tooltip</name>
+   <name>FirstStep_CTA_URL_Label</name>
    <tag></tag>
-   <elementGuidId>00a87645-cd29-4a42-a6f0-17ea9fd52986</elementGuidId>
+   <elementGuidId>004cb6f3-6742-4773-b9a1-3e09bd99201f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='edit-created-0-value--description']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'edit-created-0-value--description' and (contains(text(), '
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  ') or contains(., '
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  '))]</value>
+         <value>//fieldset[@id='edit-field-first-step-0']/div/div/label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>edit-created-0-value--description</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>for</name>
       <type>Main</type>
-      <value>description</value>
+      <value>edit-field-first-step-0-uri</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  </value>
+      <value>URL</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-created-0-value--description&quot;)</value>
+      <value>id(&quot;edit-field-first-step-0&quot;)/div[@class=&quot;fieldset-wrapper&quot;]/div[@class=&quot;js-form-item form-item js-form-type-linkit form-type-linkit js-form-item-field-first-step-0-uri form-item-field-first-step-0-uri&quot;]/label[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='edit-created-0-value--description']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-created-wrapper']/div[2]</value>
+      <value>//fieldset[@id='edit-field-first-step-0']/div/div/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Step'])[2]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About text formats'])[2]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion options'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start typing to find content or paste a URL and click on the suggestion below.'])[1]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sticky at top of lists'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Link text'])[1]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Format:']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='URL']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//details[6]/div/div[2]/div[2]</value>
+      <value>//fieldset/div/div/label</value>
    </webElementXpaths>
 </WebElementEntity>
