@@ -1,116 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Authored_On_DateTime_Tooltip</name>
+   <name>Logo_Label</name>
    <tag></tag>
-   <elementGuidId>00a87645-cd29-4a42-a6f0-17ea9fd52986</elementGuidId>
+   <elementGuidId>0fa37f86-04c2-457b-87fb-b61282d6478e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='edit-created-0-value--description']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'edit-created-0-value--description' and (contains(text(), '
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  ') or contains(., '
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  '))]</value>
+         <value>//details[@id='edit-field-logo']/summary</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>summary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>role</name>
       <type>Main</type>
-      <value>edit-created-0-value--description</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>edit-field-logo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-pressed</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>description</value>
+      <value>seven-details__summary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-    Format: 2020-02-18 21:33:22. Leave blank to use the time of form submission.
-  </value>
+      <value>Logo</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-created-0-value--description&quot;)</value>
+      <value>id(&quot;edit-field-logo&quot;)/summary[@class=&quot;seven-details__summary&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='edit-created-0-value--description']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-created-wrapper']/div[2]</value>
+      <value>//details[@id='edit-field-logo']/summary</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About text formats'])[1]/following::summary[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Elements path'])[1]/following::summary[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotion options'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audience'])[1]/preceding::summary[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sticky at top of lists'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Step'])[1]/preceding::summary[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Format:']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='Logo']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//details[6]/div/div[2]/div[2]</value>
+      <value>//summary</value>
    </webElementXpaths>
 </WebElementEntity>
