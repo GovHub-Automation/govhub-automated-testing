@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_DraftPublishedArchived</name>
+   <name>div_Published_edit-actions</name>
    <tag></tag>
-   <elementGuidId>fd6988d6-880f-460f-9bcc-5370c4b5f0f3</elementGuidId>
+   <elementGuidId>e51658b3-78d7-45f6-968f-3c631eeca32b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/main/div/div/div/form/div[2]/input</value>
+         <value>//div[@id='edit-actions']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,104 +17,83 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>edit-moderation-state-0-state</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>edit-moderation-state-0-state</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>moderation_state[0][state]</value>
+      <value>edit-actions</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-select</value>
+      <value>form-actions js-form-wrapper form-wrapper</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value>DraftPublishedArchived</value>
+      <value>edit-actions</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-moderation-state-0-state&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Create News  Digital Services Georgia/Select a Bio iframe</value>
+      <value>id(&quot;edit-actions&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='edit-moderation-state-0-state']</value>
+      <value>//div[@id='edit-actions']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-moderation-state-0']/div/select</value>
+      <value>//form[@id='node-cta-form']/div/div[2]/div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save as'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Published'])[1]/following::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Scheduled state changes may take up to 10 minutes to take place, after the specified time.'])[1]/following::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Briefly describe the changes you have made.'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Tray ', '&quot;', 'Administration menu', '&quot;', ' opened.')])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Tray ', '&quot;', 'Administration menu', '&quot;', ' opened.')])[1]/preceding::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'edit-moderation-state-0-state', '&quot;', ')')])[1]/preceding::select[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::div[10]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/select</value>
+      <value>//div[2]/div[3]</value>
    </webElementXpaths>
 </WebElementEntity>

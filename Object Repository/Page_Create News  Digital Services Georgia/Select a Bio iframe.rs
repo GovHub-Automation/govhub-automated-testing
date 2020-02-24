@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Next page_op</name>
+   <name>Select a Bio iframe</name>
    <tag></tag>
-   <elementGuidId>8243e5b0-9ffd-4f8e-8444-632a99e32212</elementGuidId>
+   <elementGuidId>bf291c1d-a8dc-4be6-b10c-fe80964b93f1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-submit']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and @id = 'edit-submit' and @name = 'op' and @ref_element = 'Object Repository/Page_Create News  Digital Services Georgia/iframe_Close_entity_browser_iframe_bio_browser']</value>
+         <value>//iframe[@id='entity_browser_iframe_bio_browser']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,83 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>iframe</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/entity-browser/modal/bio_browser?uuid=2ebe027ae3617a921227a446f9f44147a17e8817&amp;original_path=/node/add/news</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>is-entity-browser-submit button button--primary js-form-submit form-submit</value>
+      <value>entity-browser-modal-iframe</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-drupal-selector</name>
+      <name>width</name>
       <type>Main</type>
-      <value>edit-submit</value>
+      <value>100%</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>frameborder</name>
       <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>edit-submit</value>
+      <value>0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>op</value>
+      <value>entity_browser_iframe_bio_browser</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>value</name>
+      <name>id</name>
       <type>Main</type>
-      <value>Select</value>
+      <value>entity_browser_iframe_bio_browser</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-submit&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Create News  Digital Services Georgia/iframe_Close_entity_browser_iframe_bio_browser</value>
+      <value>id(&quot;entity_browser_iframe_bio_browser&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='edit-submit']</value>
+      <value>//iframe[@id='entity_browser_iframe_bio_browser']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(//div[@id='edit-actions']/input)[2]</value>
+      <value>//div[@id='field-author-bio-browser-dialog--0SxEPvziOO0']/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
+      <value>//div[2]/iframe</value>
    </webElementXpaths>
 </WebElementEntity>

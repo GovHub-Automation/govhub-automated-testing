@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Next page_op</name>
+   <name>Select button for Bio</name>
    <tag></tag>
-   <elementGuidId>8243e5b0-9ffd-4f8e-8444-632a99e32212</elementGuidId>
+   <elementGuidId>5170b27a-0105-4670-92f6-164e15985b18</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='edit-submit']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and @id = 'edit-submit' and @name = 'op' and @ref_element = 'Object Repository/Page_Create News  Digital Services Georgia/iframe_Close_entity_browser_iframe_bio_browser']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -71,13 +67,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;edit-submit&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Create News  Digital Services Georgia/iframe_Close_entity_browser_iframe_bio_browser</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

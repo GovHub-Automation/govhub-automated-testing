@@ -16,13 +16,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
-WebUI.navigateToUrl(GlobalVariable.Environment + 'node/add-microcontent')
+WebUI.navigateToUrl(GlobalVariable.url + '/node/add-microcontent')
+
+'Maximize current window'
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Create CTA/Page_Add micro-content  Digital Services Georgia/span_Call To Action'))
 
@@ -46,7 +49,14 @@ WebUI.setText(findTestObject('Create CTA/Page_Create Call To Action  Digital Ser
 WebUI.sendKeys(findTestObject('Create CTA/Page_Create Call To Action  Digital Services Georgia/input_add_Icon-search__field'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Create CTA/Page_Create Call To Action  Digital Services Georgia/Save_button'))
+WebUI.delay(3)
+
+'Scroll to top'
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page_Create Call To Action  Digital Services Georgia/input_Published_op'))
 
 WebUI.delay(3)
 

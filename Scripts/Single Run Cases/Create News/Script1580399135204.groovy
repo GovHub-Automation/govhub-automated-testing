@@ -60,7 +60,7 @@ WebUI.click(findTestObject('Object Repository/Page_Create News  Digital Services
 
 WebUI.click(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/input_Select this item_entity_browser_selectnode17121'))
 
-WebUI.click(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/input_Next page_op'))
+WebUI.click(findTestObject('Page_Create News  Digital Services Georgia/Select a Bio'))
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/select_DraftPublishedArchived'), 
     'published', true)
