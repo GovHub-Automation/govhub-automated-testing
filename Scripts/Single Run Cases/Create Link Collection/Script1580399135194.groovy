@@ -59,5 +59,3 @@ WebUI.verifyElementPresent(findTestObject('Create Link Collection/Page_From Auto
 WebUI.verifyElementPresent(findTestObject('Create Link Collection/Page_From Automation  Digital Services Georgia/a_Example link'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
-

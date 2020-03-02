@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>23725525-c4c5-43d0-bcb5-57f4e7fcd0dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create Bio</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -81,5 +81,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create Listing Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a37ad7e9-5b95-4b72-a78d-3f3bb3394d7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Organization</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0279b0e9-c929-4e21-9a0f-eeda46f8bf0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Press Release</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

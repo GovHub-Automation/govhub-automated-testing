@@ -16,9 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Editor  Digital Services Georgia/a_Content'))
 
@@ -112,7 +112,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digi
     'New Event - Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_Address'), 
-    '47 Trinity Avenue SW', FailureHandling.CONTINUE_ON_FAILURE)
+    '47 Trinity Ave SW', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_City'), 'Atlanta', 
     FailureHandling.CONTINUE_ON_FAILURE)

@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='block-ga-seven-content']/ul/li[7]/a</value>
+         <value>(//a[contains(@href, '/node/add/event')])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@href = '/node/add/event' and (text() = 'EventEvents open to the public, or official meetings they should be informed about.' or . = 'EventEvents open to the public, or official meetings they should be informed about.')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -23,6 +23,12 @@
       <testCaseId>Test Cases/Log In as Editor</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>3c0e9309-704c-40e6-80d9-fc569fcb27c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Authenticate Tugboat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>79df375e-c6f6-4dcd-9a2d-54d0e8fd4028</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

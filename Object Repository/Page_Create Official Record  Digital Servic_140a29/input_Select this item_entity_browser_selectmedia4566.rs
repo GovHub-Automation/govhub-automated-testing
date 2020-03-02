@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-media4566']</value>
+         <value>//form[@id='entity-browser-header-browser-form']/div/div[2]/table/tbody/tr/td/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -74,5 +74,3 @@ WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digi
 
 WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/a_Click Me'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
-
