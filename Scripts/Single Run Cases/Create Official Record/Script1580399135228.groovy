@@ -16,15 +16,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
 
-WebUI.click(findTestObject('Page_Create Official Record  Digital Servic_140a29/Page_Add content  Digital Services Georgia/span_Official Record'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Official Record'))
 
 WebUI.delay(1)
 
@@ -94,7 +94,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordS
     'Record Type\nLegislation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_Author'), 
-    'Keena Hamillton', FailureHandling.CONTINUE_ON_FAILURE)
+    'Jasmyne Epps', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_QAOfficialRecordShortTitle  Digital Services Georgia/OfficialRecord_Page_ReleaseDate'), 
     'Fri, 12/20/2019 - 12:00', FailureHandling.CONTINUE_ON_FAILURE)

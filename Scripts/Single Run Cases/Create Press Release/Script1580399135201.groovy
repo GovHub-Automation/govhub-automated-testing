@@ -16,15 +16,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Maximize current window'
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
 
-WebUI.click(findTestObject('Create Press Release/Page_Add content  Digital Services Georgia/span_Press Release'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Press Release'))
 
 WebUI.setText(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/input_Title_title0value'), 
     'From Automation')
@@ -47,51 +50,43 @@ WebUI.setText(findTestObject('Create Press Release/Page_Create Press Release  Di
 WebUI.setText(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/html_Rich Text Editor Body field'), 
     'Body text')
 
-WebUI.click(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/Add_Contact_button'))
+WebUI.delay(3)
 
-WebUI.switchToFrame(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/iframe_Add_Contact_entity_browser_frame'), 
-    5)
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Add Contact button'))
 
-WebUI.click(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/input_Contact_Select_entity_browser_checkbox'))
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Add Contact button'))
 
-WebUI.click(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/Add_Contact_Select_button'))
+WebUI.delay(2)
 
-WebUI.switchToDefaultContent()
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Select a Contact'))
 
-WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/Add_Document_button'))
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Save Contact button'))
 
-WebUI.switchToFrame(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/iframe_Add_Document_frame'), 
-    5)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/Document_select_checkbox'))
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Add PDF Document button'))
 
-WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/Document_select_button'))
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Select PDF Document'))
 
-WebUI.switchToDefaultContent()
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Save PDF Document'))
 
-WebUI.click(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/Add_Header_Image_button'))
+WebUI.delay(3)
 
-WebUI.switchToFrame(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/iframe_Add_Header_frame'), 
-    5)
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Add Header Image'))
 
-WebUI.click(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/input_Add_Header_select_entity_browser_checkbox'))
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Select Header Image'))
 
-WebUI.click(findTestObject('Create Press Release/Page_Edit Press Release From Automation  Digital Services Georgia/Add_Header_Select_button'))
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Save Header Image'))
 
-WebUI.switchToDefaultContent()
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/Add_Related_File_button'))
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Add Related File'))
 
-WebUI.switchToFrame(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/iframe_Add_Related_File_frame'), 
-    0)
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Select Related File'))
 
-WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/a_Image Library'))
+WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Save Related File'))
 
-WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/div_Image_to_select'))
-
-WebUI.click(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/Image_select_button'))
-
-WebUI.switchToDefaultContent()
+WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('Create Press Release/Page_Create Press Release  Digital Services Georgia/select_DraftNeeds ReviewPublishedArchived'), 
     'published', false)
@@ -114,6 +109,4 @@ WebUI.verifyElementPresent(findTestObject('Create Press Release/Page_From Automa
 
 WebUI.verifyElementText(findTestObject('Create Press Release/Page_From Automation  Digital Services Georgia/h2_Related Files'), 
     'Related Files', FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

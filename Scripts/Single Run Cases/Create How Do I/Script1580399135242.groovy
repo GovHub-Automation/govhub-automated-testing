@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services
 
 WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
 
-WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/span_How Do I (1)'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add How Do I'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_How Do I_title0value (1) (1)'), 
     'Automation')

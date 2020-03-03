@@ -6,8 +6,12 @@
    <elementGuidId>34235f7e-541d-4275-8af5-8f218410aded</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'entity_browser_select[node:17731]' and @type = 'checkbox' and @id = 'edit-entity-browser-select-node17731' and @ref_element = 'Object Repository/Page_Create How Do I  Digital Services Georgia/iframe_Close_entity_browser_iframe_contact_browser']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-node17731']</value>
+         <value>//form[@id='entity-browser-contact-browser-form']/div/div[2]/table/tbody/tr/td/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

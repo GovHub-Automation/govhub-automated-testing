@@ -15,15 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
 
-WebUI.click(findTestObject('Create Landing Page/Page_Add content  Digital Services Georgia/span_Landing Page'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Landing Page'))
 
 WebUI.setText(findTestObject('Create Landing Page/Page_Create Landing Page  Digital Services Georgia/input_Title_title0value'), 
     'Landing Page - Automation')
@@ -46,6 +46,4 @@ WebUI.click(findTestObject('Create Landing Page/Page_Create Landing Page  Digita
 
 WebUI.verifyElementPresent(findTestObject('Create Landing Page/Page_From Automation  Digital Services Georgia/li_From Automation'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

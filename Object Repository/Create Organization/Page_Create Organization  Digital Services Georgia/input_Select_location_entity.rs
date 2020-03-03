@@ -6,15 +6,15 @@
    <elementGuidId>0e3322ea-222b-4ffe-a71d-28bc63a17db3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-node20031']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-node') and @type = 'checkbox']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='entity-browser-location-browser-form']/div/div[2]/table/tbody/tr/td/div/input</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,6 +71,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;edit-entity-browser-select-node&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Create Organization/Page_Create Organization  Digital Services Georgia/iframe_Location_entity_browser</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

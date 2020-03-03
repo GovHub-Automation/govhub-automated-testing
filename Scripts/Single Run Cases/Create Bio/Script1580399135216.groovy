@@ -24,7 +24,7 @@ WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Geo
 
 WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
 
-WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/span_Bio'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Bio'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/input_First_field_full_name0given'))
 

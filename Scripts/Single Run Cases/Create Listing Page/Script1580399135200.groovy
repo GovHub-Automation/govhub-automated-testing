@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Maximize current window'
 WebUI.maximizeWindow()
@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
 
-WebUI.click(findTestObject('Create Listing Page/Page_Add content  Digital Services Georgia/span_Listing Page'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Listing Page'))
 
 WebUI.setText(findTestObject('Create Listing Page/Page_Create Listing Page  Digital Services Georgia/input_Title_title0value'), 
     'From Automation')
@@ -68,6 +68,4 @@ WebUI.verifyElementPresent(findTestObject('Create Listing Page/Page_From Automat
 
 WebUI.verifyElementPresent(findTestObject('Create Listing Page/Page_From Automation  Digital Services Georgia/div_Bio card'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

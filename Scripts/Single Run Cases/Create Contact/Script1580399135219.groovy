@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/span_Contact'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Contact'))
 
 WebUI.click(findTestObject('Page_Create Contact  Digital Services Georgia/input_First_field_split_name0given'))
 

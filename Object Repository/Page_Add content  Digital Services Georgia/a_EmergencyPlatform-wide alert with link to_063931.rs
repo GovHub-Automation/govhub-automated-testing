@@ -6,15 +6,15 @@
    <elementGuidId>739133ca-c5d4-4ad9-b820-89b788066df9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='block-ga-seven-content']/ul/li[6]/a</value>
+         <key>BASIC</key>
+         <value>//a[@href = '/node/add/emergency']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '/node/add/emergency' and (text() = 'EmergencyPlatform-wide alert with link to details.' or . = 'EmergencyPlatform-wide alert with link to details.')]</value>
+         <key>XPATH</key>
+         <value>(//a[contains(@href, '/node/add/emergency')])[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <value>/node/add/emergency</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

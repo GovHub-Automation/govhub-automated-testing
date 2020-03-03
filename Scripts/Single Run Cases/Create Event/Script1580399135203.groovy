@@ -16,9 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Editor  Digital Services Georgia/a_Content'))
 
@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Geo
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_EventEvents open to the public or official meetings they should be informed about'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Event'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Title_title0value (1)'), 
     'New Event - Automation')

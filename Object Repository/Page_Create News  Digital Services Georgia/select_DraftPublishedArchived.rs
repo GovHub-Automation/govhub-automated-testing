@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/main/div/div/div/form/div[2]/input</value>
+         <value>//select[@id='edit-moderation-state-0-state']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -60,13 +60,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;edit-moderation-state-0-state&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_Create News  Digital Services Georgia/Select a Bio iframe</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
