@@ -6,12 +6,12 @@
    <elementGuidId>cc7451e8-3718-4213-b0d6-a403073eb8c3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='entity-browser-location-browser-form']/div/div[2]/table/tbody/tr[8]/td/div/input</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@name = 'entity_browser_select[node:13856]' and @type = 'checkbox' and @id = 'edit-entity-browser-select-node13856' and @ref_element = 'Object Repository/Page_Create Event  Digital Services Georgia/iframe_Close_entity_browser_iframe_location_eef611']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//tr[1]/td/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

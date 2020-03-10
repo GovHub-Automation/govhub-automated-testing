@@ -50,6 +50,8 @@ WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Service
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/html_Rich Text Editor Intro Text'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/html_Rich Text Editor Intro Text'), 
     GlobalVariable.introContent)
 
