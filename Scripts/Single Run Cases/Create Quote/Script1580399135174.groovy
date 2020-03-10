@@ -16,13 +16,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Content'))
 
-WebUI.navigateToUrl(GlobalVariable.Environment + 'node/add/quote')
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Micro-content'))
+
+WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/Add micro-content'))
+
+WebUI.click(findTestObject('Page_Add micro-content  Digital Services Georgia/Add Quote'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Quote  Digital Services Georgia/input_Title_title0value'), 'QA test quote with automation title')
 

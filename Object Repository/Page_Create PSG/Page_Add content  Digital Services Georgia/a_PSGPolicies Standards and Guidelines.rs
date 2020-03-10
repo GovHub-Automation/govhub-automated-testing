@@ -6,15 +6,15 @@
    <elementGuidId>0dfbffdf-622d-4e27-98ee-2c2ce8cc3e33</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(@href, '/node/add/psg')])[2]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//a[@href = '/node/add/psg' and (text() = 'PSGPolicies, Standards and Guidelines' or . = 'PSGPolicies, Standards and Guidelines')]</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='block-ga-seven-content']/ul/li[19]/a</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

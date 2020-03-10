@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
@@ -63,7 +63,4 @@ WebUI.verifyElementText(findTestObject('Page_Create PSG/Page_PSG From Automation
 
 WebUI.verifyElementText(findTestObject('Page_Create PSG/Page_PSG From Automation (PSG From Automation)  Digital Services Georgia/p_Body text'), 
     'Body text.', FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyElementText(findTestObject('Page_Create PSG/Page_PSG From Automation (PSG From Automation)  Digital Services Georgia/p_Summary text'), 
-    'Summary text.', FailureHandling.CONTINUE_ON_FAILURE)
 

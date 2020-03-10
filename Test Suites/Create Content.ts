@@ -58,4 +58,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create Listing Block</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f22abf59-1227-44a6-b28b-71e93d4d28e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Video</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

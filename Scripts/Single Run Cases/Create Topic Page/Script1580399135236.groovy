@@ -16,16 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
-
-WebUI.scrollToElement(findTestObject('Page_Add content  Digital Services Georgia/a_Topic PageExplain a specific topic or provide additional details about another topic or service'), 
-    0)
 
 WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/a_Topic PageExplain a specific topic or provide additional details about another topic or service'))
 
