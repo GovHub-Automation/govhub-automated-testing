@@ -76,4 +76,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create Official Record</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d493745d-6431-4035-967d-bf77fe86cb5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Listing Page</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -19,6 +19,9 @@ WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandli
 
 WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'Maximize current window'
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
@@ -37,13 +40,15 @@ WebUI.setText(findTestObject('Create Listing Page/Page_Create Listing Page  Digi
 WebUI.click(findTestObject('Create Listing Page/Page_Create Listing Page  Digital Services Georgia/Add_Bio_button'))
 
 WebUI.switchToFrame(findTestObject('Create Listing Page/Page_Create Listing Page  Digital Services Georgia/iframe_Bio_entity_browser_iframe'), 
-    0)
+    30)
 
 WebUI.click(findTestObject('Create Listing Page/Page_Create Listing Page  Digital Services Georgia/input_Select_Bio_checkbox'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Create Listing Page/Page_Create Listing Page  Digital Services Georgia/Select_bio_button'))
 
-WebUI.switchToDefaultContent()
+WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('Create Listing Page/Page_Create Listing Page  Digital Services Georgia/select_DraftNeeds ReviewPublishedArchived'), 
     'published', false)

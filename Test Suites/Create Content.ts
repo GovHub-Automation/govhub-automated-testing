@@ -46,4 +46,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create Link Collection</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>16702c0b-0c4d-4392-93a9-5467910342f5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Listing Block</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
