@@ -6,7 +6,97 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'test-z1ogbn0kejsc2lracwgzidzjnt6sruxu.tugboat.qa'</initValue>
+      <initValue>'test-wia58v2drcedqxyiyd6y1upcetsjoggt.tugboat.qa'</initValue>
       <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jasmyne'</initValue>
+      <name>firstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Epps'</initValue>
+      <name>lastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'404-234-5678'</initValue>
+      <name>phone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'334-234-5678'</initValue>
+      <name>fax</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jasmyne.epps@gta.ga.gov'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'47 Trinity Ave SW'</initValue>
+      <name>address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Atlanta'</initValue>
+      <name>city</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GA'</initValue>
+      <name>state</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'30334'</initValue>
+      <name>zip</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'United States'</initValue>
+      <name>country</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://google.com'</initValue>
+      <name>website</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Summary...Proin faucibus tellus id odio facilisis efficitur vestibulum sit amet quam. Phasellus non ipsum est. Nulla facilisi.'</initValue>
+      <name>summaryContent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Intro...Proin faucibus tellus id odio facilisis efficitur vestibulum sit amet quam. Phasellus non ipsum est. Nulla facilisi.'</initValue>
+      <name>introContent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Body...Proin faucibus tellus id odio facilisis efficitur vestibulum sit amet quam. Phasellus non ipsum est. Nulla facilisi.'</initValue>
+      <name>bodyContent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bio...Proin faucibus tellus id odio facilisis efficitur vestibulum sit amet quam. Phasellus non ipsum est. Nulla facilisi.'</initValue>
+      <name>bioContent</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Notes...Proin faucibus tellus id odio facilisis efficitur vestibulum sit amet quam. Phasellus non ipsum est. Nulla facilisi.'</initValue>
+      <name>notes</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Testing Lead'</initValue>
+      <name>title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>username</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

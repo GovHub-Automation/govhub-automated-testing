@@ -20,7 +20,7 @@
       <guid>bbc3a770-6890-449a-bd8e-cf199a6b1446</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Log In as Editor</testCaseId>
+      <testCaseId>Test Cases/Log In</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>091f7ed7-53b4-45be-a2ca-d4ffedbade17</guid>
@@ -170,6 +170,6 @@
       <guid>4075f0c9-bf0b-4849-80da-8128c2660d0a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create Accordion</testCaseId>
+      <testCaseId>Test Cases/Single Run Cases/Create Accordion</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

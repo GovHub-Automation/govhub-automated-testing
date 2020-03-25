@@ -15,20 +15,16 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-if (true) {
-    WebUI.verifyElementPresent(findTestObject('Page_Log in to Georgia GovHub/input_username_username'), 0)
-
+if (WebUI.waitForElementVisible(findTestObject('Page_Log in to Georgia GovHub/input_username_username'), 1, FailureHandling.OPTIONAL)) {
     WebUI.setText(findTestObject('Page_Log in to Georgia GovHub/input_username_username'), 'Jasmyne.Epps@gta.ga.gov')
 
     WebUI.setEncryptedText(findTestObject('Page_Log in to Georgia GovHub/input_password_password'), '8/wq35ywakOjq/v8OqsNaA==')
 
     WebUI.click(findTestObject('Page_Log in to Georgia GovHub/button_Continue'))
 } else {
-    WebUI.verifyElementPresent(findTestObject('Page_Log in  Digital Services Georgia/input_(required)_name'), 0)
+    WebUI.setText(findTestObject('Page_Log in  Digital Services Georgia/input_(required)_name'), GlobalVariable.username)
 
-    WebUI.setText(findTestObject('Page_Log in  Digital Services Georgia/input_(required)_name'), 'Editor')
-
-    WebUI.setEncryptedText(findTestObject('Page_Log in  Digital Services Georgia/input_(required)_pass'), '8/wq35ywakOjq/v8OqsNaA==')
+    WebUI.setEncryptedText(findTestObject('Page_Log in  Digital Services Georgia/input_(required)_pass'), '8SQVv/p9jVScEs4/2CZsLw==')
 
     WebUI.click(findTestObject('Object Repository/Page_Log in  Digital Services Georgia/input_Enter the password that accompanies your username_op'))
 }

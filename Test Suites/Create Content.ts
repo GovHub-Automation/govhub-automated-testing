@@ -11,22 +11,16 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>7744cc27-ce78-49e3-bd5d-0b5703295faa</testSuiteGuid>
    <testCaseLink>
-      <guid>22420c64-77fa-4d21-aa42-965f03b8783b</guid>
+      <guid>c217c22d-eab5-4846-8e6d-c057bdfba9e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Authenticate Testing Site</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>33a92a76-890a-4e6c-97b3-2c0753c89a72</guid>
+      <guid>a71334ae-b48e-469c-be06-c1e59230b978</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Log In as Editor</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>3c0e9309-704c-40e6-80d9-fc569fcb27c0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Authenticate Tugboat</testCaseId>
+      <testCaseId>Test Cases/Single Run Cases/Create Alert</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>79df375e-c6f6-4dcd-9a2d-54d0e8fd4028</guid>
@@ -57,11 +51,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create Listing Block</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f22abf59-1227-44a6-b28b-71e93d4d28e2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Single Run Cases/Create Video</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Content</name>
+   <name>Add Alert</name>
    <tag></tag>
-   <elementGuidId>708dca33-f4b9-4bf3-97dc-38ac86c8c047</elementGuidId>
+   <elementGuidId>81e94cd6-9a89-469d-b38b-61f208a99109</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, '/admin/content')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@href = '/admin/content' and (text() = 'Content' or . = 'Content')]</value>
+         <value>(//a[contains(@href, '/node/add/alert')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,90 +24,69 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/admin/content</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>toolbar-icon toolbar-icon-system-admin-content</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-drupal-link-system-path</name>
-      <type>Main</type>
-      <value>admin/content</value>
+      <value>/node/add/alert</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Content</value>
+      <value>Alert</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;toolbar-item-administration-tray&quot;)/nav[@class=&quot;toolbar-lining clearfix&quot;]/div[@class=&quot;toolbar-menu-administration&quot;]/ul[@class=&quot;toolbar-menu&quot;]/li[@class=&quot;menu-item menu-item--expanded hover-intent&quot;]/a[@class=&quot;toolbar-icon toolbar-icon-system-admin-content&quot;]</value>
+      <value>id(&quot;block-ga-seven-content&quot;)/div[@class=&quot;type-tray-page layout--grid&quot;]/div[@class=&quot;type-tray-category category--news_announcements&quot;]/ul[1]/li[1]/div[@class=&quot;type-tray-teaser&quot;]/div[@class=&quot;type-tray__text&quot;]/h3[1]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='toolbar-item-administration-tray']/nav/div/ul/li[2]/a</value>
+      <value>//div[@id='block-ga-seven-content']/div/div[2]/ul/li/div/div[3]/h3/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Content')]</value>
+      <value>(//a[contains(text(),'Alert')])[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='News &amp; Announcements'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Index'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[3]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add content'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alert'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='High-priority messages displayed as a banner at the top of designated pages.'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/admin/content')]</value>
+      <value>(//a[contains(@href, '/node/add/alert')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
+      <value>//h3/a</value>
    </webElementXpaths>
 </WebElementEntity>

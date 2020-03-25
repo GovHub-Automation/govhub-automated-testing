@@ -16,17 +16,17 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.callTestCase(findTestCase('null'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Editor  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/span_Alert'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Alert'))
 
 WebUI.setText(findTestObject('Alert Objects/Page_Create Alert  Digital Services Georgia/input_Alert Title_title0value'), 
     'Alert Title - Type Notice')
@@ -52,6 +52,4 @@ WebUI.click(findTestObject('Alert Objects/Page_Create Alert  Digital Services Ge
 
 WebUI.verifyElementPresent(findTestObject('Alert Objects/Page_Alert Title - Type Notice  Digital Services Georgia/h1_Alert Title - Type Notice'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
 
