@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//p</value>
+         <value>//body</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
