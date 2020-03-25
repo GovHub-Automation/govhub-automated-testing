@@ -20,9 +20,6 @@ not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], Fail
 
 not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Maximize current window'
-WebUI.maximizeWindow()
-
 WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
@@ -84,95 +81,11 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3'), 
     'pm', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Hour010203040506070809101112_1_2_3_4'), 
-    '5', true)
+WebUI.click(findTestObject('Page_Create Location  Digital Services Georgia/a_Copy previous day'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Minute0030_1_2_3_4'), 
-    '0', true)
+WebUI.click(findTestObject('Page_Create Location  Digital Services Georgia/a_Copy previous day - 2'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3_4'), 
-    'pm', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Hour010203040506070809101112_1_2_3_4_5'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Minute0030_1_2_3_4_5'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3_4_5'), 
-    'pm', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Hour010203040506070809101112_1_2_3_4_5_6'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Minute0030_1_2_3_4_5_6'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3_4_5_6'), 
-    'am', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Hour010203040506070809101112_1_2_3_4_5_6_7'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Minute0030_1_2_3_4_5_6_7'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3_4_5_6_7'), 
-    'pm', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Hour010203040506070809101112_1_2_3_4_5_6_7_8'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Minute0030_1_2_3_4_5_6_7_8'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3_4_5_6_7_8'), 
-    'am', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Hour010203040506070809101112_1_2_3_4_5_6_7_8_9'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Minute0030_1_2_3_4_5_6_7_8_9'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3_4_5_6_7_8_9'), 
-    'pm', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Hour010203040506070809101112_1_2_3_4_5_6_7_8_9_10'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Minute0030_1_2_3_4_5_6_7_8_9_10'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3_4_5_6_7_8_9_10'), 
-    'am', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Hour010203040506070809101112_1_2_3_4_5_6_7_8_9_10_11'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Minute0030_1_2_3_4_5_6_7_8_9_10_11'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3_4_5_6_7_8_9_10_11'), 
-    'pm', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Hour010203040506070809101112_1_2_3_4_5_6_7_8_9_10_11_12'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Minute0030_1_2_3_4_5_6_7_8_9_10_11_12'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3_4_5_6_7_8_9_10_11_12'), 
-    'am', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Hour010203040506070809101112_1_2_3_4_5_6_7_8_9_10_11_12_13'), 
-    '5', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_Minute0030_1_2_3_4_5_6_7_8_9_10_11_12_13'), 
-    '0', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/select_AMPMampm_1_2_3_4_5_6_7_8_9_10_11_12_13'), 
-    'pm', true)
+WebUI.click(findTestObject('Page_Create Location  Digital Services Georgia/a_Copy previous day - 3'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/input_URL_field_related_links0uri'), 
     'a')
@@ -189,45 +102,36 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Location
 
 WebUI.click(findTestObject('Object Repository/Page_Create Location  Digital Services Georgia/Location_Save_Button'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Breadcrumb'), 
-    'Atlanta', 1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Breadcrumb'), 
+    'Atlanta')
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_PageTitle'), 
-    'Atlanta', 1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_PageTitle'), 
+    'Atlanta', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_StreetAddress'), 
-    '47 Trinity Ave SW',1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_StreetAddress'), 
+    '47 Trinity Ave SW', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_City'), 
-    'Atlanta',1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_City'), 
+    'Atlanta', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Country'), 
-    'United States',1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Country'), 
+    'United States', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_State'), 
-    'GA',1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_State'), 
+    'GA', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_ZipCode'), 
-    '30334',1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_ZipCode'), 
+    '30334', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_AdditionalInformation'), 
-    'QA test additional information field content here',1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_AdditionalInformation'), 
+    'QA test additional information field content here', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours1Days'), 
-    'Sunday - Monday:  ',1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyTextPresent('Sunday - Thursday:  ', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours1Times'), 
-    '05:00 am - 05:00 pm',1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyTextPresent('05:00 am - 05:00 pm', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours2Days'), 
-    'Tuesday:  ',1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyTextPresent('Friday - Saturday:  ', false, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours2Times'), 
-    '05:00 pm - 05:00 pm',1, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours3Days'), 
-    'Wednesday - Saturday:  ',1, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours3Times'), 
-    '05:00 am - 05:00 pm',1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_QA Test location with automation  Digital Services Georgia/QATestPage_Hours2Times'), 
+    'Closed', FailureHandling.CONTINUE_ON_FAILURE)
 
