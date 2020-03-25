@@ -16,15 +16,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
+<<<<<<< HEAD
 not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
+=======
+WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+>>>>>>> 7ca3d79d509383df555ce15f8393065b1c66d965
 
 WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
 
-WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/a_FAQAnswer common or related questions about a particular topic or service'))
+WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_FAQ'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/input_Title_title0value'), 'FAQ - Automation')
 
@@ -43,11 +47,12 @@ WebUI.setText(findTestObject('Object Repository/Page_Create FAQ  Digital Service
 WebUI.setText(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/input_Question_field_faq0ga_rich_string_sec_8b029b'), 
     'QA test FAQ question 1')
 
-WebUI.click(findTestObject('Page_Create FAQ  Digital Services Georgia/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'))
+WebUI.click(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/iframe_Press ALT 0 for help_cke_wysiwyg_frame cke_reset'))
 
-WebUI.setText(findTestObject('Page_Create FAQ  Digital Services Georgia/html_Rich Text Editor Answer For FAQ 1'), 'QA test FAQ 1 answer here')
+WebUI.setText(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/html_Rich Text Editor Answer For FAQ 1'), 
+    'QA test FAQ 1 answer here')
 
-WebUI.click(findTestObject('Page_Create FAQ  Digital Services Georgia/Add another FAQ item'))
+WebUI.click(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/Add another FAQ item'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/input_Question_field_faq1ga_rich_string_sec_a5431b'), 
     'Qa test FAQ question 2')
@@ -55,7 +60,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Create FAQ  Digital Service
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/select_DraftPublishedArchived'), 
     'published', true)
 
-WebUI.click(findTestObject('Page_Create FAQ  Digital Services Georgia/Save node button'))
+WebUI.click(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/Save node button'))
 
 WebUI.waitForPageLoad(0)
 
@@ -63,21 +68,27 @@ WebUI.delay(10)
 
 String url = WebUI.getUrl()
 
-pathAlias = ((shortTitle + '-') + timestamp)
+pathAlias = (('/' + shortTitle + '-') + timestamp)
 
+<<<<<<< HEAD
 String urlCheck = WebUI.concatenate(((['https://', GlobalVariable.url, '/', pathAlias]) as String[]), FailureHandling.STOP_ON_FAILURE)
+=======
+String partURL = WebUI.concatenate((([GlobalVariable.url, pathAlias]) as String[]), FailureHandling.STOP_ON_FAILURE)
+
+String urlCheck = WebUI.concatenate(((["https://", partURL]) as String[]), FailureHandling.STOP_ON_FAILURE)
+>>>>>>> 7ca3d79d509383df555ce15f8393065b1c66d965
 
 WebUI.verifyMatch(url, urlCheck, true)
 
-WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ Page title'), 'FAQ - Automation', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_qafaqautomation  Digital Services Georgia/FAQ Page title'), 
+    'FAQ - Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ overview paragraph'), 'QA test FAQ overview content.', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_qafaqautomation  Digital Services Georgia/FAQ overview paragraph'), 
+    'QA test FAQ overview content.', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ question 1'), 'QA test FAQ question 1', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_qafaqautomation  Digital Services Georgia/FAQ question 1'), 
+    'QA test FAQ question 1', FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_qafaqautomation  Digital Services Georgia/FAQ question 2'), 'Qa test FAQ question 2', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_qafaqautomation  Digital Services Georgia/FAQ question 2'), 
+    'Qa test FAQ question 2', FailureHandling.CONTINUE_ON_FAILURE)
 
