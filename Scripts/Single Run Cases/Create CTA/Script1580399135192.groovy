@@ -18,11 +18,14 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
-WebUI.navigateToUrl(GlobalVariable.Environment + 'node/add-microcontent')
+WebUI.navigateToUrl(GlobalVariable.url + '/node/add-microcontent')
+
+'Maximize current window'
+WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Create CTA/Page_Add micro-content  Digital Services Georgia/span_Call To Action'))
 
@@ -46,23 +49,25 @@ WebUI.setText(findTestObject('Create CTA/Page_Create Call To Action  Digital Ser
 WebUI.sendKeys(findTestObject('Create CTA/Page_Create Call To Action  Digital Services Georgia/input_add_Icon-search__field'), 
     Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Create CTA/Page_Create Call To Action  Digital Services Georgia/Save_button'))
+WebUI.delay(3)
+
+'Scroll to top'
+WebUI.scrollToPosition(0, 0)
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
-    'From Automation', FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Page_Create Call To Action  Digital Services Georgia/input_Published_op'))
 
-WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/div_From Automation'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/h2_From Automation'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Page_From Automation  Digital Services Georgia/From Automation Heading'), 'From Automation', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/p_Description text'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Page_From Automation  Digital Services Georgia/From Automation div'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Create CTA/Page_From Automation  Digital Services Georgia/a_Click Me'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Page_From Automation  Digital Services Georgia/From Automation Title'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Page_From Automation  Digital Services Georgia/CTA Description text'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementPresent(findTestObject('Page_From Automation  Digital Services Georgia/CTA Click Me'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 

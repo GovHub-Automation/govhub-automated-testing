@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>23725525-c4c5-43d0-bcb5-57f4e7fcd0dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create Bio</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -75,5 +75,59 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create Official Record</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d493745d-6431-4035-967d-bf77fe86cb5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Listing Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a37ad7e9-5b95-4b72-a78d-3f3bb3394d7c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Organization</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0279b0e9-c929-4e21-9a0f-eeda46f8bf0d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Press Release</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec0a611f-c5ae-409c-82bd-3085b766712a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create ProgramOrService</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa9864fd-9266-49f2-8c41-5e05a61d9edf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create PSG</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>671a590c-6066-4b1c-a134-fa7f7a6e4205</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Quote</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>64d915b2-640f-4bcb-a3f2-630ccbde6fa5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Topic Page</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7c375fad-2a41-43ee-a510-d379055734c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Single Run Cases/Create Webform</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0d9db614-9bef-486a-bfb2-efd5be9577ef</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

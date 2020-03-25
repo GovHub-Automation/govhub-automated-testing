@@ -99,6 +99,11 @@ public class GlobalVariable {
      */
     public static Object title
      
+    /**
+     * <p></p>
+     */
+    public static Object username
+     
 
     static {
         try {
@@ -124,6 +129,7 @@ public class GlobalVariable {
             bioContent = selectedVariables['bioContent']
             notes = selectedVariables['notes']
             title = selectedVariables['title']
+            username = selectedVariables['username']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

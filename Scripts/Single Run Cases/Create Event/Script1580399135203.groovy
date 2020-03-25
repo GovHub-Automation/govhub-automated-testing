@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_Editor  Digital Services Georgia/a_Content'))
 
@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Geo
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_EventEvents open to the public or official meetings they should be informed about'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Event'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Title_title0value (1)'), 
     'New Event - Automation')
@@ -49,6 +49,8 @@ WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Service
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/span_- None - (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/html_Rich Text Editor Intro Text'))
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/html_Rich Text Editor Intro Text'), 
     GlobalVariable.introContent)
@@ -112,7 +114,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digi
     'New Event - Automation', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_Address'), 
-    '47 Trinity Avenue SW', FailureHandling.CONTINUE_ON_FAILURE)
+    '47 Trinity Ave SW', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_City'), 'Atlanta', 
     FailureHandling.CONTINUE_ON_FAILURE)

@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//input[@id='edit-submit']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @id = 'edit-submit' and @name = 'op' and @ref_element = 'Object Repository/Page_Create News  Digital Services Georgia/iframe_Close_entity_browser_iframe_bio_browser']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

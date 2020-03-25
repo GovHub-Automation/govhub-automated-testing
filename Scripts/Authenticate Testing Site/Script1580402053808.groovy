@@ -15,4 +15,13 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.openBrowser('https://gta:gta@' + GlobalVariable.url +'/user')
+WebUI.openBrowser(('https://gta:gta@' + GlobalVariable.url) + '/user')
+
+WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.setText(findTestObject('Page_Log in to Georgia GovHub/input_username_username'), 'Jasmyne.Epps@gta.ga.gov')
+
+not_run: WebUI.setEncryptedText(findTestObject('Page_Log in to Georgia GovHub/input_password_password'), '8/wq35ywakOjq/v8OqsNaA==')
+
+not_run: WebUI.click(findTestObject('Page_Log in to Georgia GovHub/button_Continue'))
+

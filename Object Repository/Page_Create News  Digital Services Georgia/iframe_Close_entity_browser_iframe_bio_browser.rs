@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/entity-browser/modal/bio_browser?uuid=c9a94d7833cc22ffd8772796bc4f145275b31568&amp;original_path=/node/add/news</value>
+      <value>/entity-browser/modal/bio_browser?uuid=AaKummzvdljLVUQ7hPGqOCRIweV9h1X_McUOpYriWnI&amp;original_path=/node/add/news</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='field-author-bio-browser-dialog--lzJoKCvX_1c']/iframe</value>
+      <value>//div[@id='field-author-bio-browser-dialog--qVwf59aIing']/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,5 +88,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/iframe</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='field-author-bio-browser-dialog--lzJoKCvX_1c']/iframe</value>
    </webElementXpaths>
 </WebElementEntity>

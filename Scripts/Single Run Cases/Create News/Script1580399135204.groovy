@@ -16,9 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
@@ -58,24 +58,19 @@ WebUI.setText(findTestObject('Page_Create News  Digital Services Georgia/Body'),
 
 WebUI.click(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/input_Select or create one or more Bios to _1e94c4'))
 
-WebUI.click(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/input_Select this item_entity_browser_selectnode17121'))
+WebUI.click(findTestObject('Page_Create News  Digital Services Georgia/Select a Bio'))
 
-WebUI.click(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/input_Next page_op'))
+WebUI.click(findTestObject('Page_Create News  Digital Services Georgia/Save the Bio'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/select_DraftPublishedArchived'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/Select Published'), 
     'published', true)
 
-WebUI.click(findTestObject('Page_Create News  Digital Services Georgia/Page_Create News  Digital Services Georgia/Save_button'))
-
-WebUI.delay(3)
+WebUI.click(findTestObject('Page_Create How Do I  Digital Services Georgia/input_Save as_op'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/p_Heres the body content of this news content'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/p_Heres some intro text'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/a_Jasmyne Epps'), 

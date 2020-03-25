@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='toolbar-item-administration-tray']/nav/div/ul/li[2]/a</value>
+         <value>//a[contains(@href, '/admin/content')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/admin/content' and (text() = 'Content' or . = 'Content')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -16,13 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/a_Content'))
-
-WebUI.navigateToUrl('https://test.prod.dsga.codes/admin/content')
 
 WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
 
@@ -59,7 +57,7 @@ String url = WebUI.getUrl()
 
 pathAlias = ((shortTitle + '-') + timestamp)
 
-String urlCheck = WebUI.concatenate((([GlobalVariable.Environment, pathAlias]) as String[]), FailureHandling.STOP_ON_FAILURE)
+String urlCheck = WebUI.concatenate(((['https://', GlobalVariable.url, '/', pathAlias]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyMatch(url, urlCheck, true, FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -15,13 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
-WebUI.navigateToUrl(GlobalVariable.Environment + 'node/add-microcontent')
+WebUI.navigateToUrl(GlobalVariable.url + '/node/add-microcontent')
 
 WebUI.click(findTestObject('Create Link Collection/Page_Add micro-content  Digital Services Georgia/span_Link Collection'))
 
@@ -58,6 +58,4 @@ WebUI.verifyElementPresent(findTestObject('Create Link Collection/Page_From Auto
 
 WebUI.verifyElementPresent(findTestObject('Create Link Collection/Page_From Automation  Digital Services Georgia/a_Example link'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

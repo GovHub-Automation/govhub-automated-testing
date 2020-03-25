@@ -6,15 +6,15 @@
    <elementGuidId>5da11822-f03b-4927-9f17-34281e54ff34</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='edit-entity-browser-select-node19216']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[contains(@data-drupal-selector, 'edit-entity-browser-select-node') and @type = 'checkbox']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='entity-browser-bio-browser-form']/div/div[2]/table/tbody/tr/td/div/input</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
@@ -44,6 +44,8 @@ WebUI.doubleClick(findTestObject('Object Repository/Page_Create Emergency  Digit
 WebUI.setText(findTestObject('Object Repository/Page_Create Emergency  Digital Services Georgia/input_Link text_field_emergency_destination0title'), 
     'Learn More About This Emergency')
 
+WebUI.click(findTestObject('Page_Create Emergency  Digital Services Georgia/Publish checkbox'))
+
 WebUI.click(findTestObject('Page_Create Emergency  Digital Services Georgia/input_Published_op'))
 
 WebUI.verifyElementText(findTestObject('Page_Emergency - Automation  Digital Servic_c924a0/h1_Emergency - Automation'), 
@@ -51,6 +53,4 @@ WebUI.verifyElementText(findTestObject('Page_Emergency - Automation  Digital Ser
 
 WebUI.verifyElementPresent(findTestObject('Page_Create Emergency  Digital Services Georgia/Page_Emergency - Automation  Digital Services Georgia/a_Learn More About This Emergency'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

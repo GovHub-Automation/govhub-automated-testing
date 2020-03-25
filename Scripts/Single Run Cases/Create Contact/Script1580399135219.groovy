@@ -18,7 +18,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
@@ -26,7 +26,7 @@ WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/span_Contact'))
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Contact'))
 
 WebUI.click(findTestObject('Page_Create Contact  Digital Services Georgia/input_First_field_split_name0given'))
 
