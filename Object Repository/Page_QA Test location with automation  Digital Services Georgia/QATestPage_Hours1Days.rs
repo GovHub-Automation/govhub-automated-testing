@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div/div[3]/div/div[2]/div/div[2]/div/div/div[3]/div/div/ul/li/span</value>
+         <value>//*[@id=&quot;main-content&quot;]/div[2]/div[3]/div[1]/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div/ul/li[1]/span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,11 +31,11 @@
       <value>hourbox-schedule__day</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sunday - Monday:  </value>
+      <value>Sunday - Thursday:  &amp;nbsp;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

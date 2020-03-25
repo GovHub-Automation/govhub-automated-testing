@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div/div[3]/div/div[2]/div/div[2]/div/div/div[3]/div/div/ul/li[2]/span[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Closed' or . = 'Closed')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>05:00 pm - 05:00 pm</value>
+      <value>Closed</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

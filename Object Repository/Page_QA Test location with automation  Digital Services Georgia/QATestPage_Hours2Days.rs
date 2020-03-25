@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div/div[3]/div/div[2]/div/div[2]/div/div/div[3]/div/div/ul/li[2]/span</value>
+         <value>//*[@id=&quot;main-content&quot;]/div[2]/div[3]/div[1]/div[2]/div/div[2]/div/div[1]/div[3]/div[1]/div/ul/li[2]/span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main-content&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content-page__mid&quot;]/div[@class=&quot;content-page__mid-main&quot;]/div[@class=&quot;content-page__main-primary&quot;]/div[@class=&quot;content-page__main-top&quot;]/div[@class=&quot;location-summary&quot;]/div[@class=&quot;location-summary__inner&quot;]/div[@class=&quot;location-primary&quot;]/div[@class=&quot;hourbox&quot;]/div[@class=&quot;hourbox__section&quot;]/div[@class=&quot;hourbox__wrapper&quot;]/ul[@class=&quot;hourbox-schedule&quot;]/li[@class=&quot;hourbox-schedule__item&quot;]/span[@class=&quot;hourbox-schedule__day&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,14 +31,14 @@
       <value>hourbox-schedule__day</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tuesday:  </value>
+      <value>Friday - Saturday:  &amp;nbsp;</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
