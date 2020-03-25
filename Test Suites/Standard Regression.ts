@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>62109ded-6fb7-43e2-b34a-4a47bf80dd5b</testSuiteGuid>
    <testCaseLink>
+      <guid>7b9afe7c-2fbe-4813-8235-a68cffc269cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Authenticate Testing Site</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>23725525-c4c5-43d0-bcb5-57f4e7fcd0dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -43,7 +49,7 @@
    <testCaseLink>
       <guid>0cb287b4-ac14-4494-b6d8-f1dc71d9c3fc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Single Run Cases/Create FAQ List</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
