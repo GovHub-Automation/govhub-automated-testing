@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Important DateInform visitors about impor_b6ec0d</name>
+   <name>Add Listing block</name>
    <tag></tag>
-   <elementGuidId>e8aab947-2c92-47cc-8c71-2163f6087501</elementGuidId>
+   <elementGuidId>15cda915-a7aa-426a-9663-1ed42807b91f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = 'Important DateInform visitors about important deadlines, dates, or holidays.' or . = 'Important DateInform visitors about important deadlines, dates, or holidays.')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//a[contains(@href, '/node/add/important_date')])[2]</value>
+         <value>//div[@id='block-ga-seven-content']/ul/li[12]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/node/add/important_date</value>
+      <value>/node/add/listing_block</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Important DateInform visitors about important deadlines, dates, or holidays.</value>
+      <value>Automatic ListThis is a micro-content type, to be used as part of other content pages. Note - originally, the label of this content type was &quot;Listing Block&quot; and has since been updated to &quot;Automatic List&quot;. As a result, the machine name was left unchanged as &quot;listing_block&quot;.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,34 +45,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='block-ga-seven-content']/ul/li[10]/a</value>
+      <value>//div[@id='block-ga-seven-content']/ul/li[12]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Guide visitors through a specific task with a checklist or step-by-step instructions.'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Link Collection'])[3]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='How Do I'])[3]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This is a micro-content type, to be used as part of other content pages.'])[5]/following::a[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[3]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/node/add/important_date')])[2]</value>
+      <value>(//a[contains(@href, '/node/add/listing_block')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/ul/li[10]/a</value>
+      <value>//div[2]/ul/li[12]/a</value>
    </webElementXpaths>
 </WebElementEntity>
