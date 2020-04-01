@@ -1,75 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ModerationState_TimeField</name>
+   <name>Edit_PressRelease_Save_Button</name>
    <tag></tag>
-   <elementGuidId>074f4a33-62b3-4fa3-9378-195b45fddfb8</elementGuidId>
+   <elementGuidId>4e5ff72e-8341-437a-8d18-1ab45823ec3c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;edit-moderation-state-0&quot;)/transitionset[1]/div[@class=&quot;scheduled-transition&quot;]/label[3]/input[1][count(. | //input[@type = 'time']) = count(//input[@type = 'time'])]</value>
+         <value>//input[@id='edit-protected-save']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>class</name>
       <type>Main</type>
-      <value>time</value>
+      <value>button button--primary js-form-submit form-submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>step</name>
+      <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>60</value>
+      <value>edit-protected-save</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formnovalidate</name>
+      <type>Main</type>
+      <value>formnovalidate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>edit-protected-save</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>op</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>20:26</value>
+      <value> Save </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-moderation-state-0&quot;)/transitionset[1]/div[@class=&quot;scheduled-transition&quot;]/label[3]/input[1]</value>
+      <value>id(&quot;edit-protected-save&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input</value>
+      <value>//input[@id='edit-protected-save']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='edit-moderation-state-0']/transitionset/div/label[3]/input</value>
+      <value>//div[@id='edit-actions']/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label[3]/input</value>
+      <value>//div[2]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

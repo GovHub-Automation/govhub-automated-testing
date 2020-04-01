@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div/div/div[2]/ul/li[2]/span/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[ends-with(@data-drupal-link-system-path, '/edit') and (text() = 'Edit' or . = 'Edit')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,18 +24,18 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/press-releases/qa-test-short-title-2958/edit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <isSelected>true</isSelected>
+      <matchCondition>ends with</matchCondition>
       <name>data-drupal-link-system-path</name>
       <type>Main</type>
-      <value>node/22261/edit</value>
+      <value>/edit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
