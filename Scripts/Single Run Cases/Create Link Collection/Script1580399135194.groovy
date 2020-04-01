@@ -17,11 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Content'))
 
-WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Micro-content'))
 
-WebUI.navigateToUrl(GlobalVariable.url + '/node/add-microcontent')
+WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/Add micro-content'))
 
 WebUI.click(findTestObject('Create Link Collection/Page_Add micro-content  Digital Services Georgia/span_Link Collection'))
 

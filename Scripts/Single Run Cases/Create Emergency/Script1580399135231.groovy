@@ -18,11 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
 
-WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
-
-WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
 
 WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_EmergencyPlatform-wide alert with link to_063931'))
 

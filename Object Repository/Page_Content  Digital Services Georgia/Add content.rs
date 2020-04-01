@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Add content</name>
+   <name>Add content</name>
    <tag></tag>
-   <elementGuidId>2adf183f-c009-4d17-97da-6bef4295c545</elementGuidId>
+   <elementGuidId>a89576a8-def5-4d5a-ba83-3b91371ff833</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = '/node/add' and (text() = 'Add content' or . = 'Add content')]</value>
+         <value>//a[@href = '/node/add' and @data-drupal-link-system-path = 'node/add']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(@href, '/node/add')])</value>
+         <value>//div[@id='block-ga-seven-local-actions']/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,14 +38,14 @@
       <value>button button-action button--primary button--small</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-drupal-link-system-path</name>
       <type>Main</type>
       <value>node/add</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/node/add')])[43]</value>
+      <value>(//a[contains(@href, '/node/add')])[44]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
