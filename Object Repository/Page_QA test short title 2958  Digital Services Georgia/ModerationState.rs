@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div/div/div[3]/div/div[2]/b</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Draft' or . = 'Draft')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

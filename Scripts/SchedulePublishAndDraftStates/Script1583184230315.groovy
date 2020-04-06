@@ -19,8 +19,6 @@ import groovy.time.TimeCategory as TimeCategory
 
 WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/press_release')
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Press Release  Digital Services_aa0118/input_Title_title0value'), 
@@ -38,21 +36,26 @@ WebUI.verifyElementText(findTestObject('Page_QA test short title 2958  Digital S
 
 WebUI.verifyElementText(findTestObject('Page_QA test short title 2958  Digital Services Georgia/MostRecentRevision'), 'Yes')
 
-WebUI.click(findTestObject('Page_QA test short title 2958  Digital Serv_83d6bf/a_Edit'))
+String url = WebUI.getUrl()
+
+String editURL = WebUI.concatenate(url, '/edit')
+
+WebUI.navigateToUrl(editURL)
 
 WebUI.click(findTestObject('Object Repository/Page_Edit Press Release QA test press relea_fa1c29/a_Schedule a status change'))
 
 timestamp = new Date()
 
 use(groovy.time.TimeCategory, { 
-        timestamp = (timestamp + 1.minutes)
+        timestamp = (timestamp + 2.minutes)
     })
 
 String expectedTimestamp = timestamp.format('HH:mm:ss')
 
 WebUI.click(findTestObject('Page_Edit Press Release QA test press release with automation 2958  Digital Services Georgia/ModerationState_TimeField'))
 
-WebUI.sendKeys(findTestObject('Page_Edit Press Release QA test press release with automation 2958  Digital Services Georgia/ModerationState_TimeField'), expectedTimestamp)
+WebUI.sendKeys(findTestObject('Page_Edit Press Release QA test press release with automation 2958  Digital Services Georgia/ModerationState_TimeField'), 
+    expectedTimestamp)
 
 WebUI.setText(findTestObject('Page_Edit Press Release QA test press release with automation 2958  Digital Services Georgia/ModerationState_TimeField'), 
     expectedTimestamp)
@@ -62,5 +65,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Edit Press Rele
 
 WebUI.click(findTestObject('Object Repository/Page_Edit Press Release QA test press relea_fa1c29/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_Edit Press Release QA test press relea_fa1c29/div_Associate this content with        Prog_f5f8c6'))
+WebUI.delay(1.5)
+
+WebUI.click(findTestObject('Page_Edit Press Release QA test press release with automation 2958  Digital Services Georgia/Edit_PressRelease_Save_Button'))
 
