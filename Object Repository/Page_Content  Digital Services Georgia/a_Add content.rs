@@ -6,11 +6,15 @@
    <elementGuidId>2adf183f-c009-4d17-97da-6bef4295c545</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/node/add' and (text() = 'Add content' or . = 'Add content')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='block-ga-seven-local-actions']/ul/li/a</value>
+         <value>(//a[contains(@href, '/node/add')])</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

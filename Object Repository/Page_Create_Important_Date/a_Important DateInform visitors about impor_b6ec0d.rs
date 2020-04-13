@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='block-ga-seven-content']/ul/li[10]/a</value>
+         <value>(//a[contains(@href, '/node/add/important_date')])[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

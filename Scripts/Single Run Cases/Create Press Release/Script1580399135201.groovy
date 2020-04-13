@@ -18,12 +18,18 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
+<<<<<<< HEAD
 'Maximize current window'
 not_run: WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/a_Add content'))
+=======
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
+
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
+>>>>>>> cc6ef1df53ace57c3c4bc45956addb3a10e51a6f
 
 WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Press Release'))
 

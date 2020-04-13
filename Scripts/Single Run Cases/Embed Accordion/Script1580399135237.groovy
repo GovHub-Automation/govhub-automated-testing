@@ -16,9 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Single Run Cases/Create Accordion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Embed Start No Login'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Embed Start No Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/span_Embed micro-content_dropdown_arrow'))
 
@@ -36,6 +38,4 @@ WebUI.callTestCase(findTestCase('Single Run Cases/Embed End'), [:], FailureHandl
 
 WebUI.verifyElementText(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Page_Embed Automation  Digital Services Georgia/div_Item 1'), 
     'Item 1', FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser(FailureHandling.CONTINUE_ON_FAILURE)
 

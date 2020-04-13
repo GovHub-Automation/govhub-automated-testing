@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>id(&quot;edit-moderation-state-0&quot;)/transitionset[1]/div[@class=&quot;scheduled-transition&quot;]/label[3]/input[1][count(. | //input[@type = 'time']) = count(//input[@type = 'time'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -45,7 +45,7 @@
       <value>20:26</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(@href, '/node/add/book')])[2]</value>
+         <value>(//a[contains(@href, '/node/add/book')])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

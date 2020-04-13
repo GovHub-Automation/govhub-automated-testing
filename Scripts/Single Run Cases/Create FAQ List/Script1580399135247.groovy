@@ -16,17 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-<<<<<<< HEAD
-not_run: WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)
-=======
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
->>>>>>> 7ca3d79d509383df555ce15f8393065b1c66d965
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
 
-WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/a_Content'))
-
-WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
 
 WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_FAQ'))
 
@@ -64,19 +58,15 @@ WebUI.click(findTestObject('Object Repository/Page_Create FAQ  Digital Services 
 
 WebUI.waitForPageLoad(0)
 
-WebUI.delay(10)
+WebUI.delay(2)
 
 String url = WebUI.getUrl()
 
-pathAlias = (('/' + shortTitle + '-') + timestamp)
+pathAlias = ((('/' + shortTitle) + '-') + timestamp)
 
-<<<<<<< HEAD
-String urlCheck = WebUI.concatenate(((['https://', GlobalVariable.url, '/', pathAlias]) as String[]), FailureHandling.STOP_ON_FAILURE)
-=======
+String urlCheck = WebUI.concatenate(((['https://', GlobalVariable.url, pathAlias]) as String[]), FailureHandling.STOP_ON_FAILURE)
+
 String partURL = WebUI.concatenate((([GlobalVariable.url, pathAlias]) as String[]), FailureHandling.STOP_ON_FAILURE)
-
-String urlCheck = WebUI.concatenate(((["https://", partURL]) as String[]), FailureHandling.STOP_ON_FAILURE)
->>>>>>> 7ca3d79d509383df555ce15f8393065b1c66d965
 
 WebUI.verifyMatch(url, urlCheck, true)
 
