@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Log Me In'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Structure'))
 
@@ -25,6 +25,12 @@ WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Menus'))
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Edit menu button'))
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Edit child items of Parent'))
+
+WebUI.click(findTestObject('Manage_Main Menu/input_Enable Child 1'))
+
+WebUI.click(findTestObject('Object Repository/Manage_Main Menu/input_Save Children'))
+
+WebUI.verifyTextPresent(' (disabled)', false)
 
 WebUI.click(findTestObject('Manage_Main Menu/input_Enable Child 1'))
 

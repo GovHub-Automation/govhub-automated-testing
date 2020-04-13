@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='MCQA Test Menu Child 1'])[1]/following::div[1]</value>
+         <value>//tr[2]/td[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
