@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.comment('Open Website and Login as Editor')
 
-WebUI.callTestCase(findTestCase('Log Me In'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Create Main Menu - Parent')
 
@@ -43,8 +43,4 @@ WebUI.callTestCase(findTestCase('Manage Main Menu/Change Enabled Status'), [:], 
 WebUI.comment('Delete Child and Parent Menus')
 
 WebUI.callTestCase(findTestCase('Manage Main Menu/Delete Child and Parent Menus'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.comment('Close Browser')
-
-WebUI.closeBrowser()
 

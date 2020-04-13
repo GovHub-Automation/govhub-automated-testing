@@ -14,9 +14,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Log Me In'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Structure'))
 
@@ -30,7 +31,7 @@ WebUI.click(findTestObject('Manage_Main Menu/a_Edit Child 2'))
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/input_Link'))
 
-WebUI.setText(findTestObject('Object Repository/Manage_Main Menu/input_Link'), 'http://www.google.com')
+WebUI.setText(findTestObject('Object Repository/Manage_Main Menu/input_Link'), 'https://www.google.com')
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/input_Save'))
 

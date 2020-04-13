@@ -9,6 +9,7 @@ Create Main Menu - Child 1 &amp; Child 2
 Reorder Child Menus
 Change Menu Item Destination
 Change Enabled Status
-Delete Child and Parent Menus</comment>
+Delete Child and Parent Menus
+Close Browser</comment>
    <testCaseGuid>a7ac431e-2909-47ba-92dc-521d5fd74c55</testCaseGuid>
 </TestCaseEntity>
