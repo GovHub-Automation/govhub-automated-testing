@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='block-ga-seven-content']/div/div[2]/ul/li[5]/div/div[3]/h3/a</value>
+         <value>(//a[contains(@href, '/node/add/press_release')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

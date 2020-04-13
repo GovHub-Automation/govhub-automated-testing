@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='edit-field-short-title-0-value']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-drupal-selector = 'edit-field-short-title-0-value' and @type = 'text' and @id = 'edit-field-short-title-0-value']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +45,7 @@
       <value>Content limited to @limit characters, remaining: &lt;strong>@remaining&lt;/strong></value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-drupal-selector</name>
       <type>Main</type>
@@ -69,7 +73,7 @@
       <value>edit-field-short-title-0-value</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
