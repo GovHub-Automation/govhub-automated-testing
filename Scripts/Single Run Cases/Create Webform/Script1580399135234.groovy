@@ -26,8 +26,6 @@ WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Geo
 
 WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_WebformA basic page with a webform attached'))
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/webform')
-
 WebUI.setText(findTestObject('Object Repository/Page_Create Webform  Digital Services Georgia/input_Title_title0value'), 
     'QA test webform with automation')
 
