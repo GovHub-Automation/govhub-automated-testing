@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Log Me In'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Structure'))
 
@@ -26,10 +26,13 @@ WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Edit menu butto
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Edit child items of Parent'))
 
-WebUI.click(findTestObject('Object Repository/Manage_Main Menu/button_Operations Child 2'))
+WebUI.click(findTestObject('Object Repository/Page_Edit menu Main navigation  Digital Ser_4cefd0/button_List additional actions'))
 
-WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Delete Child 2'))
+WebUI.click(findTestObject('Object Repository/Page_Edit menu Main navigation  Digital Ser_4cefd0/a_Delete'))
 
+//WebUI.click(findTestObject('Object Repository/Manage_Main Menu/button_Operations Child 2'))
+//
+//WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Delete Child 2'))
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/input_DeleteConfirm'))
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/button_Operations Child 1'))

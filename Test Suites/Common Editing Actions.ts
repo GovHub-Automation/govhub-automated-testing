@@ -16,4 +16,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Common Editing Actions/Confirm the Functionality of Revisions</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>47790911-5fb5-49d2-a21b-e6e05d7db356</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Manage Main Menu/Manage_Main Menu</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
