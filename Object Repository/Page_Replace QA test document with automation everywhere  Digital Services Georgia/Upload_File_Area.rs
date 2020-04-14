@@ -6,11 +6,15 @@
    <elementGuidId>5a194079-6f68-42c2-bc3b-7342fd5d1ad8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'edit-upload' and @class = 'dropzone-enable required dropzone dz-clickable' and @ref_element = 'Object Repository/Page_Replace QA test document with automation everywhere  Digital Services Georgia/Upload_File_Area_iFrame']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//form/div/div</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,14 +31,14 @@
       <value>edit-upload</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>dropzone-enable required dropzone dz-clickable</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

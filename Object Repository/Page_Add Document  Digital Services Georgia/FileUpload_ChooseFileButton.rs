@@ -6,8 +6,12 @@
    <elementGuidId>e36cfda4-b6d6-4406-8949-bbe1d766d655</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'file' and @id = 'edit-field-media-file-0-upload' and @name = 'files[field_media_file_0]']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-field-media-file-0-upload']</value>
+         <value>//*[@id=&quot;edit-field-media-file-0-upload&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -18,8 +18,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/a_Content'))
 
 WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Documents'))
@@ -30,7 +28,11 @@ WebUI.setText(findTestObject('Object Repository/Page_Add Document  Digital Servi
 
 WebUI.click(findTestObject('Object Repository/Page_Add Document  Digital Services Georgia/FileUpload_ChooseFileButton'))
 
-WebUI.uploadFile(findTestObject('Object Repository/Page_Add Document  Digital Services Georgia/File_Document_Upload'), '/Users/amessenger/Documents/Testing Files/QA_Test_Excel_File.xlsx')
+WebUI.delay(3)
+
+WebUI.uploadFile(findTestObject('Object Repository/Page_Add Document  Digital Services Georgia/File_Document_Upload'), '/Users/jasmyneepps/Development/DSGa-TestingAssets/DataProvider_1.csv')
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_Add Document  Digital Services Georgia/input_Format Leave blank to use the time of_c4fc7d'))
 
@@ -57,6 +59,10 @@ WebUI.click(findTestObject('Object Repository/Page_Replace QA test document with
 
 WebUI.click(findTestObject('Object Repository/Page_Replace QA test document with automati_ab0ef8/a_Upload Document'))
 
+WebUI.delay(3)
+
 WebUI.uploadFile(findTestObject('Page_Replace QA test document with automation everywhere  Digital Services Georgia/Upload_File_Area'), 
-    '/Users/amessenger/Documents/Testing Files/QA_Test_Excel_File_2.xlsx')
+    '/Users/jasmyneepps/Development/DSGa-TestingAssets/DataProvider_2.csv')
+
+WebUI.delay(3)
 
