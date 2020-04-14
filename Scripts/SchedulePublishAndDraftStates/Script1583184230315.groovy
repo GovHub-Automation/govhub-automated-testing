@@ -19,7 +19,11 @@ import groovy.time.TimeCategory as TimeCategory
 
 WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/press_release')
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
+
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
+
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Press Release'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Press Release  Digital Services_aa0118/input_Title_title0value'), 
     'QA test press release with automation 2958')

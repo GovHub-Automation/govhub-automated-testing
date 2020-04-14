@@ -18,11 +18,18 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://gta:gta@www.staging.dsga.codes/user/login')
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
 
-WebUI.navigateToUrl('https://www.staging.dsga.codes/node/add/book')
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
+
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Book page'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Book page  Georgiagov/input_Title_title0value'), 'QA test book with automation')
+
+WebUI.click(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/html_Rich Text Editor Summary'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/body_Heres a Summary for this new book'), 
+    GlobalVariable.summaryContent)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Book page  Georgiagov/select_DraftNeeds ReviewPublishedArchived'), 
     'published', true)
@@ -33,7 +40,13 @@ WebUI.delay(4)
 
 String bookURL = WebUI.getUrl()
 
-WebUI.navigateToUrl('https://www.staging.dsga.codes/node/add/organization')
+WebUI.navigateToUrl(('https://gta:gta@' + GlobalVariable.gagov) + '/user')
+
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
+
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
+
+WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Organization'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create Organization  Georgiagov/summary_Citations'))
 
@@ -50,6 +63,9 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Create Organizati
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_URL_Field'), 
     30)
+
+WebUI.setText(findTestObject('Create Organization/Page_Create Organization  Digital Services Georgia/html_Rich Text Editor Overview field'), 
+    'Overview text')
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Organization  Georgiagov/input_URL_field_citation0value'), 'http://www.google.com')
 

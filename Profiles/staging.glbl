@@ -94,4 +94,9 @@
       <initValue>'Testing Lead'</initValue>
       <name>title</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'www.staging.dsga.codes'</initValue>
+      <name>gagov</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
