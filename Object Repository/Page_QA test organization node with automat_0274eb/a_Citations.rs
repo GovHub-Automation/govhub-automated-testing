@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div/div/div[3]/div/div/div/div[2]/ul/li[8]/span/a</value>
+         <value>//a[contains(text(),'Citations')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

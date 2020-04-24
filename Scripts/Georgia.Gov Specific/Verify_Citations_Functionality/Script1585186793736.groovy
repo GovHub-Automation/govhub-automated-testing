@@ -24,6 +24,13 @@ WebUI.navigateToUrl('https://www.staging.dsga.codes/node/add/book')
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Book page  Georgiagov/input_Title_title0value'), 'QA test book with automation')
 
+WebUI.click(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/html_Rich Text Editor Summary'))
+
+WebUI.delay(4)
+
+WebUI.setText(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/body_Heres a Summary for this new book'), 
+    GlobalVariable.summaryContent)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Book page  Georgiagov/select_DraftNeeds ReviewPublishedArchived'), 
     'published', true)
 
@@ -73,6 +80,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Organization  Georgi
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Organization  Georgiagov/input_Display Title_field_display_title0value'), 
     'QA test display title for organization with automation')
+
+WebUI.setText(findTestObject('Create Organization/Page_Create Organization  Digital Services Georgia/html_Rich Text Editor Overview field'), 
+    'Overview text')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Organization  Georgiagov/select_DraftNeeds ReviewPublishedArchived'), 
     'published', true)

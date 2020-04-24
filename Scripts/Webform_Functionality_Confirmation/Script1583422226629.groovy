@@ -18,15 +18,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Log In as Editor'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.navigateToUrl('https://test.prod.dsga.codes/user/11206')
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/user/11206')
-
-WebUI.navigateToUrl('https://test.prod.dsga.codes/admin/structure/webform')
+WebUI.navigateToUrl(('https://' + GlobalVariable.url) + '/admin/structure/webform')
 
 WebUI.click(findTestObject('Object Repository/Page_Webforms  Digital Services Georgia/a_Add webform'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Webforms  Digital Services Georgia/input_Title_title'), 'QA test webform with automation 2961')
+not_run: WebUI.setText(findTestObject('Object Repository/Page_Webforms  Digital Services Georgia/input_Title_title'), 'QA test webform with automation 2961')
+
+String timestamp = System.nanoTime()
+
+String titleTimesamp = 'Webform automation ' + timestamp
+
+WebUI.setText(findTestObject('Page_Webforms  Digital Services Georgia/input_Title_title'), titleTimesamp)
 
 WebUI.setText(findTestObject('Object Repository/Page_Webforms  Digital Services Georgia/AddWebform_AdminDescription_WYSIWYG'), 
     'QA test administrative description for webform with automation 2961')
@@ -36,7 +40,7 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Webforms  Digit
 
 WebUI.click(findTestObject('Object Repository/Page_Webforms  Digital Services Georgia/button_Save'))
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_QA test webform with automation 2961  _111c21/a_Add element'))
 
@@ -155,11 +159,11 @@ WebUI.setText(findTestObject('Object Repository/Page_QA test webform with automa
 
 WebUI.click(findTestObject('Object Repository/Page_QA test webform with automation 2961  Digital Services Georgia/Webform_AddEmailHandler_Save_Button'))
 
-WebUI.click(findTestObject('Object Repository/Page_QA test webform with automation 2961  _111c21/a_Content'))
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
 
-WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/a_Add content'))
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
 
-WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_Webform'))
+WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_WebformA basic page with a webform attached'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Webform  Digital Services Georgia/input_Title_title0value'), 
     'QA test webform with automation 2961')

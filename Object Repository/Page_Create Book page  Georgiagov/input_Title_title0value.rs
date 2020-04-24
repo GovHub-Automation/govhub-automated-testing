@@ -6,11 +6,15 @@
    <elementGuidId>a2ab8948-41c4-4871-8376-2229c9257a05</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'edit-title-0-value']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-title-0-value']</value>
+         <value>&lt;a href=&quot;/node/add/book&quot;>Book page&lt;/a></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +38,7 @@
       <value>edit-title-0-value</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -48,7 +52,7 @@
       <value>edit-title-0-value</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

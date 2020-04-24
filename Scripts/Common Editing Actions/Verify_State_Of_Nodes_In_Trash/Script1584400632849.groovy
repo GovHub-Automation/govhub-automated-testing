@@ -16,6 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Single Run Cases/Create FAQ List'), [('shortTitle') : 'qafaqautomation'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_qafaqautomation 997721345764169  Digital Services Georgia/ModerationState_Text'), 
@@ -57,7 +59,13 @@ WebUI.click(findTestObject('Object Repository/Page_qafaqautomation 1023090573147
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Create FAQ  Digital Services Georgia/ContentModeration_Section'), 
     30)
 
-WebUI.navigateToUrl('https://test.prod.dsga.codes/node/add/cta')
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Content'))
+
+WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Micro-content'))
+
+WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/Add micro-content'))
+
+WebUI.click(findTestObject('Create CTA/Page_Add micro-content  Digital Services Georgia/span_Call To Action'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Create Call To Action  Digital Services Georgia/PublishedCheckbox'), 30)
 

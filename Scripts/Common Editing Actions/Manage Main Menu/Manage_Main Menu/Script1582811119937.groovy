@@ -22,25 +22,25 @@ WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandli
 
 WebUI.comment('Create Main Menu - Parent')
 
-WebUI.callTestCase(findTestCase('Manage Main Menu/Create Main Menu - Parent'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common Editing Actions/Manage Main Menu/Create Main Menu - Parent'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Create Main Menu - Child 1 & Child 2')
 
-WebUI.callTestCase(findTestCase('Manage Main Menu/Create Main Menu - Children'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common Editing Actions/Manage Main Menu/Create Main Menu - Children'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Reorder Child Menus')
 
-WebUI.callTestCase(findTestCase('Manage Main Menu/Reorder Child Menus'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common Editing Actions/Manage Main Menu/Reorder Child Menus'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Change Menu Item Destination')
 
-WebUI.callTestCase(findTestCase('Manage Main Menu/Change Menu Item Destination'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common Editing Actions/Manage Main Menu/Change Menu Item Destination'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Change Enabled Status')
 
-WebUI.callTestCase(findTestCase('Manage Main Menu/Change Enabled Status'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common Editing Actions/Manage Main Menu/Change Enabled Status'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Delete Child and Parent Menus')
 
-WebUI.callTestCase(findTestCase('Manage Main Menu/Delete Child and Parent Menus'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common Editing Actions/Manage Main Menu/Delete Child and Parent Menus'), [:], FailureHandling.STOP_ON_FAILURE)
 

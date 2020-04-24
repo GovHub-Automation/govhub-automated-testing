@@ -6,11 +6,15 @@
    <elementGuidId>8bbbae65-dfe2-43cf-b773-883b4001ca08</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main-content&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content-page__mid&quot;]/div[@class=&quot;content-page__mid-main&quot;]/div[@class=&quot;content-page__admin-ui&quot;]/div[@class=&quot;admin-ui__wrapper&quot;]/div[@class=&quot;message message-moderation&quot;]/div[1]/div[@class=&quot;ga-viewable-by-anon&quot;]/b[1][count(. | //*[(text() = 'No' or . = 'No')]) = count(//*[(text() = 'No' or . = 'No')])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div/div/div[3]/div/div/b</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,7 +31,7 @@
       <value>No</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
