@@ -17,10 +17,11 @@
       <testCaseId>Test Cases/Common Editing Actions/Confirm the Functionality of Revisions</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>47790911-5fb5-49d2-a21b-e6e05d7db356</guid>
+      <guid>27234291-e4ed-4dff-af1c-01ac725f6380</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Common Editing Actions/Manage Main Menu/Manage_Main Menu</testCaseId>
+<<<<<<< HEAD
    </testCaseLink>
    <testCaseLink>
       <guid>2e716c63-3a42-4be8-b1c0-e1e3c4c431e4</guid>
@@ -39,5 +40,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Common Editing Actions/Clone_Nodes/Clone_Nodes</testCaseId>
+=======
+>>>>>>> remotes/origin/maintenance/04-14-2020
    </testCaseLink>
 </TestSuiteEntity>

@@ -42,6 +42,7 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Common Editing Actions</testSuiteEntity>
       </TestSuiteRunConfiguration>
+<<<<<<< HEAD
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
@@ -51,5 +52,7 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Georgia.gov Specific - Staging only</testSuiteEntity>
       </TestSuiteRunConfiguration>
+=======
+>>>>>>> remotes/origin/maintenance/04-14-2020
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

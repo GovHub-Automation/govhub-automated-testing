@@ -6,7 +6,11 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'test-cb4ygl56lu94zrso1hiwkdavs32j4q5s.tugboat.qa'</initValue>
+=======
+      <initValue>'test-aya89egzsaxmkxvwg4akg5tiwrp891zp.tugboat.qa'</initValue>
+>>>>>>> remotes/origin/maintenance/04-14-2020
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
