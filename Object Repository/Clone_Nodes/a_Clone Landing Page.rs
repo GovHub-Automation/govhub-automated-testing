@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@href, '/entity_clone/node/23946?destination=/admin/content%3Ftitle%3DMCQA%2520Test%2520Landing%2520Page%2520-%2520Cloning%26type%3DAll%26uid%3D%26field_division_target_id%3DAll%26moderation_state%3DAll')]</value>
+         <value>(//a[contains(text(),'Clone')])[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/entity_clone/node/23946?destination=/admin/content%3Ftitle%3DMCQA%2520Test%2520Landing%2520Page%2520-%2520Cloning%26type%3DAll%26uid%3D%26field_division_target_id%3DAll%26moderation_state%3DAll' and (text() = 'Clone' or . = 'Clone')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

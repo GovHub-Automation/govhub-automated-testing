@@ -6,81 +6,15 @@
    <elementGuidId>acb14cf9-252f-4c4a-8ee1-dde332b3ceb4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'bio-teaser bio-teaser--offset bio-teaser--image']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div[2]/div/div</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = concat('
-      
-            
-
-
-
-
-Open  configuration optionsEdit
-          
-
-
-
-  
-
-  
-    
-    
-    
-              
-                Jasmyne Epps
-  
-        
-          
-          
-              Testing Lead
-  
-      
-      
-      
-            Here' , &quot;'&quot; , 's some intro text
-
-  
-    
-  ') or . = concat('
-      
-            
-
-
-
-
-Open  configuration optionsEdit
-          
-
-
-
-  
-
-  
-    
-    
-    
-              
-                Jasmyne Epps
-  
-        
-          
-          
-              Testing Lead
-  
-      
-      
-      
-            Here' , &quot;'&quot; , 's some intro text
-
-  
-    
-  '))]</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -90,14 +24,14 @@ Open  configuration optionsEdit
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>bio-teaser bio-teaser--offset bio-teaser--image</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

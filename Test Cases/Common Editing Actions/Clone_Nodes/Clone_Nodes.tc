@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Clone_Nodes</name>
+   <tag></tag>
+   <comment>Open Website and Login as Editor
+Clone Landing Page
+Clone MicroContent
+Clone Media
+Clone Document</comment>
+   <testCaseGuid>8bda5f96-e4d1-4833-b75d-5d62ee135a7c</testCaseGuid>
+</TestCaseEntity>

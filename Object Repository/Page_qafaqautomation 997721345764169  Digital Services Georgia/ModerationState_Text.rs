@@ -6,11 +6,15 @@
    <elementGuidId>840216f1-c3af-452b-838b-9beaaa73d5c1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main-content&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content-page__mid&quot;]/div[@class=&quot;content-page__mid-main&quot;]/div[@class=&quot;content-page__admin-ui&quot;]/div[@class=&quot;admin-ui__wrapper&quot;]/div[@class=&quot;message message-moderation&quot;]/div[1]/div[@class=&quot;ga-moderation-state-info&quot;]/b[1]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div/div/div[3]/div/div[2]/b</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,14 +24,14 @@
       <value>b</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Published</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

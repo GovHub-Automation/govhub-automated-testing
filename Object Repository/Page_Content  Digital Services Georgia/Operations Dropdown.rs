@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>VisibleToPublic_Label</name>
+   <name>Operations Dropdown</name>
    <tag></tag>
-   <elementGuidId>8bbbae65-dfe2-43cf-b773-883b4001ca08</elementGuidId>
+   <elementGuidId>3b0f435b-f142-478a-af1d-0e38eee7d8c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;main-content&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content-page__mid&quot;]/div[@class=&quot;content-page__mid-main&quot;]/div[@class=&quot;content-page__admin-ui&quot;]/div[@class=&quot;admin-ui__wrapper&quot;]/div[@class=&quot;message message-moderation&quot;]/div[1]/div[@class=&quot;ga-viewable-by-anon&quot;]/b[1][count(. | //*[(text() = 'No' or . = 'No')]) = count(//*[(text() = 'No' or . = 'No')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[3]/div/div/div/div[3]/div/div/b</value>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,55 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>b</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>No</value>
+      <value>List additional actions</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content-page__mid&quot;]/div[@class=&quot;content-page__mid-main&quot;]/div[@class=&quot;content-page__admin-ui&quot;]/div[@class=&quot;admin-ui__wrapper&quot;]/div[@class=&quot;message message-moderation&quot;]/div[1]/div[@class=&quot;ga-viewable-by-anon&quot;]/b[1]</value>
+      <value>id(&quot;views-form-content-page-1&quot;)/table[@class=&quot;vbo-table views-table views-view-table cols-8 responsive-enabled sticky-enabled&quot;]/tbody[1]/tr[1]/td[@class=&quot;views-field views-field-operations&quot;]/div[@class=&quot;dropbutton-wrapper dropbutton-multiple&quot;]/div[@class=&quot;dropbutton-widget&quot;]/ul[@class=&quot;dropbutton&quot;]/li[@class=&quot;dropbutton-toggle&quot;]/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content']/div[2]/div[3]/div/div/div/div[3]/div/div/b</value>
+      <value>//form[@id='views-form-content-page-1']/table/tbody/tr/td[8]/div/div/ul/li[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Moderation message'])[1]/following::b[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[20]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Archived'])[1]/preceding::b[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Published'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='No']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clone'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//b</value>
+      <value>//li[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>
