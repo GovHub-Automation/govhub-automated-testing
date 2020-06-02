@@ -18,21 +18,21 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.comment('Clone MicroContent')
+WebUI.comment('Clone Document')
 
 WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Content'))
 
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Micro-content'))
+WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Documents'))
 
-WebUI.setText(findTestObject('Object Repository/Clone_Nodes/input_Title'), 'MCQA Test Quote - Cloning')
+WebUI.setText(findTestObject('Object Repository/Clone_Nodes/input_title Document'), 'MCQA Test Document - Cloning')
 
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/button_Filter Micro-content'))
+WebUI.click(findTestObject('Object Repository/Clone_Nodes/button_Filter Document'))
 
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/span_List additional actions'))
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Operations Dropdown'))
 
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Clone Micro-content'))
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Clone'))
 
 WebUI.click(findTestObject('Object Repository/Clone_Nodes/button_ConfirmClone'))
 
-WebUI.verifyTextPresent('of type node was cloned', false)
+WebUI.verifyTextPresent('of type media was cloned', false)
 

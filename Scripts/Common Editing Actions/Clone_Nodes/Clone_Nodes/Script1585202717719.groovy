@@ -16,23 +16,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.comment('Open Website and Login as Editor')
+
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.comment('Clone Landing Page')
+
+WebUI.callTestCase(findTestCase('Common Editing Actions/Clone_Nodes/Clone Landing Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.comment('Clone MicroContent')
+
+WebUI.callTestCase(findTestCase('Common Editing Actions/Clone_Nodes/Clone Micro Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Clone Media')
 
-WebUI.click(findTestObject('Clone_Nodes/a_Content'))
+WebUI.callTestCase(findTestCase('Common Editing Actions/Clone_Nodes/Clone Media'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Media'))
+WebUI.comment('Clone Document')
 
-WebUI.setText(findTestObject('Clone_Nodes/input_title Media'), 'MCQA Test Image - Cloning')
-
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/button_Filter Media'))
-
-WebUI.click(findTestObject('Clone_Nodes/span_List additional actions'))
-
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Clone Media'))
-
-WebUI.click(findTestObject('Clone_Nodes/button_ConfirmClone'))
-
-WebUI.verifyTextPresent('of type media was cloned', false)
+WebUI.callTestCase(findTestCase('Common Editing Actions/Clone_Nodes/Clone Document'), [:], FailureHandling.STOP_ON_FAILURE)
 

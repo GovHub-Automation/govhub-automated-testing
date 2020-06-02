@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Bio card</name>
+   <name>Operations Dropdown</name>
    <tag></tag>
-   <elementGuidId>acb14cf9-252f-4c4a-8ee1-dde332b3ceb4</elementGuidId>
+   <elementGuidId>3b0f435b-f142-478a-af1d-0e38eee7d8c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'bio-teaser bio-teaser--offset bio-teaser--image']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div[2]/div/div</value>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,88 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>bio-teaser bio-teaser--offset bio-teaser--image</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-      
-            
-
-
-
-
-Open  configuration optionsEdit
-          
-
-
-
-  
-
-  
-    
-    
-    
-              
-                Jasmyne Epps
-  
-        
-          
-          
-              Testing Lead
-  
-      
-      
-      
-            Here's some intro text
-
-  
-    
-  </value>
+      <value>List additional actions</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content-page__mid&quot;]/div[@class=&quot;content-page__mid-main&quot;]/div[@class=&quot;content-page__main-primary&quot;]/main[@class=&quot;content-page__main&quot;]/div[@class=&quot;bio-teaser-list&quot;]/div[@class=&quot;bio-teaser-list__item&quot;]/div[@class=&quot;bio-teaser bio-teaser--offset bio-teaser--image&quot;]</value>
+      <value>id(&quot;views-form-content-page-1&quot;)/table[@class=&quot;vbo-table views-table views-view-table cols-8 responsive-enabled sticky-enabled&quot;]/tbody[1]/tr[1]/td[@class=&quot;views-field views-field-operations&quot;]/div[@class=&quot;dropbutton-wrapper dropbutton-multiple&quot;]/div[@class=&quot;dropbutton-widget&quot;]/ul[@class=&quot;dropbutton&quot;]/li[@class=&quot;dropbutton-toggle&quot;]/button[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div[2]/div/div</value>
+      <value>//form[@id='views-form-content-page-1']/table/tbody/tr/td[8]/div/div/ul/li[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='From Automation'])[3]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[20]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Configure block'])[5]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Published'])[2]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clone'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//main/div[2]/div/div</value>
+      <value>//li[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

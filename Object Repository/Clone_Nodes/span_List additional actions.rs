@@ -7,34 +7,38 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[2]/following::span[1]</value>
+         <value>//*[@id=&quot;views-form-content-page-1&quot;]/table[2]/tbody/tr/td[8]/div/div/ul/li[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;views-form-content-page-1&quot;)/table[@class=&quot;vbo-table views-table views-view-table cols-8 responsive-enabled sticky-enabled&quot;]/tbody[1]/tr[1]/td[@class=&quot;views-field views-field-operations&quot;]/div[@class=&quot;dropbutton-wrapper dropbutton-multiple&quot;]/div[@class=&quot;dropbutton-widget&quot;]/ul[@class=&quot;dropbutton&quot;]/li[@class=&quot;dropbutton-toggle&quot;]/button[1]/span[@class=&quot;dropbutton-arrow&quot;][count(. | //span[@class = 'dropbutton-arrow']) = count(//span[@class = 'dropbutton-arrow'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>dropbutton-arrow</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>List additional actions</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

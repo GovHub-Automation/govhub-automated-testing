@@ -25,13 +25,19 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_qafaqautomation 9
 
 WebUI.click(findTestObject('Object Repository/Page_qafaqautomation 997721345764169  Digit_bf05d3/a_Move to Trash'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Are you sure you want to move FAQ - Automation to Trash  Digital Services Georgia/PageTitle_On_DeleteConfirmPage'), 
     'FAQ - Automation')
 
 WebUI.click(findTestObject('Object Repository/Page_Are you sure you want to move FAQ - Au_840276/input_FAQ - Automation_op'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_qafaqautomation 997721345764169  Digital Services Georgia/ModerationState_Text'), 
     'Archived')
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_qafaqautomation 997721345764169  Digital Services Georgia/VisibleToPublic_Label'), 
     'No')
@@ -46,10 +52,16 @@ WebUI.click(findTestObject('Object Repository/Page_Edit FAQ FAQ - Automation  Di
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Are you sure you want to move FAQ - Automation to Trash  Digital Services Georgia/PageTitle_On_DeleteConfirmPage'), 
     'FAQ - Automation')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_Are you sure you want to restore FAQ -_464eac/input_FAQ - Automation_op'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_qafaqautomation 997721345764169  Digital Services Georgia/ModerationState_Text'), 
     'Draft')
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_qafaqautomation 997721345764169  Digital Services Georgia/VisibleToPublic_Label'), 
     'No')
@@ -72,15 +84,25 @@ WebUI.verifyElementPresent(findTestObject('Page_Create Call To Action  Digital S
 WebUI.setText(findTestObject('Object Repository/Page_Create Call To Action  Digital Service_b58c43/input_Title_title0value'), 
     'QA test CTA with automation')
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Page_Create Call To Action  Digital Service_b58c43/input_URL_field_cta_url0uri'), 
     'http://www.google.com')
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Call To Action  Digital Service_b58c43/input_Link text_field_cta_url0title'), 
     'QA CTA Link')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_Create Call To Action  Digital Service_b58c43/input_Published_op'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_QA test CTA with automation  Digital S_92584c/a_Move to Trash'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('Page_Are you sure you want to move QA test CTA with automation to Trash  Digital Services Georgia/CTA_Automation_Title'), 
     'QA test CTA with automation')
@@ -89,17 +111,27 @@ WebUI.click(findTestObject('Page_Are you sure you want to move QA test CTA with 
 
 WebUI.click(findTestObject('Object Repository/Page_QA test CTA with automation  Digital S_92584c/a_Edit'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementNotPresent(findTestObject('Page_Create Call To Action  Digital Services Georgia/PublishedCheckbox'), 
     30)
 
 WebUI.click(findTestObject('Object Repository/Page_Edit Call To Action QA test CTA with a_4dcb31/a_Restore'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementText(findTestObject('Page_Are you sure you want to move QA test CTA with automation to Trash  Digital Services Georgia/CTA_Automation_Title'), 
     'QA test CTA with automation')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_Are you sure you want to restore QA te_f1ffaa/input_QA test CTA with automation_op'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_QA test CTA with automation  Digital S_92584c/a_Edit'))
+
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create Call To Action  Digital Services Georgia/PublishedCheckbox'), 30)
 

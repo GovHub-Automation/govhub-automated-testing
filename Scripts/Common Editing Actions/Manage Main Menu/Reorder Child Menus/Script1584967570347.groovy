@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Manage_Main Menu/a_Edit child items of Parent'))
 
 WebUI.click(findTestObject('Manage_Main Menu/handle_Child2'))
 
-WebUI.dragAndDropByOffset(findTestObject('Manage_Main Menu/handle_Child2'), 0, 50)
+WebUI.dragAndDropByOffset(findTestObject('Manage_Main Menu/handle_Child2'), 0, 50, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/input_Save Children'))
 

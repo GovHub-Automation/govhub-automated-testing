@@ -18,19 +18,21 @@ import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.comment('Clone Landing Page')
+WebUI.comment('Clone MicroContent')
 
 WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Content'))
 
-WebUI.setText(findTestObject('Object Repository/Clone_Nodes/input_Title'), 'MCQA Test Landing Page - Cloning')
+WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Micro-content'))
 
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/button_Filter Landing Page'))
+WebUI.setText(findTestObject('Object Repository/Clone_Nodes/input_Title'), 'MCQA Test Quote - Cloning')
 
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/span_List additional actions'))
+WebUI.click(findTestObject('Object Repository/Clone_Nodes/button_Filter Micro-content'))
 
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Clone Landing Page'))
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Operations Dropdown'))
 
-WebUI.click(findTestObject('Clone_Nodes/button_ConfirmClone'))
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Clone'))
+
+WebUI.click(findTestObject('Object Repository/Clone_Nodes/button_ConfirmClone'))
 
 WebUI.verifyTextPresent('of type node was cloned', false)
 

@@ -34,4 +34,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Common Editing Actions/Verify_URL_Redirect_Aliases</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>787f9ac6-8cdf-4cfb-af45-a2f121bba253</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Common Editing Actions/Clone_Nodes/Clone_Nodes</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
