@@ -51,6 +51,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Create How Do I  Digital Se
 
 WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Contact_field_hdi_steps_form_inline_e_fb2df8'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Select this item_entity_browser_selectnode17731'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create How Do I  Digital Services Georgia/input_Next page_op'))

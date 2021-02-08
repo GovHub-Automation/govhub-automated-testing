@@ -99,4 +99,9 @@
       <initValue>'www.staging.dsga.codes'</initValue>
       <name>gagov</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

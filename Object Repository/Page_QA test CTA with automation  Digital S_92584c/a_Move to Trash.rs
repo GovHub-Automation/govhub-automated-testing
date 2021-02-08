@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div/div/div[2]/ul/li[5]/span/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main-content&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content-page__mid&quot;]/div[@class=&quot;content-page__mid-main&quot;]/div[@class=&quot;content-page__admin-ui&quot;]/div[@class=&quot;admin-ui__wrapper&quot;]/div[@class=&quot;tabs&quot;]/ul[@class=&quot;tabs__list&quot;]/li[@class=&quot;tabs__list-item&quot;]/span[@class=&quot;admin-icon admin-icon--move-to-trash&quot;]/a[1][count(. | //a[(text() = 'Move to Trash' or . = 'Move to Trash')]) = count(//a[(text() = 'Move to Trash' or . = 'Move to Trash')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -41,7 +45,7 @@
       <value>Move to Trash</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -6,11 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'test-cb4ygl56lu94zrso1hiwkdavs32j4q5s.tugboat.qa'</initValue>
-=======
-      <initValue>'test-aya89egzsaxmkxvwg4akg5tiwrp891zp.tugboat.qa'</initValue>
->>>>>>> remotes/origin/maintenance/04-14-2020
+      <initValue>'test-chd3ayee4530rqcpstgouvsapjyzflft.tugboat.qa'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -97,6 +93,11 @@
       <description></description>
       <initValue>'Testing Lead'</initValue>
       <name>title</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'www.staging.dsga.codes'</initValue>
+      <name>gagov</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

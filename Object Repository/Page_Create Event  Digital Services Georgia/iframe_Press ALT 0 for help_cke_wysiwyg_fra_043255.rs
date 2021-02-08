@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='cke_1_contents']/iframe</value>
+         <value>//*[@id='cke_2_contents']/iframe</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

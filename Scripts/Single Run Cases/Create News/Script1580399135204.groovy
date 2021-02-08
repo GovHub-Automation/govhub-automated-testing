@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -70,6 +71,8 @@ WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Ge
 
 WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/p_Heres the body content of this news content'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/a_Jasmyne Epps'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)

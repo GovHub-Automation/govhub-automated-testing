@@ -17,6 +17,8 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser(('https://gta:gta@' + GlobalVariable.url) + '/user')
 
+not_run: WebUI.openBrowser(('https://gta:gta@' + GlobalVariable.url) + '/user')
+
 WebUI.maximizeWindow()
 
 WebUI.callTestCase(findTestCase('Log In'), [:], FailureHandling.STOP_ON_FAILURE)

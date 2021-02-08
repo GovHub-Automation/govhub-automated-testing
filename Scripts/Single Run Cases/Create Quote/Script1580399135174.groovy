@@ -15,12 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Content'))
 
+WebUI.delay(1)
+
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Micro-content'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/Add micro-content'))
 

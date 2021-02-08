@@ -36,13 +36,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Bio  Digital Service
 
 WebUI.click(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/input_Upload a headshot if available_field_portrait_entity_browser_entity_browser'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/input_Name_name (1)'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/input_Name_name (1)'), 'profile')
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/input_Published_edit-submit-media-browser'))
 
@@ -58,8 +54,12 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/input_Job Title_field_job_title0value'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/input_Job Title_field_job_title0value'), 
     GlobalVariable.title)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/span_Staff'))
 
@@ -77,15 +77,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Bio  Digital Service
 
 WebUI.click(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/input_Contact Information_field_contact_entity_browser_entity_browser'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Page_Create Bio  Digital Services Georgia/Select latest contact created'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/input_Published_op'))
-
-WebUI.delay(2)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/select_DraftPublishedArchived'), 
     'published', true)

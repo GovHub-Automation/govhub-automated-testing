@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div/div[3]/div/div/div/div/span/span/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://example.com' and (text() = 'Example link' or . = 'Example link')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

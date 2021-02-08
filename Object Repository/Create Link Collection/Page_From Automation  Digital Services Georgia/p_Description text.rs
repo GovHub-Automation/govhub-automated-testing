@@ -6,14 +6,22 @@
    <elementGuidId>fa414346-0be5-4462-b743-98636d767dc7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Description text' or . = 'Description text')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div/div[3]/div/div/div/div[2]/p</value>
+         <value>//*[@id=&quot;main-content&quot;]/div[2]/div[3]/div[1]/div[2]/main/div/div[3]/ul/li/div/div[2]/p</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
