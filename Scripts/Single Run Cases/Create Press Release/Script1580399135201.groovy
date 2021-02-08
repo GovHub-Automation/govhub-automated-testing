@@ -52,8 +52,6 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Add Contact button'))
 
-WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Add Contact button'))
-
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Select a Contact'))
@@ -62,13 +60,13 @@ WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Add PDF Document button'))
+not_run: WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Add PDF Document button'))
 
-WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Select PDF Document'))
+not_run: WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Select PDF Document'))
 
-WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Save PDF Document'))
+not_run: WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Save PDF Document'))
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_Create Press Release  Digital Services Georgia/Add Header Image'))
 

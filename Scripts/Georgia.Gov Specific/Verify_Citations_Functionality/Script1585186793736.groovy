@@ -62,7 +62,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Organization  Georgi
 
 WebUI.click(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_Section_AddAnotherItem_Button_1'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Create Organization  Georgiagov/input_URL_field_citation1value'), '/test/node')
+WebUI.setText(findTestObject('Object Repository/Page_Create Organization  Georgiagov/input_URL_field_citation1value'), 'https://www.staging.dsga.codes/qa-test-book-automation')
 
 WebUI.click(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_Section_AddAnotherItem_Button_2'))
 

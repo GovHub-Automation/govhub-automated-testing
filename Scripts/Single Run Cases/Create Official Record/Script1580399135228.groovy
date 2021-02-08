@@ -35,6 +35,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Official Record  Dig
 
 WebUI.click(findTestObject('Object Repository/Page_Create Official Record  Digital Servic_140a29/input_Header_field_header_entity_browser_en_5b06e2'))
 
+WebUI.delay(4)
+
 WebUI.click(findTestObject('Object Repository/Page_Create Official Record  Digital Servic_140a29/input_Select this item_entity_browser_selectmedia4566'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create Official Record  Digital Servic_140a29/input_Published_op'))
@@ -58,7 +60,7 @@ WebUI.click(findTestObject('Object Repository/Page_Create Official Record  Digit
 
 WebUI.click(findTestObject('Object Repository/Page_Create Official Record  Digital Servic_140a29/input_Next page_op'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Official Record  Digital Servic_140a29/input_URL_field_external_links0uri'), 
     'http://www.google.com')

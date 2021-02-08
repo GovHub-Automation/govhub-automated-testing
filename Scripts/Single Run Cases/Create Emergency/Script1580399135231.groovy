@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -45,6 +46,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Emergency  Digital S
 WebUI.click(findTestObject('Page_Create Emergency  Digital Services Georgia/Publish checkbox'))
 
 WebUI.click(findTestObject('Page_Create Emergency  Digital Services Georgia/input_Published_op'))
+
+WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementText(findTestObject('Page_Emergency - Automation  Digital Servic_c924a0/h1_Emergency - Automation'), 
     'Emergency - Automation', FailureHandling.CONTINUE_ON_FAILURE)

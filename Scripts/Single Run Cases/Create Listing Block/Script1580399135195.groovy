@@ -14,12 +14,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Content'))
 
+WebUI.delay(1)
+
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Micro-content'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/Add micro-content'))
 
@@ -43,8 +49,13 @@ WebUI.setText(findTestObject('Create Listing Block/Page_Create Listing block  Di
 
 WebUI.click(findTestObject('Create Listing Block/Page_Create Listing block  Digital Services Georgia/select_list'))
 
-WebUI.selectOptionByLabel(findTestObject('Create Listing Block/Page_Create Listing block  Digital Services Georgia/select_list'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Automatic List  Digital Service_bd912a/select_- None -BioContact DirectoryContact _8b8c01'), 
+    'views_block:listing_page_content-bio', true)
+
+not_run: WebUI.selectOptionByLabel(findTestObject('Create Listing Block/Page_Create Listing block  Digital Services Georgia/select_list'), 
     'Bio', false)
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Create Listing Block/Page_Create Listing block  Digital Services Georgia/save_button'))
 

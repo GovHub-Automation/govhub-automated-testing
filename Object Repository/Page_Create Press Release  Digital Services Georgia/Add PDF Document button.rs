@@ -6,11 +6,15 @@
    <elementGuidId>7d421b2d-312d-4b72-bbbc-463a083e8dbc</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @id = 'edit-field-pdf-entity-browser-entity-browser-open-modal' and @name = 'field_pdf_entity_browser_entity_browser' and @value = 'Add Document']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='edit-field-pdf-entity-browser-entity-browser-open-modal']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <value>field_pdf_entity_browser_entity_browser</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>

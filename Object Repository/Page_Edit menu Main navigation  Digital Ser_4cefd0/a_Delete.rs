@@ -6,8 +6,12 @@
    <elementGuidId>e5d18399-a652-4982-81f5-5737ec8d4001</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//table[@id='menu-overview']/tbody/tr[2]/td[5]/div/div/ul/li[3]/a</value>
+         <value>/html/body/div[2]/div/main/div[3]/div[4]/form/table/tbody/tr[3]/td[5]/div/div/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

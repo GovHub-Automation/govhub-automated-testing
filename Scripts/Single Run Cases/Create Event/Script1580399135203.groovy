@@ -15,8 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
 
@@ -36,17 +37,15 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Servi
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Published_edit-submit-media-browser'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/div_Open  configuration optionsEdit        _9cc0ee'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Select this item_op (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/span_- None - (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/html_Rich Text Editor Intro Text'))
+WebUI.click(findTestObject('Page_Create Event  Digital Services Georgia/li_Event Type'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/html_Rich Text Editor Intro Text'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/html_Rich Text Editor Intro Text'), 
     GlobalVariable.introContent)
@@ -63,9 +62,7 @@ WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Service
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/Registration Details'), GlobalVariable.bodyContent)
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/EventCreate_StartDate'), '09272020')
+WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/EventCreate_StartDate'), '09272021')
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/Event Start Time'))
 
@@ -137,7 +134,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digi
     GlobalVariable.bodyContent, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_StartDate'), 
-    'Sunday, September 27, 2020\n12 p.m.', FailureHandling.CONTINUE_ON_FAILURE)
+    'Monday, September 27, 2021\n12 p.m.', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_State'), 
     'GA', FailureHandling.CONTINUE_ON_FAILURE)

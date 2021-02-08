@@ -6,11 +6,19 @@
    <elementGuidId>65c67087-a0f4-444e-9622-13b55573b5ae</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;edit-submit&quot;)[count(. | //*[@data-drupal-selector = 'edit-submit' and @type = 'submit' and @id = 'edit-submit' and @name = 'op']) = count(//*[@data-drupal-selector = 'edit-submit' and @type = 'submit' and @id = 'edit-submit' and @name = 'op'])]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='edit-submit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +28,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-drupal-selector</name>
       <type>Main</type>
@@ -62,7 +70,7 @@
       <value>button button--primary js-form-submit form-submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -6,21 +6,25 @@
    <elementGuidId>c7d7e132-95e0-462b-bad6-6aec799a917e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Edit' or . = 'Edit')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[3]/div/div/div/div[2]/ul/li[2]/span/a</value>
+         <value>//*[@id=&quot;main-content&quot;]/div[2]/div[3]/div[1]/div[1]/div/div[2]/ul/li[2]/span/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

@@ -87,7 +87,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Call To Action  Digi
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Call To Action  Digital Service_b58c43/input_URL_field_cta_url0uri'), 
-    'http://www.google.com')
+    'https://www.google.com')
 
 WebUI.delay(2)
 

@@ -16,19 +16,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Log Me In'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Structure'))
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Menus'))
 
-WebUI.click(findTestObject('Manage_Main Menu/a_Edit menu button'))
+WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Edit menu button'))
 
-WebUI.click(findTestObject('Manage_Main Menu/a_Edit child items of Parent'))
+WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Edit child items of Parent'))
 
-WebUI.click(findTestObject('Manage_Main Menu/handle_Child2'))
+WebUI.click(findTestObject('Object Repository/Page_Edit menu Main navigation  Digital Ser_4cefd0/button_Show row weights'))
 
-WebUI.dragAndDropByOffset(findTestObject('Manage_Main Menu/handle_Child2'), 0, 50, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Edit menu Main navigation  Digital Ser_4cefd0/select_-50-49-48-47-46-45-44-43-42-41-40-39_f61565'), 
+    '1', true)
 
-WebUI.click(findTestObject('Object Repository/Manage_Main Menu/input_Save Children'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Edit menu Main navigation  Digital Ser_4cefd0/select_-50-49-48-47-46-45-44-43-42-41-40-39_f61565_1'), 
+    '0', true)
+
+not_run: WebUI.click(findTestObject('Object Repository/Manage_Main Menu/input_Save Children'))
+
+WebUI.click(findTestObject('Object Repository/Page_Edit menu Main navigation  Digital Ser_4cefd0/input_Delete_op'))
+
+not_run: WebUI.verifyTextPresent('', false)
 

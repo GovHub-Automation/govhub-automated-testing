@@ -102,12 +102,12 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object gagov
+    public static Object username
      
     /**
      * <p></p>
      */
-    public static Object username
+    public static Object gagov
      
 
     static {
@@ -134,8 +134,8 @@ public class GlobalVariable {
             bioContent = selectedVariables['bioContent']
             notes = selectedVariables['notes']
             title = selectedVariables['title']
-            gagov = selectedVariables['gagov']
             username = selectedVariables['username']
+            gagov = selectedVariables['gagov']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

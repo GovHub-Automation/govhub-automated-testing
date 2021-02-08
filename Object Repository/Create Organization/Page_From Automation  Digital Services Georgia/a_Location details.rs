@@ -6,8 +6,12 @@
    <elementGuidId>d8815e53-6ef1-4a58-a6d5-f15bd1df4468</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[4]/div[2]/div/a</value>
+         <value>//*[@id=&quot;main-content&quot;]/div[2]/div[3]/div[1]/div[2]/div/div[2]/div/div/div/div[1]/div/h2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -34,7 +38,7 @@
       <value>contact-visit__link</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

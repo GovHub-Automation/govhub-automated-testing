@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-local-tasks']/nav/nav/ul/li[5]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;block-ga-seven-local-tasks&quot;)/nav[@class=&quot;tabs&quot;]/nav[@class=&quot;is-horizontal is-collapsible position-container is-horizontal-enabled&quot;]/ul[@class=&quot;tabs primary clearfix&quot;]/li[@class=&quot;tabs__tab&quot;]/a[1][count(. | //a[(text() = 'Restore' or . = 'Restore')]) = count(//a[(text() = 'Restore' or . = 'Restore')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -41,7 +45,7 @@
       <value>Restore</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

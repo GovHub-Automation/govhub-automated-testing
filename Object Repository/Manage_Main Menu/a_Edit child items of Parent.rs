@@ -6,8 +6,12 @@
    <elementGuidId>13e9c865-87fc-4789-8ebf-5f49e65d8278</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/admin/structure/menu/manage/main?menu_link=menu_link_content%3A9b393e73-2b08-4943-beae-20535628fc7f' and @id = 'edit-links-menu-plugin-idmenu-link-content9b393e73-2b08-4943-beae-20535628fc7f-root-1' and (text() = 'Edit child items' or . = 'Edit child items')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//tr[9]/td[2]/a</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='MCQA Test Menu Parent 1'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
