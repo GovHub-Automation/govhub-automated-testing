@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_URL_field_website0uri</name>
+   <name>Website - Link Text</name>
    <tag></tag>
-   <elementGuidId>78c30893-625e-4d9d-9244-682d715d2d42</elementGuidId>
+   <elementGuidId>0e22e6fd-f6a7-4fc7-bad6-f42730fdb053</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='edit-field-website-0-uri']
-</value>
+         <key>CSS</key>
+         <value>#edit-field-website-0-title</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@data-drupal-selector = 'edit-field-website-0-uri' and @type = 'text' and @id = 'edit-field-website-0-uri']</value>
+         <key>XPATH</key>
+         <value>//input[@id='edit-field-website-0-title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -25,32 +24,18 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-drupal-selector</name>
-      <type>Main</type>
-      <value>edit-field-website-0-uri</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-describedby</name>
-      <type>Main</type>
-      <value>edit-field-website-0-uri--description</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-linkit-autocomplete form-text ui-autocomplete-input</value>
+      <value>linkit-widget-title form-text form-element form-element--type-text form-element--api-textfield</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-autocomplete-path</name>
+      <name>data-drupal-selector</name>
       <type>Main</type>
-      <value>/linkit/autocomplete/content</value>
+      <value>edit-field-website-0-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -64,14 +49,14 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>edit-field-website-0-uri</value>
+      <value>edit-field-website-0-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>field_website[0][uri]</value>
+      <value>field_website[0][title]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,41 +70,34 @@
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>2048</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
-      <type>Main</type>
-      <value>off</value>
+      <value>255</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;edit-field-website-0-uri&quot;)</value>
+      <value>id(&quot;edit-field-website-0-title&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='edit-field-website-0-uri']</value>
+      <value>//input[@id='edit-field-website-0-title']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='field-website-values']/tbody/tr/td[2]/div/input</value>
+      <value>//table[@id='field-website-values']/tbody/tr/td[2]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[9]/div/div/table/tbody/tr/td[2]/div/input</value>
+      <value>//div[9]/div/div/table/tbody/tr/td[2]/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

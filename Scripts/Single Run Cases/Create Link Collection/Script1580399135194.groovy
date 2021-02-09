@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Content'))
 
@@ -23,7 +23,7 @@ WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/Add micro-content'))
 
-WebUI.click(findTestObject('Create Link Collection/Page_Add micro-content  Digital Services Georgia/span_Link Collection'))
+WebUI.click(findTestObject('Page_Add micro-content  Digital Services Georgia/Micro-content Page - Create Link Collection link'))
 
 WebUI.setText(findTestObject('Create Link Collection/Page_Create Link Collection  Digital Services Georgia/input_Title_title0value'), 
     'From Automation')

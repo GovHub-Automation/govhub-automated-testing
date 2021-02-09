@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Add Listing block</name>
+   <name>Micro-content Page - Create Link Collection link</name>
    <tag></tag>
-   <elementGuidId>15cda915-a7aa-426a-9663-1ed42807b91f</elementGuidId>
+   <elementGuidId>ede98ade-2b55-4cfc-9da2-90724ac800e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='block-ga-seven-content']/ul/li[12]/a</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '/node/add/listing_block' and (text() = '
-            Automatic List
-          ' or . = '
-            Automatic List
-          ')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='block-ga-claro-content']/dl/div[11]/dt/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -32,7 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/node/add/listing_block</value>
+      <value>/node/add/link_collection</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>admin-item__link</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +43,7 @@
       <name>text</name>
       <type>Main</type>
       <value>
-            Automatic List
+            Link Collection
           </value>
    </webElementProperties>
    <webElementProperties>
@@ -48,48 +51,62 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;block-ga-seven-content&quot;)/ul[@class=&quot;admin-list&quot;]/li[@class=&quot;clearfix&quot;]/a[1]</value>
+      <value>id(&quot;block-ga-claro-content&quot;)/dl[@class=&quot;node-type-list admin-list&quot;]/div[@class=&quot;admin-item&quot;]/dt[@class=&quot;admin-item__title&quot;]/a[@class=&quot;admin-item__link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='block-ga-seven-content']/ul/li[12]/a</value>
+      <value>//div[@id='block-ga-claro-content']/dl/div[11]/dt/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Link Collection')])[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Link Collection'])[3]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This is a micro-content type, to be used as part of other content pages.'])[5]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='This is a micro-content type, to be used as part of other content pages.'])[5]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laserfiche Form'])[3]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[3]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automatic List'])[3]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promo'])[3]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '/node/add/listing_block')])[2]</value>
+      <value>(//a[contains(@href, '/node/add/link_collection')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/ul/li[12]/a</value>
+      <value>//div[11]/dt/a</value>
    </webElementXpaths>
 </WebElementEntity>

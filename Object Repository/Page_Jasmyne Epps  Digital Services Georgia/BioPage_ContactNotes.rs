@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div/div[3]/div/div[2]/div[2]/div/div/div/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Here are some contact notes for Jasmyne' or . = 'Here are some contact notes for Jasmyne')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

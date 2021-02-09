@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Create Listing Block</name>
+   <name>Create Automatic List</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9bcbaccb-58dc-4959-9b0e-d7a441e44773</testCaseGuid>

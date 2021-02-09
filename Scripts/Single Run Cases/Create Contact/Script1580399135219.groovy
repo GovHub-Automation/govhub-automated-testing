@@ -15,6 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -61,6 +62,10 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Contact  Digital Ser
     GlobalVariable.website)
 
 WebUI.click(findTestObject('Page_Create Contact  Digital Services Georgia/span_httpsgooglecom'))
+
+WebUI.click(findTestObject('Page_Create Contact  Digital Services Georgia/Website - Link Text'))
+
+WebUI.setText(findTestObject('Page_Create Contact  Digital Services Georgia/Website - Link Text'), 'Learn More')
 
 WebUI.click(findTestObject('Object Repository/Page_Create Contact  Digital Services Georgia/input_If you want to show the contacts physical location'))
 
