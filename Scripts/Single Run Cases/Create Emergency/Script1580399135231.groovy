@@ -17,9 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
 
@@ -50,8 +52,8 @@ WebUI.click(findTestObject('Page_Create Emergency  Digital Services Georgia/inpu
 WebUI.waitForPageLoad(0)
 
 WebUI.verifyElementText(findTestObject('Page_Emergency - Automation  Digital Servic_c924a0/h1_Emergency - Automation'), 
-    'Emergency - Automation', FailureHandling.CONTINUE_ON_FAILURE)
+    'Emergency - Automation', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create Emergency  Digital Services Georgia/Page_Emergency - Automation  Digital Services Georgia/a_Learn More About This Emergency'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 

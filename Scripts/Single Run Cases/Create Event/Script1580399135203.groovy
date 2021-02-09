@@ -17,13 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
+WebUI.mouseOver(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/Content Library'))
 
-WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Event'))
+WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/Add content'))
+
+WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/Add Event'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Title_title0value (1)'), 
     'New Event - Automation')
@@ -33,17 +35,23 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Servi
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Select a small image to associate with your event_field_event_thumbnail_entity_browser_entity_browser'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Name_name'), 'image')
+WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Name_name'), 'image7')
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Published_edit-submit-media-browser'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/div_Open  configuration optionsEdit        _9cc0ee'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Select this item_op (1)'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/span_- None - (1)'))
 
-WebUI.click(findTestObject('Page_Create Event  Digital Services Georgia/li_Event Type'))
+WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/li_Event Type'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/html_Rich Text Editor Intro Text'))
 
@@ -56,6 +64,12 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Servi
     'Content Specialist Certification Sign-up')
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/URL - Content Specialist Certification Sign-up'))
+
+WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Button Text_field_link0title'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/input_Button Text_field_link0title'), 
+    'Register Today')
 
 WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Services Georgia/html_Rich Text Editor Registration Details (1)'), 
     FailureHandling.STOP_ON_FAILURE)
@@ -101,50 +115,50 @@ WebUI.click(findTestObject('Object Repository/Page_Create Event  Digital Service
 WebUI.delay(2)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_Breadcrumbs'), 
-    'New Event - Automation', FailureHandling.CONTINUE_ON_FAILURE)
+    'New Event - Automation', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_PageTitle'), 
-    'New Event - Automation', FailureHandling.CONTINUE_ON_FAILURE)
+    'New Event - Automation', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_Address'), 
-    '47 Trinity Ave SW', FailureHandling.CONTINUE_ON_FAILURE)
+    '47 Trinity Ave SW', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_City'), 'Atlanta', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_ContactNotes'), 
-    GlobalVariable.notes, FailureHandling.CONTINUE_ON_FAILURE)
+    GlobalVariable.notes, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_ContactTitle'), 
-    'Contact Jasmyne Epps', FailureHandling.CONTINUE_ON_FAILURE)
+    'Contact Jasmyne Epps', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_Country'), 
-    'United States', FailureHandling.CONTINUE_ON_FAILURE)
+    'United States', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_Email'), 
-    'https://google.com', FailureHandling.CONTINUE_ON_FAILURE)
+    'https://google.com', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_FaxNumber'), 
-    '(404) 234-5678', FailureHandling.CONTINUE_ON_FAILURE)
+    '(404) 234-5678', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_PrimaryNumber'), 
-    '(334) 234-5678', FailureHandling.CONTINUE_ON_FAILURE)
+    '(334) 234-5678', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_RegistrationDetails'), 
-    GlobalVariable.bodyContent, FailureHandling.CONTINUE_ON_FAILURE)
+    GlobalVariable.bodyContent, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_StartDate'), 
-    'Monday, September 27, 2021\n12 p.m.', FailureHandling.CONTINUE_ON_FAILURE)
+    'Monday, September 27, 2021\n12 p.m.', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_State'), 
-    'GA', FailureHandling.CONTINUE_ON_FAILURE)
+    'GA', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_ZipCode'), 
-    '30334', FailureHandling.CONTINUE_ON_FAILURE)
+    '30334', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_EventDetails'), 
-    GlobalVariable.summaryContent, FailureHandling.CONTINUE_ON_FAILURE)
+    GlobalVariable.summaryContent, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Event Title  Digital Services Georgia/EventPage_IntroContent'), 
-    GlobalVariable.introContent, FailureHandling.CONTINUE_ON_FAILURE)
+    GlobalVariable.introContent, FailureHandling.STOP_ON_FAILURE)
 

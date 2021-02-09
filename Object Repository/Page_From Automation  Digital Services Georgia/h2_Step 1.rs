@@ -9,11 +9,17 @@
          <key>XPATH</key>
          <value>//*/text()[normalize-space(.)='Step 1']/parent::*</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[(text() = '      Step 1
+  ' or . = '      Step 1
+  ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

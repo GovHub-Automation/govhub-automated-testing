@@ -9,11 +9,19 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[2]/nav/ul/li[2]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = '
+                  Unsolved Homicide: QA test case with automation
+              ' or . = '
+                  Unsolved Homicide: QA test case with automation
+              ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

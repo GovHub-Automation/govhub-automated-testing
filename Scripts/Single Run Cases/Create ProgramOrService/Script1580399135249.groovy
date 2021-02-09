@@ -60,17 +60,17 @@ WebUI.click(findTestObject('Create ProgramOrService/Page_Create Program or Servi
 WebUI.delay(3)
 
 WebUI.verifyElementText(findTestObject('Create ProgramOrService/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
-    'From Automation', FailureHandling.CONTINUE_ON_FAILURE)
+    'From Automation', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create ProgramOrService/Page_From Automation  Digital Services Georgia/p_Overview text'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create ProgramOrService/Page_From Automation  Digital Services Georgia/div_Get started'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create ProgramOrService/Page_From Automation  Digital Services Georgia/p_Summary text'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Create ProgramOrService/Page_From Automation  Digital Services Georgia/a_Example link'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 

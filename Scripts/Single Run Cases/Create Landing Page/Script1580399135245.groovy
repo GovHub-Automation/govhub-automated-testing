@@ -14,34 +14,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import org.openqa.selenium.Keys as Keys
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
+WebUI.mouseOver(findTestObject('Object Repository/Page_jasmyneepps  Digital Services Georgia/Content Library'))
 
-WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
+WebUI.click(findTestObject('Object Repository/Page_Content  Digital Services Georgia/Add content'))
 
-WebUI.click(findTestObject('Page_Add content  Digital Services Georgia/Add Landing Page'))
+WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/Add Landing Page'))
 
-WebUI.setText(findTestObject('Create Landing Page/Page_Create Landing Page  Digital Services Georgia/input_Title_title0value'), 
+WebUI.setText(findTestObject('Object Repository/Create Landing Page/Page_Create Landing Page  Digital Services Georgia/input_Title_title0value'), 
     'Landing Page - Automation')
 
-WebUI.setText(findTestObject('Create Landing Page/Page_Create Landing Page  Digital Services Georgia/input_Short Title_field_short_title0value'), 
+WebUI.click(findTestObject('Object Repository/Page_Edit Landing Page Landing Page - Autom_5a07b7/input_Title_field_show_title_on_screenvalue_1'))
+
+WebUI.setText(findTestObject('Object Repository/Create Landing Page/Page_Create Landing Page  Digital Services Georgia/input_Short Title_field_short_title0value'), 
     'From Automation')
 
-WebUI.setText(findTestObject('Create Landing Page/Page_Create Landing Page  Digital Services Georgia/input_Label_field_landing_page_label0value'), 
+WebUI.setText(findTestObject('Object Repository/Create Landing Page/Page_Create Landing Page  Digital Services Georgia/input_Label_field_landing_page_label0value'), 
     'Label text')
 
-WebUI.click(findTestObject('Create Landing Page/Page_Create Landing Page  Digital Services Georgia/input_Include_navigation_checkbox'))
+WebUI.click(findTestObject('Object Repository/Create Landing Page/Page_Create Landing Page  Digital Services Georgia/input_Include_navigation_checkbox'))
 
-WebUI.setText(findTestObject('Create Landing Page/Page_Create Landing Page  Digital Services Georgia/html_Rich Text Editor Summary field'), 
+WebUI.setText(findTestObject('Object Repository/Create Landing Page/Page_Create Landing Page  Digital Services Georgia/html_Rich Text Editor Summary field'), 
     GlobalVariable.summaryContent)
 
-WebUI.selectOptionByValue(findTestObject('Create Landing Page/Page_Create Landing Page  Digital Services Georgia/select_DraftNeeds ReviewPublishedArchived'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create Landing Page/Page_Create Landing Page  Digital Services Georgia/select_DraftNeeds ReviewPublishedArchived'), 
     'published', false)
 
-WebUI.click(findTestObject('Create Landing Page/Page_Create Landing Page  Digital Services Georgia/Save_button'))
+WebUI.click(findTestObject('Object Repository/Create Landing Page/Page_Create Landing Page  Digital Services Georgia/Save_button'))
 
-WebUI.verifyElementPresent(findTestObject('Create Landing Page/Page_From Automation  Digital Services Georgia/li_From Automation'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementPresent(findTestObject('Page_From Automation  Digital Services Georgia/Landing Page Title - Landing Page - Automation'), 
+    0)
 

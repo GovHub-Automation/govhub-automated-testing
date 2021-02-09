@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/div/div[2]/h1</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'QA test webform with automation' or . = 'QA test webform with automation')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

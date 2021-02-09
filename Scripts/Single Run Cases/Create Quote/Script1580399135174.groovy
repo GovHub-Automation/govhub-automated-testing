@@ -48,11 +48,11 @@ WebUI.sendKeys(findTestObject('Page_Create Quote  Digital Services Georgia/Page_
 WebUI.click(findTestObject('Page_Create Quote  Digital Services Georgia/Save_button'))
 
 WebUI.verifyElementText(findTestObject('Page_QA test quote with automation title  Digital Services Georgia/QuoteNode_PageTitle'), 
-    'QA test quote with automation title', FailureHandling.CONTINUE_ON_FAILURE)
+    'QA test quote with automation title', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_QA test quote with automation title  Digital Services Georgia/QuoteNode_QuoteText'), 
-    'QA test quote text body content here.', FailureHandling.CONTINUE_ON_FAILURE)
+    'QA test quote text body content here.', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create Quote  Digital Services Georgia/Page_QA test quote with automation title  Digital Services Georgia/a_Animal Dog'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 

@@ -6,12 +6,12 @@
    <elementGuidId>a89576a8-def5-4d5a-ba83-3b91371ff833</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '/node/add' and @data-drupal-link-system-path = 'node/add']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-local-actions']/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/node/add' and (text() = 'Add content' or . = 'Add content')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,14 +38,14 @@
       <value>button button-action button--primary button--small</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-drupal-link-system-path</name>
       <type>Main</type>
       <value>node/add</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

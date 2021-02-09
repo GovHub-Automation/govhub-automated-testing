@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='entity-browser-image-browser-form']/div/div[2]/div/div[3]/div[3]</value>
+         <value>//*[@id=&quot;entity-browser-image-browser-form&quot;]/div[1]/div[2]/div/div/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

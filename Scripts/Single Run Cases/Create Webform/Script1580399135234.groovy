@@ -55,8 +55,8 @@ pathAlias = ((shortTitle + '-') + timestamp)
 
 String urlCheck = WebUI.concatenate(((['https://', GlobalVariable.url, '/', pathAlias]) as String[]), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(url, urlCheck, true, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch(url, urlCheck, true, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_qawebformautomation  Digital Services Georgia/h1_QA test webform with automation'), 
-    'QA test webform with automation', FailureHandling.CONTINUE_ON_FAILURE)
+    'QA test webform with automation', FailureHandling.STOP_ON_FAILURE)
 

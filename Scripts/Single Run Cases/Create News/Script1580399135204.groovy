@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('Page_Create News  Digital Services Georgia/Summary
 
 WebUI.click(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/input_Teaser image_field_teaser_image_entit_151182'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/input_Name_name'), 'image')
+WebUI.setText(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/input_Name_name'), 'image7')
 
 WebUI.click(findTestObject('Object Repository/Page_Create News  Digital Services Georgia/input_Published_edit-submit-media-browser'))
 
@@ -67,13 +67,13 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Event  D
 WebUI.click(findTestObject('Page_Create How Do I  Digital Services Georgia/input_Save as_op'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/h1_From Automation'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/p_Heres the body content of this news content'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Page_Create News  Digital Services Georgia/Page_From Automation  Digital Services Georgia/a_Jasmyne Epps'), 
-    0, FailureHandling.CONTINUE_ON_FAILURE)
+    0, FailureHandling.STOP_ON_FAILURE)
 

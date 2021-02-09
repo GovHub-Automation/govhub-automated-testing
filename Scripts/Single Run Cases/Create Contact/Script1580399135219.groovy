@@ -65,7 +65,7 @@ WebUI.click(findTestObject('Page_Create Contact  Digital Services Georgia/span_h
 
 WebUI.click(findTestObject('Page_Create Contact  Digital Services Georgia/Website - Link Text'))
 
-WebUI.setText(findTestObject('Page_Create Contact  Digital Services Georgia/Website - Link Text'), 'Learn More')
+WebUI.setText(findTestObject('Page_Create Contact  Digital Services Georgia/Website - Link Text'), GlobalVariable.website)
 
 WebUI.click(findTestObject('Object Repository/Page_Create Contact  Digital Services Georgia/input_If you want to show the contacts physical location'))
 

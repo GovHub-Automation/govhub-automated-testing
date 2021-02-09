@@ -20,6 +20,8 @@ not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], Fail
 
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
 
 WebUI.click(findTestObject('Object Repository/Page_Add content  Digital Services Georgia/a_FAQ'))

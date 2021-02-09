@@ -9,11 +9,19 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div/div[3]/div/div[2]/main/div/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = '
+    Short Title
+              QAOfficialRecordShortTitle          ' or . = '
+    Short Title
+              QAOfficialRecordShortTitle          ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

@@ -89,44 +89,44 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_Create Bio  Digital Services Georgia/Save Bio'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Title'), 'Jasmyne Epps', 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_JobTitle'), 
-    'Testing Lead', FailureHandling.CONTINUE_ON_FAILURE)
+    'Testing Lead', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_StaffOption'), 
-    'OUR TEAM', FailureHandling.CONTINUE_ON_FAILURE)
+    'OUR TEAM', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Intro'), GlobalVariable.introContent, 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/Bio_MoreInformation'), 
-    GlobalVariable.bioContent, FailureHandling.CONTINUE_ON_FAILURE)
+    GlobalVariable.bioContent, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_ContactNotes'), 
-    GlobalVariable.notes, FailureHandling.CONTINUE_ON_FAILURE)
+    GlobalVariable.notes, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_PrimaryNumber'), 
-    '(404) 234-5678', FailureHandling.CONTINUE_ON_FAILURE)
+    '(404) 234-5678', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_FaxNumber'), 
-    '(334) 234-5678', FailureHandling.CONTINUE_ON_FAILURE)
+    '(334) 234-5678', FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Email'), GlobalVariable.website, 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('Page_Jasmyne Epps  Digital Services Georgia/BioPage_Website'), GlobalVariable.website, 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Address'), 
-    GlobalVariable.address, FailureHandling.CONTINUE_ON_FAILURE)
+    GlobalVariable.address, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_City'), GlobalVariable.city, 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_State'), GlobalVariable.state, 
-    FailureHandling.CONTINUE_ON_FAILURE)
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_ZipCode'), 
-    GlobalVariable.zip, FailureHandling.CONTINUE_ON_FAILURE)
+    GlobalVariable.zip, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Jasmyne Epps  Digital Services Georgia/BioPage_Country'), 
-    GlobalVariable.country, FailureHandling.CONTINUE_ON_FAILURE)
+    GlobalVariable.country, FailureHandling.STOP_ON_FAILURE)
 

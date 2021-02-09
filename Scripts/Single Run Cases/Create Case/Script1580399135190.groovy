@@ -15,10 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Add content'))
 
@@ -81,50 +84,50 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Create Case  Di
 WebUI.click(findTestObject('Object Repository/Page_Create Case  Digital Services Georgia/input_Save as_op'))
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Breadcrumb'), 
-    'Unsolved Homicide: QA test case with automation', FailureHandling.CONTINUE_ON_FAILURE)
+    'Unsolved Homicide: QA test case with automation', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_PageTitle'), 
-    'Unsolved Homicide: QA test case with automation', FailureHandling.CONTINUE_ON_FAILURE)
+    'Unsolved Homicide: QA test case with automation', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Name'), 
-    'Test McTesterson', FailureHandling.CONTINUE_ON_FAILURE)
+    'Test McTesterson', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_IncidentDate'), 
-    'Sat, 07/20/2019 - 12:00', FailureHandling.CONTINUE_ON_FAILURE)
+    'Sat, 07/20/2019 - 12:00', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Race'), 
-    'QA Test Race', FailureHandling.CONTINUE_ON_FAILURE)
+    'QA Test Race', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Location'), 
-    'QA Test location for case', FailureHandling.CONTINUE_ON_FAILURE)
+    'QA Test location for case', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Weight'), 
-    '185', FailureHandling.CONTINUE_ON_FAILURE)
+    '185', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Height'), 
-    '5\' 10"', FailureHandling.CONTINUE_ON_FAILURE)
+    '5\' 10"', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_EyeColor'), 
-    'Brown', FailureHandling.CONTINUE_ON_FAILURE)
+    'Brown', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_HairColor'), 
-    'Black', FailureHandling.CONTINUE_ON_FAILURE)
+    'Black', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Sex'), 
-    'Male', FailureHandling.CONTINUE_ON_FAILURE)
+    'Male', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Age'), 
-    '25', FailureHandling.CONTINUE_ON_FAILURE)
+    '25', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_BirthRange'), 
-    '1970-1980', FailureHandling.CONTINUE_ON_FAILURE)
+    '1970-1980', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_ContactInfo'), 
-    'QA test contact info', FailureHandling.CONTINUE_ON_FAILURE)
+    'QA test contact info', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Narrative'), 
-    'QA test narrative text content here.', FailureHandling.CONTINUE_ON_FAILURE)
+    'QA test narrative text content here.', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Unsolved Homicide QA test case with automation  Digital Services Georgia/CaseNode_Crimes'), 
-    'QA test crimes', FailureHandling.CONTINUE_ON_FAILURE)
+    'QA test crimes', FailureHandling.STOP_ON_FAILURE)
 
