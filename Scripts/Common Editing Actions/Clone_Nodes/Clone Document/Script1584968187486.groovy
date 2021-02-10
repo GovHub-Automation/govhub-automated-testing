@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Clone Document')
 
@@ -26,8 +26,6 @@ WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Content'))
 WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Documents'))
 
 WebUI.setText(findTestObject('Object Repository/Clone_Nodes/input_title Document'), 'MCQA Test Document - Cloning')
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Clone_Nodes/button_Filter Document'))
 
