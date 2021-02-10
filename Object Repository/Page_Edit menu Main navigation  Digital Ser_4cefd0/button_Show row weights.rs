@@ -11,20 +11,20 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = 'Show row weights' or . = 'Show row weights')]</value>
+         <value>//a[(text() = 'Show row weights' or . = 'Show row weights')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>

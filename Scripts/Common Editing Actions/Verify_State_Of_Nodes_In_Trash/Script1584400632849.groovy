@@ -77,7 +77,7 @@ WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover
 
 WebUI.click(findTestObject('Page_jasmyneepps  Digital Services Georgia/Add micro-content'))
 
-WebUI.click(findTestObject('Create CTA/Page_Add micro-content  Digital Services Georgia/span_Call To Action'))
+WebUI.click(findTestObject('Page_Add micro-content  Digital Services Georgia/Micro-content Page - Create Call To Action link'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Create Call To Action  Digital Services Georgia/PublishedCheckbox'), 30)
 

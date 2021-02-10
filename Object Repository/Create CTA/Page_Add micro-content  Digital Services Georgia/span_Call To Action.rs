@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'Call To Action' or . = 'Call To Action')]</value>
+         <value>//a[(text() = 'Call To Action' or . = 'Call To Action')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +43,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;block-ga-seven-content&quot;)/ul[@class=&quot;admin-list&quot;]/li[@class=&quot;clearfix&quot;]/a[1]/span[@class=&quot;label&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/node/add/cta</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

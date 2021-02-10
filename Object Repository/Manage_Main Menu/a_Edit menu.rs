@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-content']/table/tbody/tr[5]/td[3]/div/div/ul/li/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/admin/structure/menu/manage/main?destination=/admin/structure/menu' and (text() = 'Edit menu' or . = 'Edit menu')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

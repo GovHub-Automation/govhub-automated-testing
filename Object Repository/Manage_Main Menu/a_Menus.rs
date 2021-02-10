@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-content']/ul/li[6]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/admin/structure/menu' and (text() = 'Menus' or . = 'Menus')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>MenusManage menus and menu links.</value>
+      <value>Menus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-page-title']/h1/em</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//em[@class = 'placeholder' and (text() = 'QA test CTA with automation' or . = 'QA test CTA with automation')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>em</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>QA test CTA with automation`</value>
+      <value>QA test CTA with automation</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

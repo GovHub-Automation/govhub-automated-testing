@@ -1,124 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Restore</name>
+   <name>Structure Page - Menus Link</name>
    <tag></tag>
-   <elementGuidId>06c0dda3-ec3b-4b72-abab-aae12bbd4569</elementGuidId>
+   <elementGuidId>011f5d04-cf7a-4a43-806d-efcf7f51643f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='block-ga-seven-local-tasks']/nav/nav/ul/li[5]/a</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = 'Restore' or . = 'Restore') and @class = 'tabs__link']</value>
+         <key>XPATH</key>
+         <value>//div[@id='block-ga-claro-content']/dl/div[6]/dt/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/node/24286/restore</value>
+      <value>/admin/structure/menu</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Manage menus and menu links.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-drupal-link-system-path</name>
+      <name>class</name>
       <type>Main</type>
-      <value>node/24286/restore</value>
+      <value>admin-item__link</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Restore</value>
+      <value>Menus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;block-ga-seven-local-tasks&quot;)/nav[@class=&quot;tabs&quot;]/nav[@class=&quot;is-horizontal is-collapsible position-container is-horizontal-enabled&quot;]/ul[@class=&quot;tabs primary clearfix&quot;]/li[@class=&quot;tabs__tab&quot;]/a[1]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>tabs__link</value>
+      <value>id(&quot;block-ga-claro-content&quot;)/dl[@class=&quot;admin-list&quot;]/div[@class=&quot;admin-item&quot;]/dt[@class=&quot;admin-item__title&quot;]/a[@class=&quot;admin-item__link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='block-ga-seven-local-tasks']/nav/nav/ul/li[5]/a</value>
+      <value>//div[@id='block-ga-claro-content']/dl/div[6]/dt/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Restore')]</value>
+      <value>(//a[contains(text(),'Menus')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Revisions'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage media types.'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Outline'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Media types'])[2]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Purge'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage menus and menu links.'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usage'])[1]/preceding::a[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Restore']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Migrations'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/node/24286/restore')]</value>
+      <value>(//a[contains(@href, '/admin/structure/menu')])[19]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//nav/ul/li[5]/a</value>
+      <value>//div[6]/dt/a</value>
    </webElementXpaths>
 </WebElementEntity>

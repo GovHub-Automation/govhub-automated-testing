@@ -20,7 +20,7 @@ not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], Fail
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Structure'))
 
-WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Menus'))
+WebUI.click(findTestObject('Page_Structure  Digital Services Georgia/Structure Page - Menus Link'))
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Edit menu button'))
 
