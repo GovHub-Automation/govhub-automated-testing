@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;block-ga-seven-local-tasks&quot;)/nav[@class=&quot;tabs&quot;]/nav[@class=&quot;is-horizontal is-collapsible position-container is-horizontal-enabled&quot;]/ul[@class=&quot;tabs primary clearfix&quot;]/li[@class=&quot;tabs__tab&quot;]/a[1][count(. | //a[(text() = 'Restore' or . = 'Restore')]) = count(//a[(text() = 'Restore' or . = 'Restore')])]</value>
+         <value>//a[(text() = 'Restore' or . = 'Restore') and @class = 'tabs__link']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,11 +45,18 @@
       <value>Restore</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;block-ga-seven-local-tasks&quot;)/nav[@class=&quot;tabs&quot;]/nav[@class=&quot;is-horizontal is-collapsible position-container is-horizontal-enabled&quot;]/ul[@class=&quot;tabs primary clearfix&quot;]/li[@class=&quot;tabs__tab&quot;]/a[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tabs__link</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

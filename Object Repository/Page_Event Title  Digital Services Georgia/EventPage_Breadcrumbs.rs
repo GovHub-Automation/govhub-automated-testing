@@ -9,18 +9,26 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[2]/nav/ul/li[4]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@class = 'breadcrumb__item' and (text() = '
+                  New Event - Automation
+              ' or . = '
+                  New Event - Automation
+              ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -32,7 +40,7 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                  New Event Title
+                  New Event - Automation
               </value>
    </webElementProperties>
    <webElementProperties>

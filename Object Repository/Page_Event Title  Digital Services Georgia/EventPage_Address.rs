@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/div/div[2]/div/div/div/div/div[2]/address/article/div/address/p/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'address-line1' and (text() = '47 Trinity Ave SW' or . = '47 Trinity Ave SW')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>47 Trinity Avenue SW</value>
+      <value>47 Trinity Ave SW</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

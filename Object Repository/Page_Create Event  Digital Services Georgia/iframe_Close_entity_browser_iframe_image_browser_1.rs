@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>/entity-browser/modal/image_browser?uuid=732128a5f74b7b6bb5764d002084a515b17ed223&amp;original_path=/node/add/event</value>
+      <value>/entity-browser/modal/image_browser?uuid=b67cdad5eb797990b96cb4d7b0d39df71737c5b7&amp;original_path=/node/add/event</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='field-event-thumbnail-image-browser-dialog--VeAVjXrbHgY']/iframe</value>
+      <value>//div[@id='field-event-thumbnail-image-browser-dialog--o3IPdUky0r0']/iframe</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,5 +88,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/iframe</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='field-event-thumbnail-image-browser-dialog--VeAVjXrbHgY']/iframe</value>
    </webElementXpaths>
 </WebElementEntity>

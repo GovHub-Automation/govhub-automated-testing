@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Book page  Digital S
 
 WebUI.click(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/input_Cover Image_field_teaser_image_entity_b7b848'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/input_Name_name'), 'image')
+WebUI.setText(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/input_Name_name'), 'image7')
 
 WebUI.click(findTestObject('Object Repository/Page_Create Book page  Digital Services Georgia/input_Published_edit-submit-media-browser'))
 

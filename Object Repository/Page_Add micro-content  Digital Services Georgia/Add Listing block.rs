@@ -9,11 +9,19 @@
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-content']/ul/li[12]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/node/add/listing_block' and (text() = '
+            Automatic List
+          ' or . = '
+            Automatic List
+          ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +39,9 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Automatic ListThis is a micro-content type, to be used as part of other content pages. Note - originally, the label of this content type was &quot;Listing Block&quot; and has since been updated to &quot;Automatic List&quot;. As a result, the machine name was left unchanged as &quot;listing_block&quot;.</value>
+      <value>
+            Automatic List
+          </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -57,8 +57,8 @@ WebUI.click(findTestObject('Page_Create PSG/Page_Create PSG  Digital Services Ge
 WebUI.delay(1)
 
 WebUI.verifyElementText(findTestObject('Page_Create PSG/Page_PSG From Automation (PSG From Automation)  Digital Services Georgia/h1_PSG From Automation (PSG From Automation)'), 
-    'PSG From Automation (PSG From Automation)', FailureHandling.CONTINUE_ON_FAILURE)
+    'PSG From Automation (PSG From Automation)', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('Page_Create PSG/Page_PSG From Automation (PSG From Automation)  Digital Services Georgia/p_Body text'), 
-    'Body text.', FailureHandling.CONTINUE_ON_FAILURE)
+    'Body text.', FailureHandling.STOP_ON_FAILURE)
 

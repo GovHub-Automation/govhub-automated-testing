@@ -15,22 +15,31 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.comment('Open Website and Login as Editor')
 
 WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(4)
+
 WebUI.comment('Clone Landing Page')
 
 WebUI.callTestCase(findTestCase('Common Editing Actions/Clone_Nodes/Clone Landing Page'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(4)
 
 WebUI.comment('Clone MicroContent')
 
 WebUI.callTestCase(findTestCase('Common Editing Actions/Clone_Nodes/Clone Micro Content'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(4)
+
 WebUI.comment('Clone Media')
 
 WebUI.callTestCase(findTestCase('Common Editing Actions/Clone_Nodes/Clone Media'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(4)
 
 WebUI.comment('Clone Document')
 

@@ -9,11 +9,17 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/div/div/div/h1</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = '      New Event - Automation
+  ' or . = '      New Event - Automation
+  ')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +37,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>      New Event Title
+      <value>      New Event - Automation
   </value>
    </webElementProperties>
    <webElementProperties>

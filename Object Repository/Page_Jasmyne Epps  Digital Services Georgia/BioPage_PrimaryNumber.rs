@@ -6,12 +6,12 @@
    <elementGuidId>2e27ce21-b073-46a9-87e1-1324533c9bc1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = '(404) 234-5678' or . = '(404) 234-5678')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main-content']/div/div[3]/div/div[2]/div[2]/div/div[2]/div[2]/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'tel:+1-404-321-4567' and (text() = '(404) 234-5678' or . = '(404) 234-5678')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

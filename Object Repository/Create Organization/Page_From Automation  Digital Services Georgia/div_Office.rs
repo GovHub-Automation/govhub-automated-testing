@@ -9,137 +9,33 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/div/div[2]/div</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'organization-summary__title' and (text() = 'CDL Office' or . = 'CDL Office')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>h1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>belt-wrapper__content</value>
+      <value>organization-summary__title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-            
-            
-      Office
-  
-
-  
-    
-        
-                      
-
-  Visit
-      
-  1234 Test Ave
-Gainesville, FL 32607
-United States
-
-
-  
-    
-    
-                
-
-
-  
-          Open now
-      
-  
-
-          
-
-            
-  Sunday - Monday:  
-  5:00 am - 5:00 pm
-
-          
-  Tuesday:  
-  5:00 pm - 5:00 pm
-
-          
-  Wednesday - Saturday:  
-  5:00 am - 5:00 pm
-
-      
-
-          
-  
-    
-    
-    All in Eastern Time Zone
-  
-  
-
-  
-
-  
-                          
-          
-                          
-
-
-      Contact
-      
-            Here are some contact notes for Jasmyne
-
-      
-      
-
-            
-      Primary:
-    
-              (404) 321-4567
-              
-
-
-          
-      Fax:
-    
-              (770) 321-4567
-              
-
-
-      
-
-    https://google.com
-
-                
-          Visit:
-        
-            
-  1234 Test Ave
-Gainesville, FL 32607
-United States
-
-      
-  Location details
-
-
-    
-  
-
-  
-  
-
-  
-    
-  
-
-        </value>
+      <value>CDL Office</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

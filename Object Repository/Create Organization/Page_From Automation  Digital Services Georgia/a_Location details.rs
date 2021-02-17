@@ -6,22 +6,22 @@
    <elementGuidId>d8815e53-6ef1-4a58-a6d5-f15bd1df4468</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;main-content&quot;]/div[2]/div[3]/div[1]/div[2]/div/div[2]/div/div/div/div[1]/div/h2</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'address-line1' and (text() = '47 Trinity Ave SW' or . = '47 Trinity Ave SW')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,18 +31,18 @@
       <value>/locations/qa-test-location-automation-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>contact-visit__link</value>
+      <value>address-line1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Location details</value>
+      <value>47 Trinity Ave SW</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

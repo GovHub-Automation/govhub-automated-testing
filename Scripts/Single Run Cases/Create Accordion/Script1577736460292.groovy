@@ -15,6 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Page_Editor  Digital Services Georgia/a_Content'))
 
 WebUI.navigateToUrl(GlobalVariable.url + '/node/add/accordion')

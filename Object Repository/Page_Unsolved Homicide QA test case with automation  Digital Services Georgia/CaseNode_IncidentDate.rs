@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//div[@id='main-content']/div[2]/div[3]/div/div[2]/main/div/div/div/span/time</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//time[@datetime = '2019-07-20T12:00:00Z' and (text() = 'Sat, 07/20/2019 - 12:00' or . = 'Sat, 07/20/2019 - 12:00')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>time</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>datetime</name>
       <type>Main</type>

@@ -20,9 +20,9 @@ not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], Fail
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Structure'))
 
-WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Menus'))
+WebUI.click(findTestObject('Page_Structure  Digital Services Georgia/Structure Page - Menus Link'))
 
-WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Edit menu button'))
+WebUI.click(findTestObject('Page_Menus  Digital Services Georgia/Edit Main Navigation Menu Link'))
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Edit child items of Parent'))
 
@@ -35,15 +35,15 @@ WebUI.click(findTestObject('Object Repository/Page_Edit menu Main navigation  Di
 //WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Delete Child 2'))
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/input_DeleteConfirm'))
 
-WebUI.click(findTestObject('Object Repository/Manage_Main Menu/button_Operations Child 1'))
+WebUI.click(findTestObject('Page_Edit menu Main navigation  Digital Ser_4cefd0/button_List additional actions'))
 
-WebUI.click(findTestObject('Object Repository/Manage_Main Menu/a_Delete Child 1'))
+WebUI.click(findTestObject('Page_Edit menu Main navigation  Digital Ser_4cefd0/a_Delete'))
 
 WebUI.click(findTestObject('Object Repository/Manage_Main Menu/input_DeleteConfirm'))
 
-WebUI.click(findTestObject('Manage_Main Menu/button_Operations Parent 1'))
+WebUI.click(findTestObject('Page_Edit menu Main navigation  Digital Services Georgia/Parent Nav Item - Operations Dropdown'))
 
-WebUI.click(findTestObject('Manage_Main Menu/a_Delete Parent 1'))
+WebUI.click(findTestObject('Page_Edit menu Main navigation  Digital Services Georgia/Delete Parent Item Option'))
 
 WebUI.click(findTestObject('Manage_Main Menu/input_DeleteConfirm'))
 

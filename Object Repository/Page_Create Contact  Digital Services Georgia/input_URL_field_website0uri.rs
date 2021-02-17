@@ -7,10 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='edit-field-website-0-uri']</value>
+         <value>//input[@id='edit-field-website-0-uri']
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-drupal-selector = 'edit-field-website-0-uri' and @type = 'text' and @id = 'edit-field-website-0-uri']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +25,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-drupal-selector</name>
       <type>Main</type>
@@ -62,7 +67,7 @@
       <value>edit-field-website-0-uri</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

@@ -6,18 +6,18 @@
    <elementGuidId>c7d7e132-95e0-462b-bad6-6aec799a917e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = 'Edit' or . = 'Edit')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;main-content&quot;]/div[2]/div[3]/div[1]/div[1]/div/div[2]/ul/li[2]/span/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main-content&quot;]/div/div[3]/div[1]/div[1]/div/div[2]/ul/li[2]/span/a</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,18 +38,18 @@
       <value>node/24266/edit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Edit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content&quot;)/div[@class=&quot;content-page&quot;]/div[@class=&quot;content-page__mid&quot;]/div[@class=&quot;content-page__mid-main&quot;]/div[@class=&quot;content-page__admin-ui&quot;]/div[@class=&quot;admin-ui__wrapper&quot;]/div[@class=&quot;tabs&quot;]/ul[@class=&quot;tabs__list&quot;]/li[@class=&quot;tabs__list-item&quot;]/span[@class=&quot;admin-icon admin-icon--edit&quot;]/a[1]</value>
+      <value>//*[@id=&quot;main-content&quot;]/div/div[3]/div[1]/div[1]/div/div[2]/ul/li[2]/span/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
