@@ -23,6 +23,8 @@ WebUI.comment('Clone Document')
 
 WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Content'))
 
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Expand Content Tpyes Hamburger'), FailureHandling.OPTIONAL)
+
 WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Documents'))
 
 WebUI.setText(findTestObject('Object Repository/Clone_Nodes/input_title Document'), 'MCQA Test Document - Cloning')

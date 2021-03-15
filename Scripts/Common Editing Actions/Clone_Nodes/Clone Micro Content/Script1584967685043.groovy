@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -22,7 +23,9 @@ WebUI.comment('Clone MicroContent')
 
 WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Content'))
 
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Micro-content'))
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Expand Content Tpyes Hamburger'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Micro-content Tab'))
 
 WebUI.setText(findTestObject('Object Repository/Clone_Nodes/input_Title'), 'MCQA Test Quote - Cloning')
 

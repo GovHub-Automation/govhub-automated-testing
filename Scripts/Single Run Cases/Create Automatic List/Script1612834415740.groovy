@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Hover over Content'))
 

@@ -6,14 +6,18 @@
    <elementGuidId>b1913b14-3944-4aa8-9ea2-689d5151a383</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/admin/content/citations' and (text() = 'Citations' or . = 'Citations')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-local-tasks']/nav/nav/ul/li[11]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

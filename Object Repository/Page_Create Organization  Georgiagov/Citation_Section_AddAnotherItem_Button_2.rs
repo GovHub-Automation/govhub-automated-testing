@@ -6,11 +6,15 @@
    <elementGuidId>46aac8e6-6a64-4c23-b4da-40c66ba80d59</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @name = 'field_citation_add_more' and @value = 'Add another item']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//details[8]/div/div/div/div/div[3]/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +52,7 @@
       <value>submit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -62,7 +66,7 @@
       <value>field_citation_add_more</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>

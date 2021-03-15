@@ -6,14 +6,18 @@
    <elementGuidId>0d7fbc31-1ae6-47e6-b2fe-dca3b049f377</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//td[(text() = 'http://www.yahoo.com          ' or . = 'http://www.yahoo.com          ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-content']/div/div/div[2]/table/tbody/tr[2]/td</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

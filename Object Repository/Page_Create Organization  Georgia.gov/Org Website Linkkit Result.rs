@@ -1,110 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Citations</name>
+   <name>Org Website Linkkit Result</name>
    <tag></tag>
-   <elementGuidId>dfc3cb5d-a8fa-4a8c-a9d2-7513e1973800</elementGuidId>
+   <elementGuidId>3800ad74-930c-4adf-8945-295d50a21a21</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = 'Citations' or . = 'Citations')]</value>
+         <key>CSS</key>
+         <value>span.linkit-result-line--title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Citations')]</value>
+         <value>//div[@id='ui-id-5']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/organization/qa-test-organization-node-automation/citations</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-drupal-link-system-path</name>
-      <type>Main</type>
-      <value>node/25791/citations</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>linkit-result-line--title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Citations</value>
+      <value>https://www.staging.dsga.codes/qa-test-book-automation-2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content&quot;)/div[@class=&quot;layout-wrapper layout-wrapper--full&quot;]/div[@class=&quot;organization-www-page layout-section&quot;]/div[@class=&quot;organization-www-page__mid&quot;]/div[@class=&quot;organization-www-page__section&quot;]/div[@class=&quot;organization-www-page__section-region&quot;]/div[@class=&quot;admin-ui__wrapper&quot;]/div[@class=&quot;tabs&quot;]/ul[@class=&quot;tabs__list&quot;]/li[@class=&quot;tabs__list-item&quot;]/span[@class=&quot;admin-icon admin-icon--citations&quot;]/a[1]</value>
+      <value>id(&quot;ui-id-5&quot;)/span[@class=&quot;linkit-result-line--title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content']/div/div/div[3]/div/div/div/div[2]/ul/li[8]/span/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Citations')]</value>
+      <value>//div[@id='ui-id-5']/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clone'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No results'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usage'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save as'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Moderation message'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Linkit could not find any suggestions. This URL will be used as is.'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Citations']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='https://www.staging.dsga.codes/qa-test-book-automation-2'])[2]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/organization/qa-test-organization-node-automation/citations')]</value>
+      <value>//*/text()[normalize-space(.)='https://www.staging.dsga.codes/qa-test-book-automation-2']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[8]/span/a</value>
+      <value>//li[2]/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

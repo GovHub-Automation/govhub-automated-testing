@@ -6,16 +6,15 @@
    <elementGuidId>3613cbe1-51bd-41af-b01a-34b939ee9960</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'js-text-full text-full form-text' and @type = 'text']</value>
+         <value>//*[@type = 'text' and @id = 'edit-field-citation-0-value']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='edit-field-citation-0-value']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +27,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -49,7 +48,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

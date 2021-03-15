@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -38,4 +39,6 @@ WebUI.callTestCase(findTestCase('Single Run Cases/Embed End'), [:], FailureHandl
 
 WebUI.verifyElementText(findTestObject('Page_Embed/Page_Create Topic Page  Digital Services Georgia/Page_Embed Automation  Digital Services Georgia/div_Item 1'), 
     'Item 1', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ROOT-3524 Maintaining Automated Regression Test Scripts'), [:], FailureHandling.STOP_ON_FAILURE)
 

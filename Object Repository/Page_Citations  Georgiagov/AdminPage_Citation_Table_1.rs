@@ -6,28 +6,32 @@
    <elementGuidId>2046ecc2-7a20-4401-91cc-8ac3e9ac3e17</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@hreflang = 'en' and (text() = 'QA test organization node with automation' or . = 'QA test organization node with automation')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='block-ga-seven-content']/div/div/div[3]/table/tbody/tr/td/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/organization/qa-test-organization-node-automation-0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>hreflang</name>
       <type>Main</type>

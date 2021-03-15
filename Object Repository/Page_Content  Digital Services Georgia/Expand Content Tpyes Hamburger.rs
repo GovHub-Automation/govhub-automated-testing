@@ -1,89 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Citation_URL_Label</name>
+   <name>Expand Content Tpyes Hamburger</name>
    <tag></tag>
-   <elementGuidId>8aea02fd-2820-4c08-9d3b-925c9ad1eea6</elementGuidId>
+   <elementGuidId>41e74103-e476-4a74-a4d8-128fe0e3a6df</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>button.reset-appearance.tabs__trigger</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//label[(text() = 'URL' or . = 'URL')]</value>
+         <value>//button[@aria-label = 'Tabs display toggle']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//details[8]/div/div/div/div/table/tbody/tr/td[2]/div/label</value>
+         <value>//div[@id='block-ga-claro-primary-local-tasks']/nav/ul/li/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>for</name>
+      <name>class</name>
       <type>Main</type>
-      <value>edit-field-citation-0-value</value>
+      <value>reset-appearance tabs__trigger</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>aria-label</name>
       <type>Main</type>
-      <value>URL</value>
+      <value>Tabs display toggle</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;field-citation-values&quot;)/tbody[1]/tr[@class=&quot;draggable odd&quot;]/td[2]/div[@class=&quot;js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-field-citation-0-value form-item-field-citation-0-value&quot;]/label[1]</value>
+      <value>id(&quot;block-ga-claro-primary-local-tasks&quot;)/nav[@class=&quot;tabs-wrapper is-collapsible position-container is-horizontal-enabled&quot;]/ul[@class=&quot;tabs tabs--primary clearfix&quot;]/li[@class=&quot;tabs__tab js-tab is-active js-active-tab&quot;]/button[@class=&quot;reset-appearance tabs__trigger&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='field-citation-values']/tbody/tr/td[2]/div/label</value>
+      <value>//div[@id='block-ga-claro-primary-local-tasks']/nav/ul/li/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order'])[2]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(active tab)'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Citation'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Trash'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='System values'])[1]/preceding::label[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Internal URL'])[1]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Micro-content'])[2]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//details[8]/div/div/div/div/table/tbody/tr/td[2]/div/label</value>
+      <value>//li/button</value>
    </webElementXpaths>
 </WebElementEntity>

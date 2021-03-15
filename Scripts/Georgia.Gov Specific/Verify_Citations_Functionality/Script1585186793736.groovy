@@ -15,6 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -48,12 +49,10 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Create Organiz
     30)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_Section_Title'), 
-    'CITATIONS')
+    'Citations')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_Section_Label'), 
-    'CITATION')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_URL_Label'), 'URL')
+    'Citation')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_URL_Field'), 
     30)
@@ -63,6 +62,8 @@ WebUI.setText(findTestObject('Object Repository/Page_Create Organization  Georgi
 WebUI.click(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_Section_AddAnotherItem_Button_1'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Create Organization  Georgiagov/input_URL_field_citation1value'), 'https://www.staging.dsga.codes/qa-test-book-automation')
+
+WebUI.click(findTestObject('Page_Create Organization  Georgia.gov/Org Website Linkkit Result'))
 
 WebUI.click(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_Section_AddAnotherItem_Button_2'))
 
@@ -94,10 +95,9 @@ WebUI.click(findTestObject('Object Repository/Page_QA test organization node wit
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Citations on QA test organization node with automation  Georgiagov/Citation_Table_Item_1'), 
     'http://www.google.com')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Citations on QA test organization node with automation  Georgiagov/Citation_Table_Item_2'), 
-    bookURL)
-
 WebUI.click(findTestObject('Object Repository/Page_Citations on QA test organization node_93f7f3/a_Content'))
+
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Expand Content Tpyes Hamburger'), FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Page_Content  Georgiagov/a_Citations'))
 

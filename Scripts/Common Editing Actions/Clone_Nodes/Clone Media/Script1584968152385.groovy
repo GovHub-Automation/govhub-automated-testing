@@ -22,7 +22,9 @@ WebUI.comment('Clone Media')
 
 WebUI.click(findTestObject('Clone_Nodes/a_Content'))
 
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Media'))
+WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Expand Content Tpyes Hamburger'), FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Media'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Clone_Nodes/input_title Media'), 'MCQA Test Image - Cloning')
 

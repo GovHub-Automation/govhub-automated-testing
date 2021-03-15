@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.mouseOver(findTestObject('Page_jasmyneepps  Digital Services Georgia/Content Library'))
 

@@ -6,8 +6,50 @@
    <elementGuidId>9ccaa89d-5ac1-4a62-8c64-098d923be4eb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+  Open  configuration optionsEdit
+      
+  
+    Name
+              gta_profile_v2.jpg
+          
+
+              
+
+
+
+      
+  
+
+      Select this item
+        
+
+        
+' or . = '
+  Open  configuration optionsEdit
+      
+  
+    Name
+              gta_profile_v2.jpg
+          
+
+              
+
+
+
+      
+  
+
+      Select this item
+        
+
+        
+') and @ref_element = 'Object Repository/Bio Objects/Page_Create Bio  Digital Services Georgia/Image Browser' and @ref_element = 'Object Repository/Page_Create Bio  Digital Services Georgia/Image Browser']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//form[@id='entity-browser-image-browser-form']/div/div[2]/div/div[2]/div[2]</value>
+         <value>//*[@id=&quot;entity-browser-image-browser-form&quot;]/div[1]/div[2]/div/div[1]/div[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -58,13 +100,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;entity-browser-image-browser-form&quot;)/div[@class=&quot;ga-entity-browser-view view view-media-browser view-id-media_browser view-display-id-image js-view-dom-id-5493bf3bb6943b92bb84c69b63302d57416ad45a0752b48e6ced855e107cc5d3&quot;]/div[@class=&quot;view-content&quot;]/div[@class=&quot;views-view-grid horizontal cols-4 clearfix&quot;]/div[@class=&quot;views-row clearfix row-2&quot;]/div[@class=&quot;views-col col-2&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Bio Objects/Page_Create Bio  Digital Services Georgia/Image Browser</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

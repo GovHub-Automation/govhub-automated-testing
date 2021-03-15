@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Citations</name>
+   <name>Micro-content Tab</name>
    <tag></tag>
-   <elementGuidId>dfc3cb5d-a8fa-4a8c-a9d2-7513e1973800</elementGuidId>
+   <elementGuidId>e05ff3a4-a018-4600-9a3d-a9a5116a7fc7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[(text() = 'Citations' or . = 'Citations')]</value>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Micro-content')])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Citations')]</value>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/admin/content/micro-content' and @data-drupal-link-system-path = 'admin/content/micro-content' and (text() = 'Micro-content' or . = 'Micro-content')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -24,87 +28,94 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/organization/qa-test-organization-node-automation/citations</value>
+      <value>/admin/content/micro-content</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tabs__link js-tabs-link</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>data-drupal-link-system-path</name>
       <type>Main</type>
-      <value>node/25791/citations</value>
+      <value>admin/content/micro-content</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Citations</value>
+      <value>Micro-content</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main-content&quot;)/div[@class=&quot;layout-wrapper layout-wrapper--full&quot;]/div[@class=&quot;organization-www-page layout-section&quot;]/div[@class=&quot;organization-www-page__mid&quot;]/div[@class=&quot;organization-www-page__section&quot;]/div[@class=&quot;organization-www-page__section-region&quot;]/div[@class=&quot;admin-ui__wrapper&quot;]/div[@class=&quot;tabs&quot;]/ul[@class=&quot;tabs__list&quot;]/li[@class=&quot;tabs__list-item&quot;]/span[@class=&quot;admin-icon admin-icon--citations&quot;]/a[1]</value>
+      <value>id(&quot;block-ga-claro-primary-local-tasks&quot;)/nav[@class=&quot;tabs-wrapper is-collapsible position-container is-horizontal-enabled&quot;]/ul[@class=&quot;tabs tabs--primary clearfix is-open&quot;]/li[@class=&quot;tabs__tab js-tab&quot;]/a[@class=&quot;tabs__link js-tabs-link&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main-content']/div/div/div[3]/div/div/div/div[2]/ul/li[8]/span/a</value>
+      <value>//div[@id='block-ga-claro-primary-local-tasks']/nav/ul/li[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Citations')]</value>
+      <value>(//a[contains(text(),'Micro-content')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clone'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Content Trash'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usage'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(active tab)'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Moderation message'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Micro-content Trash'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Citations']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Media'])[3]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/organization/qa-test-organization-node-automation/citations')]</value>
+      <value>(//a[contains(@href, '/admin/content/micro-content')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[8]/span/a</value>
+      <value>//div[2]/nav/ul/li[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

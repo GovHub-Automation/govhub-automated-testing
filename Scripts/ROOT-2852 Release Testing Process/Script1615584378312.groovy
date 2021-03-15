@@ -9,6 +9,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -16,23 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Authenticate Testing Site'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.comment('Clone Landing Page')
-
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/a_Content'))
-
-WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Expand Content Tpyes Hamburger'), FailureHandling.OPTIONAL)
-
-WebUI.setText(findTestObject('Object Repository/Clone_Nodes/input_Title'), 'MCQA Test Landing Page - Cloning')
-
-WebUI.click(findTestObject('Object Repository/Clone_Nodes/button_Filter Landing Page'))
-
-WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Operations Dropdown'))
-
-WebUI.click(findTestObject('Page_Content  Digital Services Georgia/Clone'))
-
-WebUI.click(findTestObject('Clone_Nodes/button_ConfirmClone'))
-
-WebUI.verifyTextPresent('of type node was cloned', false)
-
+CucumberKW.runFeatureFile('Include/features/ROOT-2852 Release Testing Process 1.feature')
