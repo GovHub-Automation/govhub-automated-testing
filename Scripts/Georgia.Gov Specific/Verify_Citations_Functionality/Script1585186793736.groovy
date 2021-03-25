@@ -67,11 +67,6 @@ WebUI.click(findTestObject('Page_Create Organization  Georgia.gov/Org Website Li
 
 WebUI.click(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_Section_AddAnotherItem_Button_2'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_Section_URL_Validation_Message'), 
-    30)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Create Organization  Georgiagov/Citation_URL_Label'), 'URL')
-
 WebUI.setText(findTestObject('Object Repository/Page_Create Organization  Georgiagov/input_URL_field_citation1value_1'), 
     bookURL)
 

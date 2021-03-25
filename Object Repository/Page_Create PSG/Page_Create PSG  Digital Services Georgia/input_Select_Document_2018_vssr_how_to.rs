@@ -6,8 +6,12 @@
    <elementGuidId>14dc08fd-fcd4-4cdb-beae-56e6fbb5004b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'entity_browser_select[media:4966]' and @type = 'checkbox' and @id = 'edit-entity-browser-select-media4966' and @ref_element = 'Object Repository/Page_Create PSG/Page_Create PSG  Digital Services Georgia/iframe_Close_entity_browser_iframe_related_files_browser']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//tr[2]/td/div/input</value>
+         <value>//tr[1]/td[1]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

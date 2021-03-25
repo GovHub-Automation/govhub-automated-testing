@@ -6,12 +6,12 @@
    <elementGuidId>f21cccf4-0cfe-4da0-93f9-9243a9f59ce2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='edit-title-0-value']</value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @id = 'edit-title-0-value']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @id = 'edit-title-0-value' and @name = 'title[0][value]']</value>
+         <key>XPATH</key>
+         <value>//input[@id='edit-title-0-value']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -52,7 +52,7 @@
       <value>edit-title-0-value</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>

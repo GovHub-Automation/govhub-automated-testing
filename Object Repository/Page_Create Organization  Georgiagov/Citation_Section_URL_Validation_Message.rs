@@ -6,8 +6,18 @@
    <elementGuidId>f7e3572d-9736-4c6c-8ba9-cbbc29c98f21</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+                  Error message
+                    You can only enter absolute URLs in the citation field.
+                ' or . = '
+                  Error message
+                    You can only enter absolute URLs in the citation field.
+                ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//details[8]/div/div/div/div/div/div</value>
+         <value>//*/text()[normalize-space(.)='You can only enter absolute URLs in the citation field.']/parent::*</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

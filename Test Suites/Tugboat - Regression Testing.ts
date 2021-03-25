@@ -9,8 +9,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>tugboat</profileName>
-            <runConfigurationId>Chrome</runConfigurationId>
+            <profileName>staging</profileName>
+            <runConfigurationId>Remote</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Create Content</testSuiteEntity>
@@ -21,7 +21,7 @@
             <profileName>tugboat</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Standard Regression</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -39,7 +39,7 @@
             <profileName>tugboat</profileName>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
-         <runEnabled>true</runEnabled>
+         <runEnabled>false</runEnabled>
          <testSuiteEntity>Test Suites/Common Editing Actions</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
